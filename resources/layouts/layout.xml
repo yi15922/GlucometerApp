@@ -1,5 +1,6 @@
 <layout id="MainLayout">
-    <label x="center" y="center" text="@Strings.prompt" font = "Graphics.FONT_SMALL" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label x="center" y="center" text="@Strings.prompt" font = "Graphics.FONT_TINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
     <!-- <bitmap id="id_monkey" x="center" y="center" filename="../drawables/monkey.png" />   -->
+    <label id="TimeDisplay" x="center" y="30" font="Graphics.FONT_XTINY" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
 
