@@ -6,6 +6,8 @@ import Toybox.Time.Gregorian;
 
 class GlucometerAppView extends WatchUi.View {
 
+    var counter = 0;
+
     function initialize() {
         View.initialize();
     }
@@ -34,18 +36,22 @@ class GlucometerAppView extends WatchUi.View {
         // Call the parent onUpdate function to redraw the layout
 
         var clockTime = System.getClockTime();
+        counter = counter + 1;
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var timeString = Lang.format(
             "$1$:$2$:$3$",
             [
                 today.hour,
                 today.min,
-                today.sec,
+                today.sec
                 
             ]
         );
-        var timeText = View.findDrawableById("TimeDisplay") as Text; 
+        var timeText = View.findDrawableById("TimeDisplay") as Text;
+        var textText = View.findDrawableById("Text") as Text;
 
+
+        textText.setText(Lang.format("Blood Sugar Level: \n$1$", [counter]));
         timeText.setText(timeString); 
 
         View.onUpdate(dc);

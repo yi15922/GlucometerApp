@@ -12,4 +12,9 @@ class GlucometerAppDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
+    function onBack() as Boolean {
+        System.print("BACKKKKKKK");
+        return true;
+    }
+
 }

@@ -13,7 +13,7 @@ class BluetoothFetcherView extends WatchUi.View {
     
 
     function initialize() { 
-        View.initialize(); 
+        View.initialize();
     }
 
     function timerCallback() { 
@@ -22,8 +22,6 @@ class BluetoothFetcherView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.PairingScreen(dc));
-        var myTimer = new Timer.Timer(); 
-        myTimer.start(method(:timerCallback), 1000, true); 
     }
 
     function onUpdate(dc){ 

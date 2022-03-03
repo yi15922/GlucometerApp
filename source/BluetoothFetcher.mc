@@ -20,8 +20,6 @@ class BluetoothFetcher {
                 }
             ]
         }; 
-
-        BluetoothLowEnergy.registerProfile(profile); 
     }
 
     function fetchInfo() { 
