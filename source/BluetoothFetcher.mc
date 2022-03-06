@@ -1,40 +1,88 @@
 import Toybox.Lang; 
 import Toybox.System; 
 import Toybox.WatchUi; 
-import Toybox.BluetoothLowEnergy; 
+using Toybox.BluetoothLowEnergy as Ble; 
 
-class BluetoothFetcher { 
+class BluetoothFetcher extends Ble.BleDelegate { 
+
+    const GLUCOSE_SERVICE = Ble.stringToUuid("00001808-0000-1000-8000-00805F9B34FB");
+    const GLUCOSE_CHARACTERISTIC = Ble.stringToUuid("00002A18-0000-1000-8000-00805F9B34FB"); 
+
+    var scanning = false;
+    var deviceName = null; 
+    var profileRegistered = false; 
+
+    function debug(str) {
+		System.println("[ble] " + str);
+	}
 
     function initialize(){ 
-        System.println("Initializing Bluetooth Fetcher..."); 
-        var fetcherDelegate = new BluetoothFetcherDelegate(); 
+        debug("Initializing Bluetooth Fetcher..."); 
+        BleDelegate.initialize(); 
+        
+    }
 
-        BluetoothLowEnergy.setDelegate(fetcherDelegate); 
+    function onProfileRegister(uuid, status) {
+		debug("registered: " + uuid + " " + status);
+	}
 
+    function registerProfiles() { 
+        if (profileRegistered){ 
+            debug("Profile already registered.");
+            return; 
+        }
         var profile = {
-            :uuid => BluetoothLowEnergy.stringToUuid("00001808-0000-1000-8000-00805F9B34FB"), 
+            :uuid => GLUCOSE_SERVICE, 
             :characteristics => [
                 {
-                    :uuid => BluetoothLowEnergy.stringToUuid("00002A18-0000-1000-8000-00805F9B34FB"), 
-                    :descriptors => []
+                    :uuid => GLUCOSE_CHARACTERISTIC
                 }
             ]
         }; 
 
-        BluetoothLowEnergy.registerProfile(profile); 
+        profileRegistered = true; 
+        Ble.registerProfile(profile); 
     }
 
-    function fetchInfo() { 
-        System.println("Getting nearby BLE devices..."); 
-        
-        var availCount = BluetoothLowEnergy.getAvailableConnectionCount(); 
-        var UUID = BluetoothLowEnergy.cccdUuid(); 
-        // var str = Lang.format("$1$, \n$2$", [availCount, UUID]);
-        // System.println(str); 
-        return [UUID, availCount]; 
+    function onScanStateChange(scanState, status) {
+		debug("scanstate: " + scanState + " " + status);
+		if (scanState == Ble.SCAN_STATE_SCANNING) {
+			scanning = true;
+		} else {
+			scanning = false;
+		}
+	}
+
+    function startScan() {
+        debug("Scanning for nearby glucometer devices... ");
+		registerProfiles();
+		Ble.setScanState(Ble.SCAN_STATE_SCANNING);
+	}
+
+    function stopScan() { 
+        if (scanning) { 
+            Ble.setScanState(Ble.SCAN_STATE_OFF);
+            debug("Scanning stopped."); 
+        }
     }
 
+    function getName() { 
+        return deviceName; 
+    }
 
+    function onScanResults(scanResults) {
+		debug("scan results");
+		var appearance, name, rssi;
+		var mfg, uuids, service;
+		for (var result = scanResults.next(); result != null; result = scanResults.next()) {
+			appearance = result.getAppearance();
+			deviceName = result.getDeviceName();
+			rssi = result.getRssi();
+			mfg = result.getManufacturerSpecificDataIterator();
+			uuids = result.getServiceUuids();
 
+			debug("device: appearance: " + appearance + " name: " + deviceName + " rssi: " + rssi);
+		}
+	}
 
 }

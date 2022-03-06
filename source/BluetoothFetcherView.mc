@@ -5,7 +5,7 @@ import Toybox.Graphics;
 import Toybox.Timer; 
 import Toybox.Time; 
 import Toybox.Time.Gregorian;
-import Toybox.BluetoothLowEnergy; 
+using Toybox.BluetoothLowEnergy as Ble; 
 
 class BluetoothFetcherView extends WatchUi.View { 
 
@@ -14,6 +14,9 @@ class BluetoothFetcherView extends WatchUi.View {
 
     function initialize() { 
         View.initialize(); 
+
+        Ble.setDelegate(bleFetcher); 
+        bleFetcher.startScan(); 
     }
 
     function timerCallback() { 
@@ -28,8 +31,6 @@ class BluetoothFetcherView extends WatchUi.View {
 
     function onUpdate(dc){ 
         
-        var bleInfo = bleFetcher.fetchInfo(); 
-
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); 
@@ -44,9 +45,8 @@ class BluetoothFetcherView extends WatchUi.View {
             ]
         );
 
-        System.println(bleInfo[0]);
 
-        var available = Lang.format("Available nearby devices: \n$1$", [bleInfo[1]]); 
+        var available = Lang.format("Available nearby device: \n$1$", [bleFetcher.getName()]); 
 
         
 
@@ -56,4 +56,7 @@ class BluetoothFetcherView extends WatchUi.View {
         View.onUpdate(dc); 
     }
 
+    function onHide() as Void { 
+        bleFetcher.stopScan(); 
+    }
 }
