@@ -10,7 +10,7 @@ using Toybox.BluetoothLowEnergy as Ble;
 class BluetoothFetcherView extends WatchUi.View { 
 
     var bleFetcher = null; 
-    var connectionState = "Searching for devices..."; 
+    var connectionState = "Searching for glucometers..."; 
     
 
     function initialize() { 
