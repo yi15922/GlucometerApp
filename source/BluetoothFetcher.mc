@@ -14,16 +14,18 @@ class BluetoothFetcher extends Ble.BleDelegate {
     var device = null; 
     var deviceName = "null"; 
     var profileRegistered = false; 
-    var callBack; 
+    var connectionCallback; 
+    var glucoseValueCallback;
 
     function debug(str) {
 		System.println("[ble] " + str);
 	}
 
-    function initialize(callBackMethod){ 
+    function initialize(connectionCallbackMethod, glucoseValueCallbackMethod){ 
         debug("Initializing Bluetooth Fetcher..."); 
         BleDelegate.initialize(); 
-        callBack = callBackMethod; 
+        connectionCallback = connectionCallbackMethod; 
+        glucoseValueCallback = glucoseValueCallbackMethod; 
     }
 
     function onProfileRegister(uuid, status) {
@@ -90,11 +92,17 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		Ble.pairDevice(result);
 	}
 
+    function onCharacteristicChanged(ch, value) {
+		debug("char read " + ch.getUuid() + " value: " + value);
+		glucoseValueCallback.invoke(value); 
+	}
+
     function onConnectedStateChanged(device, state) {
 		debug("connected: " + device.getName() + " " + state);
 		if (state == Ble.CONNECTION_STATE_CONNECTED) {
 			self.device = device;
-            callBack.invoke(); 
+            setGlucoseNotifications(1); 
+            connectionCallback.invoke(); 
 		} else {
 			self.device = null;
 		}
@@ -104,6 +112,23 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		for (var x = iter.next(); x != null; x = iter.next()) {
 			debug("uuid: " + x);
 		}
+	}
+
+    function setGlucoseNotifications(value) {
+		var service;
+		var ch;
+		var desc;
+
+		if (device == null) {
+			debug("setButtonNotifications: not connected");
+			return;
+		}
+		debug("setButtonNotifications: " + value);
+
+		service = device.getService(GLUCOSE_SERVICE);
+		ch = service.getCharacteristic(GLUCOSE_CHARACTERISTIC);
+		desc = ch.getDescriptor(GLUCOSE_CHAR_DESCRIPTOR);
+		desc.requestWrite([value & 0x01, 0x00]b);
 	}
 
     function onScanResults(scanResults) {

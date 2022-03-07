@@ -9,13 +9,17 @@ using Toybox.BluetoothLowEnergy as Ble;
 
 class BluetoothFetcherView extends WatchUi.View { 
 
+    const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
+    const FETCHER_STATE_CONNECTED = "Glucometer connected!"; 
+
     var bleFetcher = null; 
-    var connectionState = "Searching for glucometers..."; 
+    var connectionState = FETCHER_STATE_SEARCHING; 
+    var glucoseConcentration = 0; 
     
 
     function initialize() { 
         View.initialize(); 
-        bleFetcher = new BluetoothFetcher(method(:updateConnectionState)); 
+        bleFetcher = new BluetoothFetcher(method(:updateConnectionState), method(:updateGlucoseValue)); 
         Ble.setDelegate(bleFetcher); 
         bleFetcher.startScan(); 
     }
@@ -35,6 +39,7 @@ class BluetoothFetcherView extends WatchUi.View {
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); 
+        var glucoseText = View.findDrawableById("GlucoseValue") as Text; 
 
         var timeString = Lang.format(
             "$1$:$2$:$3$",
@@ -45,16 +50,23 @@ class BluetoothFetcherView extends WatchUi.View {
                 
             ]
         );
+
+        var glucoseFormat = Lang.format("BG: $1$", [glucoseConcentration]); 
         
 
         bleResultsText.setText(connectionState); 
+        glucoseText.setText(glucoseFormat); 
         timeText.setText(timeString); 
 
         View.onUpdate(dc); 
     }
 
     function updateConnectionState(){ 
-        connectionState = "Connected!"; 
+        connectionState = FETCHER_STATE_CONNECTED; 
+    }
+
+    function updateGlucoseValue(value) { 
+        glucoseConcentration = value; 
     }
 
     function onHide() as Void { 
