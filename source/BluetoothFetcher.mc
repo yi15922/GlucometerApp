@@ -14,15 +14,16 @@ class BluetoothFetcher extends Ble.BleDelegate {
     var device = null; 
     var deviceName = "null"; 
     var profileRegistered = false; 
+    var callBack; 
 
     function debug(str) {
 		System.println("[ble] " + str);
 	}
 
-    function initialize(){ 
+    function initialize(callBackMethod){ 
         debug("Initializing Bluetooth Fetcher..."); 
         BleDelegate.initialize(); 
-        
+        callBack = callBackMethod; 
     }
 
     function onProfileRegister(uuid, status) {
@@ -93,8 +94,15 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		debug("connected: " + device.getName() + " " + state);
 		if (state == Ble.CONNECTION_STATE_CONNECTED) {
 			self.device = device;
+            callBack.invoke(); 
 		} else {
 			self.device = null;
+		}
+	}
+
+    private function scanServiceUUID(iter) {
+		for (var x = iter.next(); x != null; x = iter.next()) {
+			debug("uuid: " + x);
 		}
 	}
 
@@ -110,10 +118,15 @@ class BluetoothFetcher extends Ble.BleDelegate {
 			uuids = result.getServiceUuids();
 
 			debug("device: appearance: " + appearance + " name: " + deviceName + " rssi: " + rssi);
-            if (deviceName != null && deviceName.equals(GLUCOMETER_NAME)){ 
-                connect(result); 
-                return; 
+
+            for (var foundID = uuids.next(); foundID != null; foundID = uuids.next()){ 
+                debug("uuid: " + foundID);
+                if (foundID.equals(GLUCOSE_SERVICE)) { 
+                    connect(result); 
+                    return; 
+                }
             }
+            
 		}
 	}
 

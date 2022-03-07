@@ -9,12 +9,13 @@ using Toybox.BluetoothLowEnergy as Ble;
 
 class BluetoothFetcherView extends WatchUi.View { 
 
-    var bleFetcher = new BluetoothFetcher(); 
+    var bleFetcher = null; 
+    var connectionState = "Searching for devices..."; 
     
 
     function initialize() { 
         View.initialize(); 
-
+        bleFetcher = new BluetoothFetcher(method(:updateConnectionState)); 
         Ble.setDelegate(bleFetcher); 
         bleFetcher.startScan(); 
     }
@@ -44,16 +45,16 @@ class BluetoothFetcherView extends WatchUi.View {
                 
             ]
         );
-
-
-        var available = Lang.format("Connected to device: \n$1$", [bleFetcher.getConnectedDeviceName()]); 
-
         
 
-        bleResultsText.setText(available); 
+        bleResultsText.setText(connectionState); 
         timeText.setText(timeString); 
 
         View.onUpdate(dc); 
+    }
+
+    function updateConnectionState(){ 
+        connectionState = "Connected!"; 
     }
 
     function onHide() as Void { 
