@@ -7,9 +7,12 @@ class BluetoothFetcher extends Ble.BleDelegate {
 
     const GLUCOSE_SERVICE = Ble.stringToUuid("00001808-0000-1000-8000-00805F9B34FB");
     const GLUCOSE_CHARACTERISTIC = Ble.stringToUuid("00002A18-0000-1000-8000-00805F9B34FB"); 
+    const GLUCOSE_CHAR_DESCRIPTOR = Ble.cccdUuid(); 
+    const GLUCOMETER_NAME = "glucose"; 
 
     var scanning = false;
-    var deviceName = null; 
+    var device = null; 
+    var deviceName = "null"; 
     var profileRegistered = false; 
 
     function debug(str) {
@@ -35,7 +38,8 @@ class BluetoothFetcher extends Ble.BleDelegate {
             :uuid => GLUCOSE_SERVICE, 
             :characteristics => [
                 {
-                    :uuid => GLUCOSE_CHARACTERISTIC
+                    :uuid => GLUCOSE_CHARACTERISTIC, 
+                    :descriptors => [GLUCOSE_CHAR_DESCRIPTOR]
                 }
             ]
         }; 
@@ -66,9 +70,33 @@ class BluetoothFetcher extends Ble.BleDelegate {
         }
     }
 
-    function getName() { 
-        return deviceName; 
+    function close() { 
+        stopScan(); 
+        if (device) { 
+            Ble.unpairDevice(device); 
+        }
     }
+
+    function getConnectedDeviceName() { 
+        if (device){ 
+            return device.getName(); 
+        }
+    }
+
+    private function connect(result) {
+		debug("connect");
+		stopScan(); 
+		Ble.pairDevice(result);
+	}
+
+    function onConnectedStateChanged(device, state) {
+		debug("connected: " + device.getName() + " " + state);
+		if (state == Ble.CONNECTION_STATE_CONNECTED) {
+			self.device = device;
+		} else {
+			self.device = null;
+		}
+	}
 
     function onScanResults(scanResults) {
 		debug("scan results");
@@ -82,6 +110,10 @@ class BluetoothFetcher extends Ble.BleDelegate {
 			uuids = result.getServiceUuids();
 
 			debug("device: appearance: " + appearance + " name: " + deviceName + " rssi: " + rssi);
+            if (deviceName != null && deviceName.equals(GLUCOMETER_NAME)){ 
+                connect(result); 
+                return; 
+            }
 		}
 	}
 

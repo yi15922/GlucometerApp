@@ -46,7 +46,7 @@ class BluetoothFetcherView extends WatchUi.View {
         );
 
 
-        var available = Lang.format("Available nearby device: \n$1$", [bleFetcher.getName()]); 
+        var available = Lang.format("Connected to device: \n$1$", [bleFetcher.getConnectedDeviceName()]); 
 
         
 
@@ -57,6 +57,6 @@ class BluetoothFetcherView extends WatchUi.View {
     }
 
     function onHide() as Void { 
-        bleFetcher.stopScan(); 
+        bleFetcher.close(); 
     }
 }
