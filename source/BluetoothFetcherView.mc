@@ -7,6 +7,12 @@ import Toybox.Time;
 import Toybox.Time.Gregorian;
 using Toybox.BluetoothLowEnergy as Ble; 
 
+/* 
+    This class extends WatchUi.View and shows BLE connection state as 
+    well as glucometer device status. The view will load a BleDelegate 
+    object upon layout and will receive asynchronous callbacks for 
+    device state changes.  
+*/
 class BluetoothFetcherView extends WatchUi.View { 
 
     const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
@@ -17,7 +23,11 @@ class BluetoothFetcherView extends WatchUi.View {
     var connectionState = FETCHER_STATE_SEARCHING; 
     var glucoseConcentration = 0; 
     
-
+    /* 
+        Constructor, initializes the view and the BleDelegate, 
+        also registers the delegate with the current BLE instance. 
+        Once registered, starts the bluetooth device scanning process.
+    */
     function initialize() { 
         View.initialize(); 
         bleFetcher = new BluetoothFetcher(method(:updateConnectionState), method(:updateGlucoseValue)); 
@@ -25,16 +35,22 @@ class BluetoothFetcherView extends WatchUi.View {
         bleFetcher.startScan(); 
     }
 
-    function timerCallback() { 
+
+    private function timerCallback() { 
         self.requestUpdate(); 
     }
 
+    // Renders the layout specified in layouts.pairing.xml
     function onLayout(dc){ 
         setLayout(Rez.Layouts.PairingScreen(dc));
         // var myTimer = new Timer.Timer(); 
         // myTimer.start(method(:timerCallback), 1000, true); 
     }
 
+    /* 
+        On view update, update the current time as well as any other 
+        BLE dependent parameters that have changed. 
+    */
     function onUpdate(dc){ 
         
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
@@ -62,6 +78,14 @@ class BluetoothFetcherView extends WatchUi.View {
         View.onUpdate(dc); 
     }
 
+    /* 
+        Reads and interprets the integer value of the received 
+        glucose concentration. The value 0 is reserved for the
+        "Awaiting blood" state and the value 65535 is reserved 
+        for the "Blood detected" state. Any value other than those
+        two will be interpreted as a valid glucose concentration
+        measured in mg/dL. 
+    */
     function handleBLEValue() { 
         var outputString = ""; 
         if (connectionState == FETCHER_STATE_SEARCHING){ 
@@ -80,17 +104,32 @@ class BluetoothFetcherView extends WatchUi.View {
         return outputString;
     }
 
+    /* 
+        Callback function for the onConnectStateChanged() call
+        in the BleDelegate. Updates the connection state and 
+        refreshes the UI. 
+    */
     function updateConnectionState(){ 
         connectionState = FETCHER_STATE_CONNECTED; 
         self.requestUpdate(); 
     }
 
+    /*
+         Callback function for the onCharacteristicChanged() call
+         in the BleDelegate. The value received is a byte array, which
+         is decoded into an unsigned 16-bit integer and stored in 
+         glucoseConcentration. Also refreshes the UI. 
+    */
     function updateGlucoseValue(value) { 
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
         glucoseConcentration = BG; 
         self.requestUpdate(); 
     }
 
+    /* 
+        Upon removal of this view from the UI stack, close the
+        BleDelegate and disconnect any connected peripherals. 
+    */
     function onHide() as Void { 
         bleFetcher.close(); 
     }

@@ -14,7 +14,11 @@ class GlucometerAppView extends WatchUi.View {
         self.requestUpdate(); 
     }
 
-    // Load your resources here
+    /* 
+        Loads the MainLayout file from layouts.layout.xml. Also 
+        starts a timer that updates the view every second to 
+        update the current time display. 
+    */
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
         var myTimer = new Timer.Timer(); 
@@ -27,7 +31,10 @@ class GlucometerAppView extends WatchUi.View {
     function onShow() as Void {        
     }
 
-    // Update the view
+    /* 
+        Displays the current time as well as a prompt to 
+        enter scanning mode. 
+    */
     function onUpdate(dc as Dc) as Void {
         // Call the parent onUpdate function to redraw the layout
 
