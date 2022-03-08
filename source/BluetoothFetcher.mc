@@ -54,7 +54,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
         updates the value of profileRegistered to ensure 
         no more than 1 profile is registered. 
     */ 
-    function registerProfiles() { 
+    private function registerProfiles() { 
         if (profileRegistered){ 
             debug("Profile already registered.");
             return; 
