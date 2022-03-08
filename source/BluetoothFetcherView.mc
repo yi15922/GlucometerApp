@@ -11,6 +11,7 @@ class BluetoothFetcherView extends WatchUi.View {
 
     const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
     const FETCHER_STATE_CONNECTED = "Glucometer connected!"; 
+    const FETCHER_STATE_FINISHED = "Measurement done."; 
 
     var bleFetcher = null; 
     var connectionState = FETCHER_STATE_SEARCHING; 
@@ -53,8 +54,10 @@ class BluetoothFetcherView extends WatchUi.View {
         
 
         bleResultsText.setText(connectionState); 
-        glucoseText.setText(handleBLEValue()); 
         timeText.setText(timeString); 
+        if (connectionState != FETCHER_STATE_FINISHED){ 
+            glucoseText.setText(handleBLEValue()); 
+        }
 
         View.onUpdate(dc); 
     }
@@ -71,6 +74,8 @@ class BluetoothFetcherView extends WatchUi.View {
             outputString = "Blood detected! \nPlease wait..."; 
         } else { 
             outputString = Lang.format("BG: $1$", [glucoseConcentration]); 
+            bleFetcher.close(); 
+            connectionState = FETCHER_STATE_FINISHED; 
         }
         return outputString;
     }
@@ -83,7 +88,6 @@ class BluetoothFetcherView extends WatchUi.View {
     function updateGlucoseValue(value) { 
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
         glucoseConcentration = BG; 
-        handleBLEValue(); 
         self.requestUpdate(); 
     }
 
