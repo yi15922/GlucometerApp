@@ -94,6 +94,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
 
     function onCharacteristicChanged(ch, value) {
 		debug("char read " + ch.getUuid() + " value: " + value);
+        
 		glucoseValueCallback.invoke(value); 
 	}
 

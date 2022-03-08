@@ -30,8 +30,8 @@ class BluetoothFetcherView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.PairingScreen(dc));
-        var myTimer = new Timer.Timer(); 
-        myTimer.start(method(:timerCallback), 1000, true); 
+        // var myTimer = new Timer.Timer(); 
+        // myTimer.start(method(:timerCallback), 1000, true); 
     }
 
     function onUpdate(dc){ 
@@ -50,23 +50,41 @@ class BluetoothFetcherView extends WatchUi.View {
                 
             ]
         );
-
-        var glucoseFormat = Lang.format("BG: $1$", [glucoseConcentration]); 
         
 
         bleResultsText.setText(connectionState); 
-        glucoseText.setText(glucoseFormat); 
+        glucoseText.setText(handleBLEValue()); 
         timeText.setText(timeString); 
 
         View.onUpdate(dc); 
     }
 
+    function handleBLEValue() { 
+        var outputString = ""; 
+        if (connectionState == FETCHER_STATE_SEARCHING){ 
+            return outputString; 
+        }
+
+        if (glucoseConcentration == 0){ 
+            outputString = "Awaiting blood"; 
+        } else if (glucoseConcentration == 65535) {
+            outputString = "Blood detected! \nPlease wait..."; 
+        } else { 
+            outputString = Lang.format("BG: $1$", [glucoseConcentration]); 
+        }
+        return outputString;
+    }
+
     function updateConnectionState(){ 
         connectionState = FETCHER_STATE_CONNECTED; 
+        self.requestUpdate(); 
     }
 
     function updateGlucoseValue(value) { 
-        glucoseConcentration = value; 
+        var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
+        glucoseConcentration = BG; 
+        handleBLEValue(); 
+        self.requestUpdate(); 
     }
 
     function onHide() as Void { 

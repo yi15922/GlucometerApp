@@ -1,7 +1,7 @@
 <layout id="MainLayout">
     <label x="center" y="center" text="@Strings.prompt" font = "Graphics.FONT_TINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
     <!-- <bitmap id="id_monkey" x="center" y="center" filename="../drawables/monkey.png" />   -->
-    <label id="TimeDisplay" x="center" y="30" font="Graphics.FONT_XTINY" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="TimeDisplay" x="center" y="30" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
     <!-- <button x = "center" y = "center" width = "50" height = "30" background = "Gfx.COLOR_RED" behavior = "onSelect">
         <state id = "stateDefault" bitmap = "@Drawables.button"/>
     </button> -->
