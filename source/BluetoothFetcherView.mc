@@ -73,7 +73,7 @@ class BluetoothFetcherView extends WatchUi.View {
         } else if (glucoseConcentration == 65535) {
             outputString = "Blood detected! \nPlease wait..."; 
         } else { 
-            outputString = Lang.format("BG: $1$", [glucoseConcentration]); 
+            outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
             bleFetcher.close(); 
             connectionState = FETCHER_STATE_FINISHED; 
         }
