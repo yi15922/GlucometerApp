@@ -27,6 +27,14 @@ class BluetoothFetcher extends Ble.BleDelegate {
     var profileRegistered = false; 
     var connectionCallback; 
     var glucoseValueCallback;
+    
+
+    const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
+    const FETCHER_STATE_CONNECTED = "Glucometer connected!"; 
+    const FETCHER_STATE_FINISHED = "Measurement done."; 
+
+    var connectionState = FETCHER_STATE_SEARCHING; 
+    var glucoseConcentration = 0; 
 
     private function debug(str) {
 		System.println("[ble] " + str);
@@ -143,8 +151,10 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onCharacteristicChanged(ch, value) {
 		debug("char read " + ch.getUuid() + " value: " + value);
-        
-		glucoseValueCallback.invoke(value); 
+        var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
+        glucoseConcentration = BG; 
+        WatchUi.requestUpdate(); 
+		//glucoseValueCallback.invoke(value); 
 	}
 
     /* 
@@ -158,7 +168,9 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		if (state == Ble.CONNECTION_STATE_CONNECTED) {
 			self.device = device;
             setGlucoseNotifications(1); 
-            connectionCallback.invoke(); 
+            connectionState = FETCHER_STATE_CONNECTED; 
+            WatchUi.requestUpdate(); 
+            //connectionCallback.invoke(); 
 		} else {
 			self.device = null;
 		}
@@ -226,5 +238,35 @@ class BluetoothFetcher extends Ble.BleDelegate {
             
 		}
 	}
+
+   
+
+    /* 
+        Reads and interprets the integer value of the received 
+        glucose concentration. The value 0 is reserved for the
+        "Awaiting blood" state and the value 65535 is reserved 
+        for the "Blood detected" state. Any value other than those
+        two will be interpreted as a valid glucose concentration
+        measured in mg/dL. 
+    */
+    function handleBLEValue() { 
+        var outputString = ""; 
+        if (connectionState == FETCHER_STATE_SEARCHING){ 
+            return outputString; 
+        }
+
+        if (glucoseConcentration == 0){ 
+            outputString = "Awaiting blood"; 
+        } else if (glucoseConcentration == 65535) {
+            outputString = "Blood detected! \nPlease wait..."; 
+        } else { 
+            outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
+            //bleFetcher.close(); 
+            //Note for yi: should you still close here ?
+            connectionState = FETCHER_STATE_FINISHED; 
+        }
+        return outputString;
+    }
+
 
 }

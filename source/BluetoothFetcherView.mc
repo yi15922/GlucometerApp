@@ -15,13 +15,9 @@ using Toybox.BluetoothLowEnergy as Ble;
 */
 class BluetoothFetcherView extends WatchUi.View { 
 
-    const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
-    const FETCHER_STATE_CONNECTED = "Glucometer connected!"; 
-    const FETCHER_STATE_FINISHED = "Measurement done."; 
 
     var bleFetcher = null; 
-    var connectionState = FETCHER_STATE_SEARCHING; 
-    var glucoseConcentration = 0; 
+
     
     /* 
         Constructor, initializes the view and the BleDelegate, 
@@ -69,63 +65,16 @@ class BluetoothFetcherView extends WatchUi.View {
         );
         
 
-        bleResultsText.setText(connectionState); 
+        bleResultsText.setText(bleFetcher.connectionState); 
         timeText.setText(timeString); 
-        if (connectionState != FETCHER_STATE_FINISHED){ 
-            glucoseText.setText(handleBLEValue()); 
+        if (bleFetcher.connectionState != FETCHER_STATE_FINISHED){ 
+            glucoseText.setText(bleFetcher.handleBLEValue()); 
         }
 
         View.onUpdate(dc); 
     }
 
-    /* 
-        Reads and interprets the integer value of the received 
-        glucose concentration. The value 0 is reserved for the
-        "Awaiting blood" state and the value 65535 is reserved 
-        for the "Blood detected" state. Any value other than those
-        two will be interpreted as a valid glucose concentration
-        measured in mg/dL. 
-    */
-    function handleBLEValue() { 
-        var outputString = ""; 
-        if (connectionState == FETCHER_STATE_SEARCHING){ 
-            return outputString; 
-        }
-
-        if (glucoseConcentration == 0){ 
-            outputString = "Awaiting blood"; 
-        } else if (glucoseConcentration == 65535) {
-            outputString = "Blood detected! \nPlease wait..."; 
-        } else { 
-            outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
-            bleFetcher.close(); 
-            connectionState = FETCHER_STATE_FINISHED; 
-        }
-        return outputString;
-    }
-
-    /* 
-        Callback function for the onConnectStateChanged() call
-        in the BleDelegate. Updates the connection state and 
-        refreshes the UI. 
-    */
-    function updateConnectionState(){ 
-        connectionState = FETCHER_STATE_CONNECTED; 
-        self.requestUpdate(); 
-    }
-
-    /*
-         Callback function for the onCharacteristicChanged() call
-         in the BleDelegate. The value received is a byte array, which
-         is decoded into an unsigned 16-bit integer and stored in 
-         glucoseConcentration. Also refreshes the UI. 
-    */
-    function updateGlucoseValue(value) { 
-        var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
-        glucoseConcentration = BG; 
-        self.requestUpdate(); 
-    }
-
+    
     /* 
         Upon removal of this view from the UI stack, close the
         BleDelegate and disconnect any connected peripherals. 
