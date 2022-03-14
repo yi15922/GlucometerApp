@@ -153,8 +153,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
         glucoseConcentration = BG; 
-        WatchUi.requestUpdate(); 
-		//glucoseValueCallback.invoke(value); 
+		glucoseValueCallback.invoke(value); 
 	}
 
     /* 
@@ -169,8 +168,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
 			self.device = device;
             setGlucoseNotifications(1); 
             connectionState = FETCHER_STATE_CONNECTED; 
-            WatchUi.requestUpdate(); 
-            //connectionCallback.invoke(); 
+            connectionCallback.invoke(); 
 		} else {
 			self.device = null;
 		}
@@ -262,10 +260,13 @@ class BluetoothFetcher extends Ble.BleDelegate {
         } else { 
             outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
             //bleFetcher.close(); 
-            //Note for yi: should you still close here ?
             connectionState = FETCHER_STATE_FINISHED; 
         }
         return outputString;
+    }
+
+    function getConnectionState(){
+        return connectionState;
     }
 
 

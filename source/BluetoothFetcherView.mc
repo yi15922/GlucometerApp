@@ -65,16 +65,33 @@ class BluetoothFetcherView extends WatchUi.View {
         );
         
 
-        bleResultsText.setText(bleFetcher.connectionState); 
+        bleResultsText.setText(bleFetcher.getConnectionState()); 
         timeText.setText(timeString); 
-        if (bleFetcher.connectionState != FETCHER_STATE_FINISHED){ 
+        if (bleFetcher.getConnectionState() != FETCHER_STATE_FINISHED){ 
             glucoseText.setText(bleFetcher.handleBLEValue()); 
         }
 
         View.onUpdate(dc); 
     }
 
-    
+    /* 
+        Callback function for the onConnectStateChanged() call
+        in the BleDelegate. Updates the connection state and 
+        refreshes the UI. 
+    */
+    function updateConnectionState(){ 
+        self.requestUpdate(); 
+    }
+
+    /*
+         Callback function for the onCharacteristicChanged() call
+         in the BleDelegate. The value received is a byte array, which
+         is decoded into an unsigned 16-bit integer and stored in 
+         glucoseConcentration. Also refreshes the UI. 
+    */
+    function updateGlucoseValue(value) { 
+        self.requestUpdate(); 
+    }
     /* 
         Upon removal of this view from the UI stack, close the
         BleDelegate and disconnect any connected peripherals. 
