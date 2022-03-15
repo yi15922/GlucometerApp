@@ -8,8 +8,7 @@ class ConnectDeviceDelegate extends WatchUi.BehaviorDelegate{
     }
 
     function onSelect() as Boolean {
-        WatchUi.pushView(new InputStripView(), null, WatchUi.SLIDE_UP);
+        WatchUi.pushView(new InputStripView(), new InputStripDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
-
 }

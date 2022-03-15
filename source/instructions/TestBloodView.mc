@@ -10,6 +10,7 @@ import Toybox.BluetoothLowEnergy;
 class TestBloodView extends WatchUi.View { 
     
     function initialize() { 
+        System.print("GOT HERE");
         View.initialize();
     }
 

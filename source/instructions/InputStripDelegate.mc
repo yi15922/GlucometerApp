@@ -4,11 +4,13 @@ import Toybox.WatchUi;
 
 class InputStripDelegate extends WatchUi.BehaviorDelegate{ 
     function initialize() { 
+        System.print("MOVING");
         BehaviorDelegate.initialize();
     }
 
     function onSelect() as Boolean {
-        WatchUi.pushView(new TestBloodView(), null, WatchUi.SLIDE_UP);
+        System.print("MOVING TO TEST BLOOD");
+        WatchUi.pushView(new TestBloodView(), new TestBloodDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 

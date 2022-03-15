@@ -1,15 +1,14 @@
 import Toybox.Lang; 
 import Toybox.System; 
-import Toybox.BluetoothLowEnergy; 
+import Toybox.WatchUi; 
 
-class BluetoothFetcherDelegate extends BluetoothLowEnergy.BleDelegate { 
+class InformationDelegate extends WatchUi.BehaviorDelegate{ 
     function initialize() { 
-        BleDelegate.initialize(); 
+        BehaviorDelegate.initialize();
     }
 
-    function onScanResults(scanResults) { 
-        System.println("Found result"); 
-        System.println("$1$", [scanResults.getDeviceName()]); 
+    function onSelect() as Boolean {
+        WatchUi.pushView(new GraphView(), new GraphDelegate(), WatchUi.SLIDE_UP);
+        return true;
     }
-
 }
