@@ -127,15 +127,6 @@ class BluetoothFetcher extends Ble.BleDelegate {
     }
 
     /* 
-        Gets the name of a device if it is connected
-    */
-    function getConnectedDeviceName() { 
-        if (device){ 
-            return device.getName(); 
-        }
-    }
-
-    /* 
         Pairs with the given scanResult. 
     */
     private function connect(result) {
@@ -273,10 +264,5 @@ class BluetoothFetcher extends Ble.BleDelegate {
         }
         return outputString;
     }
-
-    function getConnectionState(){
-        return connectionState;
-    }
-
 
 }
