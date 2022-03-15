@@ -27,6 +27,13 @@ class BluetoothFetcher extends Ble.BleDelegate {
     var profileRegistered = false; 
     var connectionCallback; 
     var glucoseValueCallback;
+    
+
+    const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
+    const FETCHER_STATE_CONNECTED = "Glucometer connected!"; 
+    const FETCHER_STATE_FINISHED = "Measurement done."; 
+
+    var connectionState = FETCHER_STATE_SEARCHING; 
 
     private function debug(str) {
 		System.println("[ble] " + str);
@@ -76,11 +83,13 @@ class BluetoothFetcher extends Ble.BleDelegate {
     /* 
         This function is called by a BLE notify, and it will
         update the scanning variable to keep track of scan 
-        state. 
+        state. Also notifies the connectionCallback of the 
+        scanning state. 
     */
     function onScanStateChange(scanState, status) {
 		debug("scanstate: " + scanState + " " + status);
 		if (scanState == Ble.SCAN_STATE_SCANNING) {
+            connectionCallback.invoke(FETCHER_STATE_SEARCHING); 
 			scanning = true;
 		} else {
 			scanning = false;
@@ -139,26 +148,31 @@ class BluetoothFetcher extends Ble.BleDelegate {
         This function is called by a BLE notify when 
         a listened characteristic is changed. In this case
         the function receives a glucose value in the form of
-        a byte array, which is sent to glucoseValueCallback. 
+        a byte array, which is decoded and sent to handleBLEValue. 
+        The result of handleBLEValue is then sent to glucoseValueCallback
+        as a string.  
     */
     function onCharacteristicChanged(ch, value) {
 		debug("char read " + ch.getUuid() + " value: " + value);
-        
-		glucoseValueCallback.invoke(value); 
+        var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
+        var callbackString = handleBLEValue(BG);  
+		glucoseValueCallback.invoke(callbackString); 
 	}
 
     /* 
         If a device is connected successfully, this function
         will keep track of this device as a local variable. It 
         will also set the CCCD value to 1 for asynch notifications
-        and invoke connectionCallback. 
+        and invokes connectionCallback to notify this new connection
+        state. 
     */
     function onConnectedStateChanged(device, state) {
 		debug("connected: " + device.getName() + " " + state);
 		if (state == Ble.CONNECTION_STATE_CONNECTED) {
 			self.device = device;
             setGlucoseNotifications(1); 
-            connectionCallback.invoke(); 
+            connectionState = FETCHER_STATE_CONNECTED; 
+            connectionCallback.invoke(connectionState); 
 		} else {
 			self.device = null;
 		}
@@ -226,5 +240,43 @@ class BluetoothFetcher extends Ble.BleDelegate {
             
 		}
 	}
+
+   
+
+    /* 
+        Reads and interprets the integer value of the received 
+        glucose concentration. The value 0 is reserved for the
+        "Awaiting blood" state and the value 65535 is reserved 
+        for the "Blood detected" state. Any value other than those
+        two will be interpreted as a valid glucose concentration
+        measured in mg/dL. Once a glucose value is interpreted, 
+        closes the fetcher to prevent further overwriting of 
+        the data. 
+
+        This method returns a string representing either the 
+        glucometer state or the glucose concentration. 
+    */
+    private function handleBLEValue(glucoseConcentration) { 
+        var outputString = ""; 
+        if (connectionState == FETCHER_STATE_SEARCHING){ 
+            return outputString; 
+        }
+
+        if (glucoseConcentration == 0){ 
+            outputString = "Awaiting blood"; 
+        } else if (glucoseConcentration == 65535) {
+            outputString = "Blood detected! \nPlease wait..."; 
+        } else { 
+            outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
+            connectionState = FETCHER_STATE_FINISHED; 
+            close(); 
+        }
+        return outputString;
+    }
+
+    function getConnectionState(){
+        return connectionState;
+    }
+
 
 }
