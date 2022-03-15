@@ -25,6 +25,7 @@ class InformationView extends WatchUi.View {
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
+        var bloodSugar = View.findDrawableById("BloodSugarLevel") as Text;
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); 
 
         var timeString = Lang.format(
@@ -41,6 +42,7 @@ class InformationView extends WatchUi.View {
 
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
+        bloodSugar.setText("3");
 
         View.onUpdate(dc); 
     }

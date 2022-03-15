@@ -26,8 +26,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="7" lineNum="64" parent="globals/GlucometerAppView" pc="268435936" symbol="setBloodSugar"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="7" lineNum="65" parent="globals/GlucometerAppView" pc="268435940" symbol="setBloodSugar"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="8" lineNum="71" parent="globals/GlucometerAppView" pc="268435951" symbol="onHide"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="9" lineNum="7" parent="globals/GlucometerAppView" pc="268442878" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="9" lineNum="7" parent="globals/GlucometerAppView" pc="268442878" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="9" lineNum="7" parent="globals/GlucometerAppView" pc="268443105" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppView.mc" id="9" lineNum="7" parent="globals/GlucometerAppView" pc="268443105" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="11" lineNum="15" parent="globals/BluetoothFetcherView" pc="268435956" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="11" lineNum="16" parent="globals/BluetoothFetcherView" pc="268435960" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="12" lineNum="19" parent="globals/BluetoothFetcherView" pc="268435979" symbol="timerCallback"/>
@@ -45,16 +45,16 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="14" lineNum="51" parent="globals/BluetoothFetcherView" pc="268436297" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="14" lineNum="52" parent="globals/BluetoothFetcherView" pc="268436311" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="14" lineNum="54" parent="globals/BluetoothFetcherView" pc="268436325" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="15" lineNum="10" parent="globals/BluetoothFetcherView" pc="268443107" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="15" lineNum="12" parent="globals/BluetoothFetcherView" pc="268443125" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="15" lineNum="10" parent="globals/BluetoothFetcherView" pc="268443107" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="15" lineNum="10" parent="globals/BluetoothFetcherView" pc="268443334" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="15" lineNum="12" parent="globals/BluetoothFetcherView" pc="268443352" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherView.mc" id="15" lineNum="10" parent="globals/BluetoothFetcherView" pc="268443334" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="17" lineNum="6" parent="globals/GlucometerAppDelegate" pc="268436346" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="17" lineNum="7" parent="globals/GlucometerAppDelegate" pc="268436350" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="18" lineNum="10" parent="globals/GlucometerAppDelegate" pc="268436369" symbol="onSelect"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="18" lineNum="11" parent="globals/GlucometerAppDelegate" pc="268436373" symbol="onSelect"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="18" lineNum="12" parent="globals/GlucometerAppDelegate" pc="268436424" symbol="onSelect"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="19" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268443156" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="19" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268443156" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="19" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268443383" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppDelegate.mc" id="19" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268443383" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="21" lineNum="6" parent="globals/InputStripDelegate" pc="268436428" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="21" lineNum="7" parent="globals/InputStripDelegate" pc="268436432" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="21" lineNum="8" parent="globals/InputStripDelegate" pc="268436453" symbol="initialize"/>
@@ -62,15 +62,15 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="22" lineNum="12" parent="globals/InputStripDelegate" pc="268436476" symbol="onSelect"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="22" lineNum="13" parent="globals/InputStripDelegate" pc="268436497" symbol="onSelect"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="22" lineNum="14" parent="globals/InputStripDelegate" pc="268436569" symbol="onSelect"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="23" lineNum="5" parent="globals/InputStripDelegate" pc="268442993" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="23" lineNum="5" parent="globals/InputStripDelegate" pc="268442993" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="23" lineNum="5" parent="globals/InputStripDelegate" pc="268443220" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="23" lineNum="5" parent="globals/InputStripDelegate" pc="268443220" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="25" lineNum="6" parent="globals/BluetoothFetcherDelegate" pc="268436573" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="25" lineNum="7" parent="globals/BluetoothFetcherDelegate" pc="268436577" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="26" lineNum="10" parent="globals/BluetoothFetcherDelegate" pc="268436596" symbol="onScanResults"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="26" lineNum="11" parent="globals/BluetoothFetcherDelegate" pc="268436600" symbol="onScanResults"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="26" lineNum="12" parent="globals/BluetoothFetcherDelegate" pc="268436621" symbol="onScanResults"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="27" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268442859" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="27" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268442859" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="27" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268443086" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="27" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268443086" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="29" lineNum="12" parent="globals/GraphView" pc="268436668" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="29" lineNum="13" parent="globals/GraphView" pc="268436672" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="30" lineNum="16" parent="globals/GraphView" pc="268436691" symbol="timerCallback"/>
@@ -86,8 +86,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="32" lineNum="42" parent="globals/GraphView" pc="268436929" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="32" lineNum="43" parent="globals/GraphView" pc="268436943" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="32" lineNum="45" parent="globals/GraphView" pc="268436957" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="33" lineNum="10" parent="globals/GraphView" pc="268442955" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="33" lineNum="10" parent="globals/GraphView" pc="268442955" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="33" lineNum="10" parent="globals/GraphView" pc="268443182" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphView.mc" id="33" lineNum="10" parent="globals/GraphView" pc="268443182" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="35" lineNum="6" parent="globals/SettingsDelegate" pc="268436978" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="35" lineNum="7" parent="globals/SettingsDelegate" pc="268436982" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="36" lineNum="10" parent="globals/SettingsDelegate" pc="268437001" symbol="onSelect"/>
@@ -97,8 +97,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="37" lineNum="17" parent="globals/SettingsDelegate" pc="268437026" symbol="onSwipe"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="37" lineNum="18" parent="globals/SettingsDelegate" pc="268437037" symbol="onSwipe"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="37" lineNum="20" parent="globals/SettingsDelegate" pc="268437112" symbol="onSwipe"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="38" lineNum="5" parent="globals/SettingsDelegate" pc="268442916" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="38" lineNum="5" parent="globals/SettingsDelegate" pc="268442916" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="38" lineNum="5" parent="globals/SettingsDelegate" pc="268443143" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsDelegate.mc" id="38" lineNum="5" parent="globals/SettingsDelegate" pc="268443143" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="40" lineNum="12" parent="globals/TestBloodView" pc="268437116" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="40" lineNum="13" parent="globals/TestBloodView" pc="268437120" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="40" lineNum="14" parent="globals/TestBloodView" pc="268437141" symbol="initialize"/>
@@ -115,8 +115,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="43" lineNum="43" parent="globals/TestBloodView" pc="268437398" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="43" lineNum="44" parent="globals/TestBloodView" pc="268437412" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="43" lineNum="46" parent="globals/TestBloodView" pc="268437426" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="44" lineNum="10" parent="globals/TestBloodView" pc="268442897" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="44" lineNum="10" parent="globals/TestBloodView" pc="268442897" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="44" lineNum="10" parent="globals/TestBloodView" pc="268443124" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodView.mc" id="44" lineNum="10" parent="globals/TestBloodView" pc="268443124" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="46" lineNum="6" parent="globals/GraphDelegate" pc="268437447" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="46" lineNum="7" parent="globals/GraphDelegate" pc="268437451" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="47" lineNum="10" parent="globals/GraphDelegate" pc="268437470" symbol="onSelect"/>
@@ -129,8 +129,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="48" lineNum="20" parent="globals/GraphDelegate" pc="268437653" symbol="onSwipe"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="48" lineNum="21" parent="globals/GraphDelegate" pc="268437664" symbol="onSwipe"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="48" lineNum="23" parent="globals/GraphDelegate" pc="268437739" symbol="onSwipe"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="49" lineNum="5" parent="globals/GraphDelegate" pc="268443012" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="49" lineNum="5" parent="globals/GraphDelegate" pc="268443012" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="49" lineNum="5" parent="globals/GraphDelegate" pc="268443239" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/GraphDelegate.mc" id="49" lineNum="5" parent="globals/GraphDelegate" pc="268443239" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="51" lineNum="12" parent="globals/InputStripView" pc="268437743" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="51" lineNum="13" parent="globals/InputStripView" pc="268437747" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="52" lineNum="16" parent="globals/InputStripView" pc="268437766" symbol="timerCallback"/>
@@ -146,8 +146,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="54" lineNum="42" parent="globals/InputStripView" pc="268438004" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="54" lineNum="43" parent="globals/InputStripView" pc="268438018" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="54" lineNum="45" parent="globals/InputStripView" pc="268438032" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="55" lineNum="10" parent="globals/InputStripView" pc="268442936" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="55" lineNum="10" parent="globals/InputStripView" pc="268442936" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="55" lineNum="10" parent="globals/InputStripView" pc="268443163" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/InputStripView.mc" id="55" lineNum="10" parent="globals/InputStripView" pc="268443163" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="57" lineNum="8" parent="globals/BluetoothFetcher" pc="268438053" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="57" lineNum="9" parent="globals/BluetoothFetcher" pc="268438057" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="57" lineNum="10" parent="globals/BluetoothFetcher" pc="268438078" symbol="initialize"/>
@@ -158,7 +158,7 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="58" lineNum="28" parent="globals/BluetoothFetcher" pc="268438252" symbol="fetchInfo"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="58" lineNum="29" parent="globals/BluetoothFetcher" pc="268438269" symbol="fetchInfo"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="58" lineNum="32" parent="globals/BluetoothFetcher" pc="268438286" symbol="fetchInfo"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="59" lineNum="6" parent="globals/BluetoothFetcher" pc="268442935" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/BluetoothFetcher.mc" id="59" lineNum="6" parent="globals/BluetoothFetcher" pc="268443162" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="61" lineNum="6" parent="globals/InformationDelegate" pc="268438314" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="61" lineNum="7" parent="globals/InformationDelegate" pc="268438318" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="62" lineNum="10" parent="globals/InformationDelegate" pc="268438337" symbol="onSelect"/>
@@ -169,8 +169,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="63" lineNum="17" parent="globals/InformationDelegate" pc="268438434" symbol="onSwipe"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="63" lineNum="18" parent="globals/InformationDelegate" pc="268438445" symbol="onSwipe"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="63" lineNum="20" parent="globals/InformationDelegate" pc="268438520" symbol="onSwipe"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="64" lineNum="5" parent="globals/InformationDelegate" pc="268442974" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="64" lineNum="5" parent="globals/InformationDelegate" pc="268442974" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="64" lineNum="5" parent="globals/InformationDelegate" pc="268443201" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationDelegate.mc" id="64" lineNum="5" parent="globals/InformationDelegate" pc="268443201" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="66" lineNum="12" parent="globals/SettingsView" pc="268438524" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="66" lineNum="13" parent="globals/SettingsView" pc="268438528" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="67" lineNum="16" parent="globals/SettingsView" pc="268438547" symbol="timerCallback"/>
@@ -186,8 +186,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="69" lineNum="42" parent="globals/SettingsView" pc="268438785" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="69" lineNum="43" parent="globals/SettingsView" pc="268438799" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="69" lineNum="45" parent="globals/SettingsView" pc="268438813" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="70" lineNum="10" parent="globals/SettingsView" pc="268443050" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="70" lineNum="10" parent="globals/SettingsView" pc="268443050" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="70" lineNum="10" parent="globals/SettingsView" pc="268443277" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/SettingsView.mc" id="70" lineNum="10" parent="globals/SettingsView" pc="268443277" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="72" lineNum="12" parent="globals/ConnectDeviceView" pc="268438834" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="72" lineNum="13" parent="globals/ConnectDeviceView" pc="268438838" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="73" lineNum="16" parent="globals/ConnectDeviceView" pc="268438857" symbol="timerCallback"/>
@@ -203,8 +203,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="75" lineNum="42" parent="globals/ConnectDeviceView" pc="268439095" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="75" lineNum="43" parent="globals/ConnectDeviceView" pc="268439109" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="75" lineNum="45" parent="globals/ConnectDeviceView" pc="268439123" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="76" lineNum="10" parent="globals/ConnectDeviceView" pc="268443175" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="76" lineNum="10" parent="globals/ConnectDeviceView" pc="268443175" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="76" lineNum="10" parent="globals/ConnectDeviceView" pc="268443402" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="76" lineNum="10" parent="globals/ConnectDeviceView" pc="268443402" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="78" lineNum="7" parent="globals/GlucometerAppApp" pc="268439144" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="78" lineNum="8" parent="globals/GlucometerAppApp" pc="268439148" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="79" lineNum="12" parent="globals/GlucometerAppApp" pc="268439167" symbol="onStart"/>
@@ -212,8 +212,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="80" lineNum="17" parent="globals/GlucometerAppApp" pc="268439196" symbol="onStop"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="81" lineNum="21" parent="globals/GlucometerAppApp" pc="268439201" symbol="getInitialView"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="81" lineNum="22" parent="globals/GlucometerAppApp" pc="268439205" symbol="getInitialView"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="82" lineNum="5" parent="globals/GlucometerAppApp" pc="268442791" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="82" lineNum="5" parent="globals/GlucometerAppApp" pc="268442791" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="82" lineNum="5" parent="globals/GlucometerAppApp" pc="268443018" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="82" lineNum="5" parent="globals/GlucometerAppApp" pc="268443018" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="83" lineNum="27" parent="globals" pc="268439273" symbol="getApp"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppApp.mc" id="83" lineNum="28" parent="globals" pc="268439285" symbol="getApp"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="85" lineNum="6" parent="globals/ConnectDeviceDelegate" pc="268439302" symbol="initialize"/>
@@ -221,8 +221,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="86" lineNum="10" parent="globals/ConnectDeviceDelegate" pc="268439325" symbol="onSelect"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="86" lineNum="11" parent="globals/ConnectDeviceDelegate" pc="268439329" symbol="onSelect"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="86" lineNum="12" parent="globals/ConnectDeviceDelegate" pc="268439401" symbol="onSelect"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="87" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268443031" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="87" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268443031" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="87" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268443258" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="87" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268443258" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="89" lineNum="7" parent="globals/GlucometerAppMenuDelegate" pc="268439405" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="89" lineNum="8" parent="globals/GlucometerAppMenuDelegate" pc="268439409" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="90" lineNum="11" parent="globals/GlucometerAppMenuDelegate" pc="268439428" symbol="onMenuItem"/>
@@ -230,8 +230,8 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="90" lineNum="13" parent="globals/GlucometerAppMenuDelegate" pc="268439443" symbol="onMenuItem"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="90" lineNum="14" parent="globals/GlucometerAppMenuDelegate" pc="268439467" symbol="onMenuItem"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="90" lineNum="15" parent="globals/GlucometerAppMenuDelegate" pc="268439478" symbol="onMenuItem"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="91" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268443088" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="91" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268443088" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="91" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268443315" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="91" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268443315" symbol="&lt;init&gt;"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="93" lineNum="12" parent="globals/InformationView" pc="268439503" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="93" lineNum="13" parent="globals/InformationView" pc="268439507" symbol="initialize"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="94" lineNum="16" parent="globals/InformationView" pc="268439526" symbol="timerCallback"/>
@@ -242,66 +242,69 @@
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="26" parent="globals/InformationView" pc="268439589" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="27" parent="globals/InformationView" pc="268439613" symbol="onUpdate"/>
         <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="28" parent="globals/InformationView" pc="268439637" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="30" parent="globals/InformationView" pc="268439681" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="40" parent="globals/InformationView" pc="268439757" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="42" parent="globals/InformationView" pc="268439764" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="43" parent="globals/InformationView" pc="268439778" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="45" parent="globals/InformationView" pc="268439792" symbol="onUpdate"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="97" lineNum="10" parent="globals/InformationView" pc="268442772" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="97" lineNum="10" parent="globals/InformationView" pc="268442772" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="99" lineNum="6" parent="globals/TestBloodDelegate" pc="268439813" symbol="initialize"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="99" lineNum="7" parent="globals/TestBloodDelegate" pc="268439817" symbol="initialize"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="100" lineNum="10" parent="globals/TestBloodDelegate" pc="268439836" symbol="onSelect"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="100" lineNum="11" parent="globals/TestBloodDelegate" pc="268439840" symbol="onSelect"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="100" lineNum="12" parent="globals/TestBloodDelegate" pc="268439912" symbol="onSelect"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="101" lineNum="5" parent="globals/TestBloodDelegate" pc="268443069" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="101" lineNum="5" parent="globals/TestBloodDelegate" pc="268443069" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="103" lineNum="2" parent="globals/Rez/Drawables" pc="268442834" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="104" lineNum="6" parent="globals/Rez/Fonts" pc="268442855" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="105" lineNum="8" parent="globals/Rez/JsonData" pc="268442857" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="106" lineNum="17" parent="globals/Rez/Layouts" pc="268439916" symbol="Settings"/>
-        <entry filename="Rez" id="106" lineNum="19" parent="globals/Rez/Layouts" pc="268439928" symbol="Settings"/>
-        <entry filename="Rez" id="106" lineNum="20" parent="globals/Rez/Layouts" pc="268440061" symbol="Settings"/>
-        <entry filename="Rez" id="106" lineNum="22" parent="globals/Rez/Layouts" pc="268440224" symbol="Settings"/>
-        <entry filename="Rez" id="107" lineNum="31" parent="globals/Rez/Layouts" pc="268440252" symbol="Information"/>
-        <entry filename="Rez" id="107" lineNum="33" parent="globals/Rez/Layouts" pc="268440264" symbol="Information"/>
-        <entry filename="Rez" id="107" lineNum="34" parent="globals/Rez/Layouts" pc="268440397" symbol="Information"/>
-        <entry filename="Rez" id="107" lineNum="36" parent="globals/Rez/Layouts" pc="268440560" symbol="Information"/>
-        <entry filename="Rez" id="108" lineNum="45" parent="globals/Rez/Layouts" pc="268440588" symbol="MainLayout"/>
-        <entry filename="Rez" id="108" lineNum="47" parent="globals/Rez/Layouts" pc="268440600" symbol="MainLayout"/>
-        <entry filename="Rez" id="108" lineNum="48" parent="globals/Rez/Layouts" pc="268440795" symbol="MainLayout"/>
-        <entry filename="Rez" id="108" lineNum="50" parent="globals/Rez/Layouts" pc="268440928" symbol="MainLayout"/>
-        <entry filename="Rez" id="109" lineNum="59" parent="globals/Rez/Layouts" pc="268440956" symbol="PairingScreen"/>
-        <entry filename="Rez" id="109" lineNum="61" parent="globals/Rez/Layouts" pc="268440968" symbol="PairingScreen"/>
-        <entry filename="Rez" id="109" lineNum="62" parent="globals/Rez/Layouts" pc="268441101" symbol="PairingScreen"/>
-        <entry filename="Rez" id="109" lineNum="64" parent="globals/Rez/Layouts" pc="268441264" symbol="PairingScreen"/>
-        <entry filename="Rez" id="110" lineNum="73" parent="globals/Rez/Layouts" pc="268441292" symbol="Graph"/>
-        <entry filename="Rez" id="110" lineNum="75" parent="globals/Rez/Layouts" pc="268441304" symbol="Graph"/>
-        <entry filename="Rez" id="110" lineNum="76" parent="globals/Rez/Layouts" pc="268441437" symbol="Graph"/>
-        <entry filename="Rez" id="110" lineNum="78" parent="globals/Rez/Layouts" pc="268441600" symbol="Graph"/>
-        <entry filename="Rez" id="111" lineNum="87" parent="globals/Rez/Layouts" pc="268441628" symbol="InputStrip"/>
-        <entry filename="Rez" id="111" lineNum="89" parent="globals/Rez/Layouts" pc="268441640" symbol="InputStrip"/>
-        <entry filename="Rez" id="111" lineNum="90" parent="globals/Rez/Layouts" pc="268441773" symbol="InputStrip"/>
-        <entry filename="Rez" id="111" lineNum="92" parent="globals/Rez/Layouts" pc="268441936" symbol="InputStrip"/>
-        <entry filename="Rez" id="112" lineNum="101" parent="globals/Rez/Layouts" pc="268441964" symbol="TestBlood"/>
-        <entry filename="Rez" id="112" lineNum="103" parent="globals/Rez/Layouts" pc="268441976" symbol="TestBlood"/>
-        <entry filename="Rez" id="112" lineNum="104" parent="globals/Rez/Layouts" pc="268442109" symbol="TestBlood"/>
-        <entry filename="Rez" id="112" lineNum="106" parent="globals/Rez/Layouts" pc="268442272" symbol="TestBlood"/>
-        <entry filename="Rez" id="113" lineNum="115" parent="globals/Rez/Layouts" pc="268442300" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="113" lineNum="117" parent="globals/Rez/Layouts" pc="268442312" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="113" lineNum="118" parent="globals/Rez/Layouts" pc="268442445" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="113" lineNum="120" parent="globals/Rez/Layouts" pc="268442608" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="114" lineNum="10" parent="globals/Rez/Layouts" pc="268442856" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="115" lineNum="134" parent="globals/Rez/Menus/MainMenu" pc="268442636" symbol="initialize"/>
-        <entry filename="Rez" id="115" lineNum="135" parent="globals/Rez/Menus/MainMenu" pc="268442640" symbol="initialize"/>
-        <entry filename="Rez" id="115" lineNum="136" parent="globals/Rez/Menus/MainMenu" pc="268442658" symbol="initialize"/>
-        <entry filename="Rez" id="115" lineNum="137" parent="globals/Rez/Menus/MainMenu" pc="268442714" symbol="initialize"/>
-        <entry filename="Rez" id="116" lineNum="132" parent="globals/Rez/Menus/MainMenu" pc="268442836" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="116" lineNum="132" parent="globals/Rez/Menus/MainMenu" pc="268442836" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="117" lineNum="125" parent="globals/Rez/Menus" pc="268442835" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="118" lineNum="143" parent="globals/Rez/Strings" pc="268442858" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="119" lineNum="1" parent="globals/Rez" pc="268442810" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="119" lineNum="1" parent="globals/Rez" pc="268442810" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="29" parent="globals/InformationView" pc="268439661" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="31" parent="globals/InformationView" pc="268439705" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="41" parent="globals/InformationView" pc="268439781" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="43" parent="globals/InformationView" pc="268439788" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="44" parent="globals/InformationView" pc="268439802" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="45" parent="globals/InformationView" pc="268439816" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="96" lineNum="47" parent="globals/InformationView" pc="268439833" symbol="onUpdate"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="97" lineNum="10" parent="globals/InformationView" pc="268442999" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/views/InformationView.mc" id="97" lineNum="10" parent="globals/InformationView" pc="268442999" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="99" lineNum="6" parent="globals/TestBloodDelegate" pc="268439854" symbol="initialize"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="99" lineNum="7" parent="globals/TestBloodDelegate" pc="268439858" symbol="initialize"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="100" lineNum="10" parent="globals/TestBloodDelegate" pc="268439877" symbol="onSelect"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="100" lineNum="11" parent="globals/TestBloodDelegate" pc="268439881" symbol="onSelect"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="100" lineNum="12" parent="globals/TestBloodDelegate" pc="268439953" symbol="onSelect"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="101" lineNum="5" parent="globals/TestBloodDelegate" pc="268443296" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/joshmedway/Library/Mobile Documents/com~apple~CloudDocs/ECE 469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="101" lineNum="5" parent="globals/TestBloodDelegate" pc="268443296" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="103" lineNum="2" parent="globals/Rez/Drawables" pc="268443061" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="104" lineNum="6" parent="globals/Rez/Fonts" pc="268443082" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="105" lineNum="8" parent="globals/Rez/JsonData" pc="268443084" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="106" lineNum="17" parent="globals/Rez/Layouts" pc="268439957" symbol="Settings"/>
+        <entry filename="Rez" id="106" lineNum="19" parent="globals/Rez/Layouts" pc="268439969" symbol="Settings"/>
+        <entry filename="Rez" id="106" lineNum="20" parent="globals/Rez/Layouts" pc="268440102" symbol="Settings"/>
+        <entry filename="Rez" id="106" lineNum="22" parent="globals/Rez/Layouts" pc="268440265" symbol="Settings"/>
+        <entry filename="Rez" id="107" lineNum="31" parent="globals/Rez/Layouts" pc="268440293" symbol="Information"/>
+        <entry filename="Rez" id="107" lineNum="33" parent="globals/Rez/Layouts" pc="268440305" symbol="Information"/>
+        <entry filename="Rez" id="107" lineNum="34" parent="globals/Rez/Layouts" pc="268440438" symbol="Information"/>
+        <entry filename="Rez" id="107" lineNum="35" parent="globals/Rez/Layouts" pc="268440601" symbol="Information"/>
+        <entry filename="Rez" id="107" lineNum="37" parent="globals/Rez/Layouts" pc="268440777" symbol="Information"/>
+        <entry filename="Rez" id="108" lineNum="46" parent="globals/Rez/Layouts" pc="268440815" symbol="MainLayout"/>
+        <entry filename="Rez" id="108" lineNum="48" parent="globals/Rez/Layouts" pc="268440827" symbol="MainLayout"/>
+        <entry filename="Rez" id="108" lineNum="49" parent="globals/Rez/Layouts" pc="268441022" symbol="MainLayout"/>
+        <entry filename="Rez" id="108" lineNum="51" parent="globals/Rez/Layouts" pc="268441155" symbol="MainLayout"/>
+        <entry filename="Rez" id="109" lineNum="60" parent="globals/Rez/Layouts" pc="268441183" symbol="PairingScreen"/>
+        <entry filename="Rez" id="109" lineNum="62" parent="globals/Rez/Layouts" pc="268441195" symbol="PairingScreen"/>
+        <entry filename="Rez" id="109" lineNum="63" parent="globals/Rez/Layouts" pc="268441328" symbol="PairingScreen"/>
+        <entry filename="Rez" id="109" lineNum="65" parent="globals/Rez/Layouts" pc="268441491" symbol="PairingScreen"/>
+        <entry filename="Rez" id="110" lineNum="74" parent="globals/Rez/Layouts" pc="268441519" symbol="Graph"/>
+        <entry filename="Rez" id="110" lineNum="76" parent="globals/Rez/Layouts" pc="268441531" symbol="Graph"/>
+        <entry filename="Rez" id="110" lineNum="77" parent="globals/Rez/Layouts" pc="268441664" symbol="Graph"/>
+        <entry filename="Rez" id="110" lineNum="79" parent="globals/Rez/Layouts" pc="268441827" symbol="Graph"/>
+        <entry filename="Rez" id="111" lineNum="88" parent="globals/Rez/Layouts" pc="268441855" symbol="InputStrip"/>
+        <entry filename="Rez" id="111" lineNum="90" parent="globals/Rez/Layouts" pc="268441867" symbol="InputStrip"/>
+        <entry filename="Rez" id="111" lineNum="91" parent="globals/Rez/Layouts" pc="268442000" symbol="InputStrip"/>
+        <entry filename="Rez" id="111" lineNum="93" parent="globals/Rez/Layouts" pc="268442163" symbol="InputStrip"/>
+        <entry filename="Rez" id="112" lineNum="102" parent="globals/Rez/Layouts" pc="268442191" symbol="TestBlood"/>
+        <entry filename="Rez" id="112" lineNum="104" parent="globals/Rez/Layouts" pc="268442203" symbol="TestBlood"/>
+        <entry filename="Rez" id="112" lineNum="105" parent="globals/Rez/Layouts" pc="268442336" symbol="TestBlood"/>
+        <entry filename="Rez" id="112" lineNum="107" parent="globals/Rez/Layouts" pc="268442499" symbol="TestBlood"/>
+        <entry filename="Rez" id="113" lineNum="116" parent="globals/Rez/Layouts" pc="268442527" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="113" lineNum="118" parent="globals/Rez/Layouts" pc="268442539" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="113" lineNum="119" parent="globals/Rez/Layouts" pc="268442672" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="113" lineNum="121" parent="globals/Rez/Layouts" pc="268442835" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="114" lineNum="10" parent="globals/Rez/Layouts" pc="268443083" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="115" lineNum="135" parent="globals/Rez/Menus/MainMenu" pc="268442863" symbol="initialize"/>
+        <entry filename="Rez" id="115" lineNum="136" parent="globals/Rez/Menus/MainMenu" pc="268442867" symbol="initialize"/>
+        <entry filename="Rez" id="115" lineNum="137" parent="globals/Rez/Menus/MainMenu" pc="268442885" symbol="initialize"/>
+        <entry filename="Rez" id="115" lineNum="138" parent="globals/Rez/Menus/MainMenu" pc="268442941" symbol="initialize"/>
+        <entry filename="Rez" id="116" lineNum="133" parent="globals/Rez/Menus/MainMenu" pc="268443063" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="116" lineNum="133" parent="globals/Rez/Menus/MainMenu" pc="268443063" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="117" lineNum="126" parent="globals/Rez/Menus" pc="268443062" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="118" lineNum="144" parent="globals/Rez/Strings" pc="268443085" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="119" lineNum="1" parent="globals/Rez" pc="268443037" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="119" lineNum="1" parent="globals/Rez" pc="268443037" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -465,36 +468,38 @@
         <entry arg="true" endPc="268439200" name="state" stackId="1" startPc="268439196"/>
         <entry arg="true" endPc="268439502" name="item" stackId="1" startPc="268439428"/>
         <entry arg="true" endPc="268439584" name="dc" stackId="1" startPc="268439543"/>
-        <entry endPc="268439811" name="timeText" stackId="3" startPc="268439589"/>
-        <entry endPc="268439811" name="today" stackId="4" startPc="268439589"/>
-        <entry endPc="268439811" name="timeString" stackId="5" startPc="268439589"/>
-        <entry endPc="268439811" name="bleResultsText" stackId="2" startPc="268439589"/>
-        <entry endPc="268439811" name="available" stackId="6" startPc="268439589"/>
-        <entry arg="true" endPc="268439812" name="dc" stackId="1" startPc="268439585"/>
-        <entry endPc="268440250" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268439928"/>
-        <entry endPc="268440250" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268439928"/>
-        <entry arg="true" endPc="268440251" name="dc" stackId="1" startPc="268439916"/>
-        <entry endPc="268440586" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268440264"/>
-        <entry endPc="268440586" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268440264"/>
-        <entry arg="true" endPc="268440587" name="dc" stackId="1" startPc="268440252"/>
-        <entry endPc="268440954" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268440600"/>
-        <entry endPc="268440954" name="rez_cmp_local_text_Text" stackId="2" startPc="268440600"/>
-        <entry arg="true" endPc="268440955" name="dc" stackId="1" startPc="268440588"/>
-        <entry endPc="268441290" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268440968"/>
-        <entry endPc="268441290" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268440968"/>
-        <entry arg="true" endPc="268441291" name="dc" stackId="1" startPc="268440956"/>
-        <entry endPc="268441626" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268441304"/>
-        <entry endPc="268441626" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268441304"/>
-        <entry arg="true" endPc="268441627" name="dc" stackId="1" startPc="268441292"/>
-        <entry endPc="268441962" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268441640"/>
-        <entry endPc="268441962" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268441640"/>
-        <entry arg="true" endPc="268441963" name="dc" stackId="1" startPc="268441628"/>
-        <entry endPc="268442298" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268441976"/>
-        <entry endPc="268442298" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268441976"/>
-        <entry arg="true" endPc="268442299" name="dc" stackId="1" startPc="268441964"/>
-        <entry endPc="268442634" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442312"/>
-        <entry endPc="268442634" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442312"/>
-        <entry arg="true" endPc="268442635" name="dc" stackId="1" startPc="268442300"/>
+        <entry endPc="268439852" name="timeText" stackId="3" startPc="268439589"/>
+        <entry endPc="268439852" name="today" stackId="5" startPc="268439589"/>
+        <entry endPc="268439852" name="timeString" stackId="6" startPc="268439589"/>
+        <entry endPc="268439852" name="bloodSugar" stackId="4" startPc="268439589"/>
+        <entry endPc="268439852" name="bleResultsText" stackId="2" startPc="268439589"/>
+        <entry endPc="268439852" name="available" stackId="7" startPc="268439589"/>
+        <entry arg="true" endPc="268439853" name="dc" stackId="1" startPc="268439585"/>
+        <entry endPc="268440291" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268439969"/>
+        <entry endPc="268440291" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268439969"/>
+        <entry arg="true" endPc="268440292" name="dc" stackId="1" startPc="268439957"/>
+        <entry endPc="268440813" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268440305"/>
+        <entry endPc="268440813" name="rez_cmp_local_text_BloodSugarLevel" stackId="4" startPc="268440305"/>
+        <entry endPc="268440813" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268440305"/>
+        <entry arg="true" endPc="268440814" name="dc" stackId="1" startPc="268440293"/>
+        <entry endPc="268441181" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268440827"/>
+        <entry endPc="268441181" name="rez_cmp_local_text_Text" stackId="2" startPc="268440827"/>
+        <entry arg="true" endPc="268441182" name="dc" stackId="1" startPc="268440815"/>
+        <entry endPc="268441517" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268441195"/>
+        <entry endPc="268441517" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268441195"/>
+        <entry arg="true" endPc="268441518" name="dc" stackId="1" startPc="268441183"/>
+        <entry endPc="268441853" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268441531"/>
+        <entry endPc="268441853" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268441531"/>
+        <entry arg="true" endPc="268441854" name="dc" stackId="1" startPc="268441519"/>
+        <entry endPc="268442189" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268441867"/>
+        <entry endPc="268442189" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268441867"/>
+        <entry arg="true" endPc="268442190" name="dc" stackId="1" startPc="268441855"/>
+        <entry endPc="268442525" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442203"/>
+        <entry endPc="268442525" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442203"/>
+        <entry arg="true" endPc="268442526" name="dc" stackId="1" startPc="268442191"/>
+        <entry endPc="268442861" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442539"/>
+        <entry endPc="268442861" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442539"/>
+        <entry arg="true" endPc="268442862" name="dc" stackId="1" startPc="268442527"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -561,7 +566,7 @@
         <functionEntry accessMode="public" endPc="268435955" name="onHide" parent="GlucometerAppView" startPc="268435951">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442896" name="&lt;init&gt;" parent="GlucometerAppView" startPc="268442878">
+        <functionEntry accessMode="protected" endPc="268443123" name="&lt;init&gt;" parent="GlucometerAppView" startPc="268443105">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435978" name="initialize" parent="BluetoothFetcherView" startPc="268435956">
@@ -578,7 +583,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443155" name="&lt;init&gt;" parent="BluetoothFetcherView" startPc="268443107">
+        <functionEntry accessMode="protected" endPc="268443382" name="&lt;init&gt;" parent="BluetoothFetcherView" startPc="268443334">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436368" name="initialize" parent="GlucometerAppDelegate" startPc="268436346">
@@ -587,7 +592,7 @@
         <functionEntry accessMode="public" endPc="268436427" name="onSelect" parent="GlucometerAppDelegate" startPc="268436369">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443174" name="&lt;init&gt;" parent="GlucometerAppDelegate" startPc="268443156">
+        <functionEntry accessMode="protected" endPc="268443401" name="&lt;init&gt;" parent="GlucometerAppDelegate" startPc="268443383">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436471" name="initialize" parent="InputStripDelegate" startPc="268436428">
@@ -596,7 +601,7 @@
         <functionEntry accessMode="public" endPc="268436572" name="onSelect" parent="InputStripDelegate" startPc="268436472">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443011" name="&lt;init&gt;" parent="InputStripDelegate" startPc="268442993">
+        <functionEntry accessMode="protected" endPc="268443238" name="&lt;init&gt;" parent="InputStripDelegate" startPc="268443220">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436595" name="initialize" parent="BluetoothFetcherDelegate" startPc="268436573">
@@ -606,7 +611,7 @@
             <param id="scanResults"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442877" name="&lt;init&gt;" parent="BluetoothFetcherDelegate" startPc="268442859">
+        <functionEntry accessMode="protected" endPc="268443104" name="&lt;init&gt;" parent="BluetoothFetcherDelegate" startPc="268443086">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436690" name="initialize" parent="GraphView" startPc="268436668">
@@ -623,7 +628,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442973" name="&lt;init&gt;" parent="GraphView" startPc="268442955">
+        <functionEntry accessMode="protected" endPc="268443200" name="&lt;init&gt;" parent="GraphView" startPc="268443182">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437000" name="initialize" parent="SettingsDelegate" startPc="268436978">
@@ -636,7 +641,7 @@
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442934" name="&lt;init&gt;" parent="SettingsDelegate" startPc="268442916">
+        <functionEntry accessMode="protected" endPc="268443161" name="&lt;init&gt;" parent="SettingsDelegate" startPc="268443143">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437159" name="initialize" parent="TestBloodView" startPc="268437116">
@@ -653,7 +658,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442915" name="&lt;init&gt;" parent="TestBloodView" startPc="268442897">
+        <functionEntry accessMode="protected" endPc="268443142" name="&lt;init&gt;" parent="TestBloodView" startPc="268443124">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437469" name="initialize" parent="GraphDelegate" startPc="268437447">
@@ -666,7 +671,7 @@
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443030" name="&lt;init&gt;" parent="GraphDelegate" startPc="268443012">
+        <functionEntry accessMode="protected" endPc="268443257" name="&lt;init&gt;" parent="GraphDelegate" startPc="268443239">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437765" name="initialize" parent="InputStripView" startPc="268437743">
@@ -683,7 +688,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442954" name="&lt;init&gt;" parent="InputStripView" startPc="268442936">
+        <functionEntry accessMode="protected" endPc="268443181" name="&lt;init&gt;" parent="InputStripView" startPc="268443163">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438226" name="initialize" parent="BluetoothFetcher" startPc="268438053">
@@ -692,7 +697,7 @@
         <functionEntry accessMode="public" endPc="268438313" name="fetchInfo" parent="BluetoothFetcher" startPc="268438227">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442935" name="&lt;init&gt;" parent="BluetoothFetcher" startPc="268442935">
+        <functionEntry accessMode="protected" endPc="268443162" name="&lt;init&gt;" parent="BluetoothFetcher" startPc="268443162">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438336" name="initialize" parent="InformationDelegate" startPc="268438314">
@@ -705,7 +710,7 @@
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442992" name="&lt;init&gt;" parent="InformationDelegate" startPc="268442974">
+        <functionEntry accessMode="protected" endPc="268443219" name="&lt;init&gt;" parent="InformationDelegate" startPc="268443201">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438546" name="initialize" parent="SettingsView" startPc="268438524">
@@ -722,7 +727,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443068" name="&lt;init&gt;" parent="SettingsView" startPc="268443050">
+        <functionEntry accessMode="protected" endPc="268443295" name="&lt;init&gt;" parent="SettingsView" startPc="268443277">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438856" name="initialize" parent="ConnectDeviceView" startPc="268438834">
@@ -739,7 +744,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443193" name="&lt;init&gt;" parent="ConnectDeviceView" startPc="268443175">
+        <functionEntry accessMode="protected" endPc="268443420" name="&lt;init&gt;" parent="ConnectDeviceView" startPc="268443402">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439166" name="initialize" parent="GlucometerAppApp" startPc="268439144">
@@ -756,7 +761,7 @@
         <functionEntry accessMode="public" endPc="268439272" name="getInitialView" parent="GlucometerAppApp" startPc="268439201">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442809" name="&lt;init&gt;" parent="GlucometerAppApp" startPc="268442791">
+        <functionEntry accessMode="protected" endPc="268443036" name="&lt;init&gt;" parent="GlucometerAppApp" startPc="268443018">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439301" name="getApp" startPc="268439273">
@@ -768,7 +773,7 @@
         <functionEntry accessMode="public" endPc="268439404" name="onSelect" parent="ConnectDeviceDelegate" startPc="268439325">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443049" name="&lt;init&gt;" parent="ConnectDeviceDelegate" startPc="268443031">
+        <functionEntry accessMode="protected" endPc="268443276" name="&lt;init&gt;" parent="ConnectDeviceDelegate" startPc="268443258">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439427" name="initialize" parent="GlucometerAppMenuDelegate" startPc="268439405">
@@ -778,7 +783,7 @@
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443106" name="&lt;init&gt;" parent="GlucometerAppMenuDelegate" startPc="268443088">
+        <functionEntry accessMode="protected" endPc="268443333" name="&lt;init&gt;" parent="GlucometerAppMenuDelegate" startPc="268443315">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439525" name="initialize" parent="InformationView" startPc="268439503">
@@ -791,79 +796,79 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439812" name="onUpdate" parent="InformationView" startPc="268439585">
+        <functionEntry accessMode="public" endPc="268439853" name="onUpdate" parent="InformationView" startPc="268439585">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442790" name="&lt;init&gt;" parent="InformationView" startPc="268442772">
+        <functionEntry accessMode="protected" endPc="268443017" name="&lt;init&gt;" parent="InformationView" startPc="268442999">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439835" name="initialize" parent="TestBloodDelegate" startPc="268439813">
+        <functionEntry accessMode="public" endPc="268439876" name="initialize" parent="TestBloodDelegate" startPc="268439854">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439915" name="onSelect" parent="TestBloodDelegate" startPc="268439836">
+        <functionEntry accessMode="public" endPc="268439956" name="onSelect" parent="TestBloodDelegate" startPc="268439877">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268443087" name="&lt;init&gt;" parent="TestBloodDelegate" startPc="268443069">
+        <functionEntry accessMode="protected" endPc="268443314" name="&lt;init&gt;" parent="TestBloodDelegate" startPc="268443296">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442834" name="&lt;init&gt;" parent="Drawables" startPc="268442834">
+        <functionEntry accessMode="protected" endPc="268443061" name="&lt;init&gt;" parent="Drawables" startPc="268443061">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442855" name="&lt;init&gt;" parent="Fonts" startPc="268442855">
+        <functionEntry accessMode="protected" endPc="268443082" name="&lt;init&gt;" parent="Fonts" startPc="268443082">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442857" name="&lt;init&gt;" parent="JsonData" startPc="268442857">
+        <functionEntry accessMode="protected" endPc="268443084" name="&lt;init&gt;" parent="JsonData" startPc="268443084">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440251" name="Settings" parent="Layouts" startPc="268439916">
+        <functionEntry accessMode="public" endPc="268440292" name="Settings" parent="Layouts" startPc="268439957">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440587" name="Information" parent="Layouts" startPc="268440252">
+        <functionEntry accessMode="public" endPc="268440814" name="Information" parent="Layouts" startPc="268440293">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440955" name="MainLayout" parent="Layouts" startPc="268440588">
+        <functionEntry accessMode="public" endPc="268441182" name="MainLayout" parent="Layouts" startPc="268440815">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441291" name="PairingScreen" parent="Layouts" startPc="268440956">
+        <functionEntry accessMode="public" endPc="268441518" name="PairingScreen" parent="Layouts" startPc="268441183">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441627" name="Graph" parent="Layouts" startPc="268441292">
+        <functionEntry accessMode="public" endPc="268441854" name="Graph" parent="Layouts" startPc="268441519">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441963" name="InputStrip" parent="Layouts" startPc="268441628">
+        <functionEntry accessMode="public" endPc="268442190" name="InputStrip" parent="Layouts" startPc="268441855">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442299" name="TestBlood" parent="Layouts" startPc="268441964">
+        <functionEntry accessMode="public" endPc="268442526" name="TestBlood" parent="Layouts" startPc="268442191">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442635" name="ConnectDevice" parent="Layouts" startPc="268442300">
+        <functionEntry accessMode="public" endPc="268442862" name="ConnectDevice" parent="Layouts" startPc="268442527">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442856" name="&lt;init&gt;" parent="Layouts" startPc="268442856">
+        <functionEntry accessMode="protected" endPc="268443083" name="&lt;init&gt;" parent="Layouts" startPc="268443083">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442770" name="initialize" parent="MainMenu" startPc="268442636">
+        <functionEntry accessMode="public" endPc="268442997" name="initialize" parent="MainMenu" startPc="268442863">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442854" name="&lt;init&gt;" parent="MainMenu" startPc="268442836">
+        <functionEntry accessMode="protected" endPc="268443081" name="&lt;init&gt;" parent="MainMenu" startPc="268443063">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442835" name="&lt;init&gt;" parent="Menus" startPc="268442835">
+        <functionEntry accessMode="protected" endPc="268443062" name="&lt;init&gt;" parent="Menus" startPc="268443062">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442858" name="&lt;init&gt;" parent="Strings" startPc="268442858">
+        <functionEntry accessMode="protected" endPc="268443085" name="&lt;init&gt;" parent="Strings" startPc="268443085">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268442833" name="&lt;init&gt;" parent="Rez" startPc="268442810">
+        <functionEntry accessMode="protected" endPc="268443060" name="&lt;init&gt;" parent="Rez" startPc="268443037">
             <documentation/>
         </functionEntry>
     </functions>

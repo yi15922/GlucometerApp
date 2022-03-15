@@ -1,5 +1,6 @@
 <layout id="Information"> 
     <label id="TimeDisplay" x="center" y="30" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
     <label id="PairingResult" x="center" y="center" font = "Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="BloodSugarLevel" x="10" y="center" text="0" font = "Graphics.FONT_TINY" color="Graphics.COLOR_BLUE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
 
