@@ -34,7 +34,6 @@ class BluetoothFetcher extends Ble.BleDelegate {
     const FETCHER_STATE_FINISHED = "Measurement done."; 
 
     var connectionState = FETCHER_STATE_SEARCHING; 
-    var glucoseConcentration = 0; 
 
     private function debug(str) {
 		System.println("[ble] " + str);
@@ -84,11 +83,13 @@ class BluetoothFetcher extends Ble.BleDelegate {
     /* 
         This function is called by a BLE notify, and it will
         update the scanning variable to keep track of scan 
-        state. 
+        state. Also notifies the connectionCallback of the 
+        scanning state. 
     */
     function onScanStateChange(scanState, status) {
 		debug("scanstate: " + scanState + " " + status);
 		if (scanState == Ble.SCAN_STATE_SCANNING) {
+            connectionCallback.invoke(FETCHER_STATE_SEARCHING); 
 			scanning = true;
 		} else {
 			scanning = false;
@@ -147,20 +148,23 @@ class BluetoothFetcher extends Ble.BleDelegate {
         This function is called by a BLE notify when 
         a listened characteristic is changed. In this case
         the function receives a glucose value in the form of
-        a byte array, which is sent to glucoseValueCallback. 
+        a byte array, which is decoded and sent to handleBLEValue. 
+        The result of handleBLEValue is then sent to glucoseValueCallback
+        as a string.  
     */
     function onCharacteristicChanged(ch, value) {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
-        glucoseConcentration = BG; 
-		glucoseValueCallback.invoke(value); 
+        var callbackString = handleBLEValue(BG);  
+		glucoseValueCallback.invoke(callbackString); 
 	}
 
     /* 
         If a device is connected successfully, this function
         will keep track of this device as a local variable. It 
         will also set the CCCD value to 1 for asynch notifications
-        and invoke connectionCallback. 
+        and invokes connectionCallback to notify this new connection
+        state. 
     */
     function onConnectedStateChanged(device, state) {
 		debug("connected: " + device.getName() + " " + state);
@@ -168,7 +172,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
 			self.device = device;
             setGlucoseNotifications(1); 
             connectionState = FETCHER_STATE_CONNECTED; 
-            connectionCallback.invoke(); 
+            connectionCallback.invoke(connectionState); 
 		} else {
 			self.device = null;
 		}
@@ -245,9 +249,14 @@ class BluetoothFetcher extends Ble.BleDelegate {
         "Awaiting blood" state and the value 65535 is reserved 
         for the "Blood detected" state. Any value other than those
         two will be interpreted as a valid glucose concentration
-        measured in mg/dL. 
+        measured in mg/dL. Once a glucose value is interpreted, 
+        closes the fetcher to prevent further overwriting of 
+        the data. 
+
+        This method returns a string representing either the 
+        glucometer state or the glucose concentration. 
     */
-    function handleBLEValue() { 
+    private function handleBLEValue(glucoseConcentration) { 
         var outputString = ""; 
         if (connectionState == FETCHER_STATE_SEARCHING){ 
             return outputString; 
@@ -259,8 +268,8 @@ class BluetoothFetcher extends Ble.BleDelegate {
             outputString = "Blood detected! \nPlease wait..."; 
         } else { 
             outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
-            //bleFetcher.close(); 
             connectionState = FETCHER_STATE_FINISHED; 
+            close(); 
         }
         return outputString;
     }

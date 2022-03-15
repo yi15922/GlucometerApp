@@ -1,234 +1,237 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/manifest.xml"/>
+    <manifest filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="1" lineNum="7" parent="globals/GlucometerAppMenuDelegate" pc="268435456" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="1" lineNum="8" parent="globals/GlucometerAppMenuDelegate" pc="268435460" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="2" lineNum="11" parent="globals/GlucometerAppMenuDelegate" pc="268435479" symbol="onMenuItem"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="2" lineNum="12" parent="globals/GlucometerAppMenuDelegate" pc="268435483" symbol="onMenuItem"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="2" lineNum="13" parent="globals/GlucometerAppMenuDelegate" pc="268435494" symbol="onMenuItem"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="2" lineNum="14" parent="globals/GlucometerAppMenuDelegate" pc="268435518" symbol="onMenuItem"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="2" lineNum="15" parent="globals/GlucometerAppMenuDelegate" pc="268435529" symbol="onMenuItem"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="3" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268439267" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="3" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268439267" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="5" lineNum="27" parent="globals/BluetoothFetcherView" pc="268435554" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="5" lineNum="28" parent="globals/BluetoothFetcherView" pc="268435558" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="5" lineNum="29" parent="globals/BluetoothFetcherView" pc="268435576" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="5" lineNum="30" parent="globals/BluetoothFetcherView" pc="268435638" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="5" lineNum="31" parent="globals/BluetoothFetcherView" pc="268435662" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="6" lineNum="35" parent="globals/BluetoothFetcherView" pc="268435681" symbol="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="6" lineNum="36" parent="globals/BluetoothFetcherView" pc="268435685" symbol="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="7" lineNum="40" parent="globals/BluetoothFetcherView" pc="268435698" symbol="onLayout"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="7" lineNum="41" parent="globals/BluetoothFetcherView" pc="268435702" symbol="onLayout"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="50" parent="globals/BluetoothFetcherView" pc="268435740" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="52" parent="globals/BluetoothFetcherView" pc="268435744" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="53" parent="globals/BluetoothFetcherView" pc="268435768" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="54" parent="globals/BluetoothFetcherView" pc="268435792" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="55" parent="globals/BluetoothFetcherView" pc="268435836" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="57" parent="globals/BluetoothFetcherView" pc="268435860" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="68" parent="globals/BluetoothFetcherView" pc="268435936" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="69" parent="globals/BluetoothFetcherView" pc="268435965" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="70" parent="globals/BluetoothFetcherView" pc="268435979" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="71" parent="globals/BluetoothFetcherView" pc="268436008" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="8" lineNum="74" parent="globals/BluetoothFetcherView" pc="268436040" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="9" lineNum="82" parent="globals/BluetoothFetcherView" pc="268436061" symbol="updateConnectionState"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="9" lineNum="83" parent="globals/BluetoothFetcherView" pc="268436065" symbol="updateConnectionState"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="10" lineNum="92" parent="globals/BluetoothFetcherView" pc="268436078" symbol="updateGlucoseValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="10" lineNum="93" parent="globals/BluetoothFetcherView" pc="268436082" symbol="updateGlucoseValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="11" lineNum="99" parent="globals/BluetoothFetcherView" pc="268436095" symbol="onHide"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="11" lineNum="100" parent="globals/BluetoothFetcherView" pc="268436099" symbol="onHide"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="12" lineNum="16" parent="globals/BluetoothFetcherView" pc="268439487" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcherView.mc" id="12" lineNum="16" parent="globals/BluetoothFetcherView" pc="268439487" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="14" lineNum="9" parent="globals/GlucometerAppView" pc="268436118" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="14" lineNum="10" parent="globals/GlucometerAppView" pc="268436122" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="15" lineNum="13" parent="globals/GlucometerAppView" pc="268436141" symbol="timerCallback"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="15" lineNum="14" parent="globals/GlucometerAppView" pc="268436145" symbol="timerCallback"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="16" lineNum="22" parent="globals/GlucometerAppView" pc="268436158" symbol="onLayout"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="16" lineNum="23" parent="globals/GlucometerAppView" pc="268436162" symbol="onLayout"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="16" lineNum="24" parent="globals/GlucometerAppView" pc="268436199" symbol="onLayout"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="16" lineNum="25" parent="globals/GlucometerAppView" pc="268436227" symbol="onLayout"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="17" lineNum="31" parent="globals/GlucometerAppView" pc="268436263" symbol="onShow"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="38" parent="globals/GlucometerAppView" pc="268436268" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="41" parent="globals/GlucometerAppView" pc="268436272" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="42" parent="globals/GlucometerAppView" pc="268436291" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="43" parent="globals/GlucometerAppView" pc="268436335" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="52" parent="globals/GlucometerAppView" pc="268436413" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="54" parent="globals/GlucometerAppView" pc="268436437" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="18" lineNum="56" parent="globals/GlucometerAppView" pc="268436451" symbol="onUpdate"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="19" lineNum="63" parent="globals/GlucometerAppView" pc="268436472" symbol="onHide"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="20" lineNum="7" parent="globals/GlucometerAppView" pc="268439305" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppView.mc" id="20" lineNum="7" parent="globals/GlucometerAppView" pc="268439305" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="22" lineNum="7" parent="globals/GlucometerAppApp" pc="268436477" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="22" lineNum="8" parent="globals/GlucometerAppApp" pc="268436481" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="23" lineNum="12" parent="globals/GlucometerAppApp" pc="268436500" symbol="onStart"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="24" lineNum="17" parent="globals/GlucometerAppApp" pc="268436505" symbol="onStop"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="25" lineNum="21" parent="globals/GlucometerAppApp" pc="268436510" symbol="getInitialView"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="25" lineNum="22" parent="globals/GlucometerAppApp" pc="268436514" symbol="getInitialView"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="26" lineNum="5" parent="globals/GlucometerAppApp" pc="268439506" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="26" lineNum="5" parent="globals/GlucometerAppApp" pc="268439506" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="27" lineNum="27" parent="globals" pc="268436582" symbol="getApp"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppApp.mc" id="27" lineNum="28" parent="globals" pc="268436594" symbol="getApp"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="29" lineNum="39" parent="globals/BluetoothFetcher" pc="268436611" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="29" lineNum="40" parent="globals/BluetoothFetcher" pc="268436615" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="30" lineNum="48" parent="globals/BluetoothFetcher" pc="268436640" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="30" lineNum="49" parent="globals/BluetoothFetcher" pc="268436644" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="30" lineNum="50" parent="globals/BluetoothFetcher" pc="268436661" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="30" lineNum="51" parent="globals/BluetoothFetcher" pc="268436679" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="30" lineNum="52" parent="globals/BluetoothFetcher" pc="268436689" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="31" lineNum="56" parent="globals/BluetoothFetcher" pc="268436700" symbol="onProfileRegister"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="31" lineNum="57" parent="globals/BluetoothFetcher" pc="268436704" symbol="onProfileRegister"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="65" parent="globals/BluetoothFetcher" pc="268436734" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="66" parent="globals/BluetoothFetcher" pc="268436738" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="67" parent="globals/BluetoothFetcher" pc="268436749" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="68" parent="globals/BluetoothFetcher" pc="268436766" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="70" parent="globals/BluetoothFetcher" pc="268436770" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="80" parent="globals/BluetoothFetcher" pc="268436868" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="32" lineNum="81" parent="globals/BluetoothFetcher" pc="268436878" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="33" lineNum="89" parent="globals/BluetoothFetcher" pc="268436897" symbol="onScanStateChange"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="33" lineNum="90" parent="globals/BluetoothFetcher" pc="268436901" symbol="onScanStateChange"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="33" lineNum="91" parent="globals/BluetoothFetcher" pc="268436930" symbol="onScanStateChange"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="33" lineNum="92" parent="globals/BluetoothFetcher" pc="268436948" symbol="onScanStateChange"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="33" lineNum="94" parent="globals/BluetoothFetcher" pc="268436961" symbol="onScanStateChange"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="34" lineNum="103" parent="globals/BluetoothFetcher" pc="268436972" symbol="startScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="34" lineNum="104" parent="globals/BluetoothFetcher" pc="268436976" symbol="startScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="34" lineNum="105" parent="globals/BluetoothFetcher" pc="268436993" symbol="startScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="34" lineNum="106" parent="globals/BluetoothFetcher" pc="268437005" symbol="startScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="35" lineNum="110" parent="globals/BluetoothFetcher" pc="268437034" symbol="stopScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="35" lineNum="111" parent="globals/BluetoothFetcher" pc="268437038" symbol="stopScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="35" lineNum="112" parent="globals/BluetoothFetcher" pc="268437049" symbol="stopScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="35" lineNum="113" parent="globals/BluetoothFetcher" pc="268437077" symbol="stopScan"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="36" lineNum="121" parent="globals/BluetoothFetcher" pc="268437098" symbol="close"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="36" lineNum="122" parent="globals/BluetoothFetcher" pc="268437102" symbol="close"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="36" lineNum="123" parent="globals/BluetoothFetcher" pc="268437114" symbol="close"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="36" lineNum="124" parent="globals/BluetoothFetcher" pc="268437125" symbol="close"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="37" lineNum="131" parent="globals/BluetoothFetcher" pc="268437153" symbol="getConnectedDeviceName"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="37" lineNum="132" parent="globals/BluetoothFetcher" pc="268437157" symbol="getConnectedDeviceName"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="37" lineNum="133" parent="globals/BluetoothFetcher" pc="268437168" symbol="getConnectedDeviceName"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="38" lineNum="140" parent="globals/BluetoothFetcher" pc="268437190" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="38" lineNum="141" parent="globals/BluetoothFetcher" pc="268437194" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="38" lineNum="142" parent="globals/BluetoothFetcher" pc="268437211" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="38" lineNum="143" parent="globals/BluetoothFetcher" pc="268437223" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="39" lineNum="152" parent="globals/BluetoothFetcher" pc="268437242" symbol="onCharacteristicChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="39" lineNum="153" parent="globals/BluetoothFetcher" pc="268437246" symbol="onCharacteristicChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="39" lineNum="154" parent="globals/BluetoothFetcher" pc="268437284" symbol="onCharacteristicChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="39" lineNum="155" parent="globals/BluetoothFetcher" pc="268437344" symbol="onCharacteristicChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="39" lineNum="156" parent="globals/BluetoothFetcher" pc="268437354" symbol="onCharacteristicChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="165" parent="globals/BluetoothFetcher" pc="268437375" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="166" parent="globals/BluetoothFetcher" pc="268437379" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="167" parent="globals/BluetoothFetcher" pc="268437417" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="168" parent="globals/BluetoothFetcher" pc="268437435" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="169" parent="globals/BluetoothFetcher" pc="268437445" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="170" parent="globals/BluetoothFetcher" pc="268437462" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="171" parent="globals/BluetoothFetcher" pc="268437478" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="40" lineNum="173" parent="globals/BluetoothFetcher" pc="268437499" symbol="onConnectedStateChanged"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="41" lineNum="181" parent="globals/BluetoothFetcher" pc="268437509" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="41" lineNum="182" parent="globals/BluetoothFetcher" pc="268437513" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="41" lineNum="183" parent="globals/BluetoothFetcher" pc="268437533" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="192" parent="globals/BluetoothFetcher" pc="268437570" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="193" parent="globals/BluetoothFetcher" pc="268437574" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="194" parent="globals/BluetoothFetcher" pc="268437574" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="195" parent="globals/BluetoothFetcher" pc="268437574" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="197" parent="globals/BluetoothFetcher" pc="268437574" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="198" parent="globals/BluetoothFetcher" pc="268437587" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="199" parent="globals/BluetoothFetcher" pc="268437604" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="201" parent="globals/BluetoothFetcher" pc="268437608" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="203" parent="globals/BluetoothFetcher" pc="268437628" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="204" parent="globals/BluetoothFetcher" pc="268437655" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="205" parent="globals/BluetoothFetcher" pc="268437676" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="42" lineNum="206" parent="globals/BluetoothFetcher" pc="268437697" symbol="setGlucoseNotifications"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="216" parent="globals/BluetoothFetcher" pc="268437745" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="217" parent="globals/BluetoothFetcher" pc="268437749" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="218" parent="globals/BluetoothFetcher" pc="268437766" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="219" parent="globals/BluetoothFetcher" pc="268437766" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="220" parent="globals/BluetoothFetcher" pc="268437766" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="221" parent="globals/BluetoothFetcher" pc="268437786" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="222" parent="globals/BluetoothFetcher" pc="268437799" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="223" parent="globals/BluetoothFetcher" pc="268437818" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="224" parent="globals/BluetoothFetcher" pc="268437831" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="225" parent="globals/BluetoothFetcher" pc="268437844" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="227" parent="globals/BluetoothFetcher" pc="268437857" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="229" parent="globals/BluetoothFetcher" pc="268437901" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="230" parent="globals/BluetoothFetcher" pc="268437921" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="231" parent="globals/BluetoothFetcher" pc="268437941" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="232" parent="globals/BluetoothFetcher" pc="268437963" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="43" lineNum="233" parent="globals/BluetoothFetcher" pc="268437977" symbol="onScanResults"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="250" parent="globals/BluetoothFetcher" pc="268438014" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="251" parent="globals/BluetoothFetcher" pc="268438018" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="252" parent="globals/BluetoothFetcher" pc="268438025" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="253" parent="globals/BluetoothFetcher" pc="268438045" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="256" parent="globals/BluetoothFetcher" pc="268438051" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="257" parent="globals/BluetoothFetcher" pc="268438068" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="258" parent="globals/BluetoothFetcher" pc="268438078" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="259" parent="globals/BluetoothFetcher" pc="268438095" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="261" parent="globals/BluetoothFetcher" pc="268438105" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="263" parent="globals/BluetoothFetcher" pc="268438149" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="44" lineNum="265" parent="globals/BluetoothFetcher" pc="268438165" symbol="handleBLEValue"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="45" lineNum="268" parent="globals/BluetoothFetcher" pc="268438169" symbol="getConnectionState"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="45" lineNum="269" parent="globals/BluetoothFetcher" pc="268438173" symbol="getConnectionState"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="46" lineNum="15" parent="globals/BluetoothFetcher" pc="268439373" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="46" lineNum="18" parent="globals/BluetoothFetcher" pc="268439391" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="46" lineNum="19" parent="globals/BluetoothFetcher" pc="268439419" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="46" lineNum="20" parent="globals/BluetoothFetcher" pc="268439447" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="46" lineNum="36" parent="globals/BluetoothFetcher" pc="268439470" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/BluetoothFetcher.mc" id="46" lineNum="15" parent="globals/BluetoothFetcher" pc="268439373" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="48" lineNum="6" parent="globals/GlucometerAppDelegate" pc="268438183" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="48" lineNum="7" parent="globals/GlucometerAppDelegate" pc="268438187" symbol="initialize"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="49" lineNum="15" parent="globals/GlucometerAppDelegate" pc="268438206" symbol="onSelect"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="49" lineNum="16" parent="globals/GlucometerAppDelegate" pc="268438210" symbol="onSelect"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="49" lineNum="17" parent="globals/GlucometerAppDelegate" pc="268438261" symbol="onSelect"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="50" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268439286" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/onomeakinbode-james/Desktop/Glucometer/GlucometerApp/source/GlucometerAppDelegate.mc" id="50" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268439286" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="52" lineNum="2" parent="globals/Rez/Drawables" pc="268439348" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="53" lineNum="7" parent="globals/Rez/Fonts" pc="268439369" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="54" lineNum="9" parent="globals/Rez/JsonData" pc="268439371" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="55" lineNum="18" parent="globals/Rez/Layouts" pc="268438265" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="20" parent="globals/Rez/Layouts" pc="268438277" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="21" parent="globals/Rez/Layouts" pc="268438459" symbol="MainLayout"/>
-        <entry filename="Rez" id="55" lineNum="23" parent="globals/Rez/Layouts" pc="268438592" symbol="MainLayout"/>
-        <entry filename="Rez" id="56" lineNum="32" parent="globals/Rez/Layouts" pc="268438620" symbol="PairingScreen"/>
-        <entry filename="Rez" id="56" lineNum="34" parent="globals/Rez/Layouts" pc="268438632" symbol="PairingScreen"/>
-        <entry filename="Rez" id="56" lineNum="35" parent="globals/Rez/Layouts" pc="268438765" symbol="PairingScreen"/>
-        <entry filename="Rez" id="56" lineNum="36" parent="globals/Rez/Layouts" pc="268438898" symbol="PairingScreen"/>
-        <entry filename="Rez" id="56" lineNum="38" parent="globals/Rez/Layouts" pc="268439093" symbol="PairingScreen"/>
-        <entry filename="Rez" id="57" lineNum="11" parent="globals/Rez/Layouts" pc="268439370" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="58" lineNum="52" parent="globals/Rez/Menus/MainMenu" pc="268439131" symbol="initialize"/>
-        <entry filename="Rez" id="58" lineNum="53" parent="globals/Rez/Menus/MainMenu" pc="268439135" symbol="initialize"/>
-        <entry filename="Rez" id="58" lineNum="54" parent="globals/Rez/Menus/MainMenu" pc="268439153" symbol="initialize"/>
-        <entry filename="Rez" id="58" lineNum="55" parent="globals/Rez/Menus/MainMenu" pc="268439209" symbol="initialize"/>
-        <entry filename="Rez" id="59" lineNum="50" parent="globals/Rez/Menus/MainMenu" pc="268439350" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="59" lineNum="50" parent="globals/Rez/Menus/MainMenu" pc="268439350" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="60" lineNum="43" parent="globals/Rez/Menus" pc="268439349" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="61" lineNum="61" parent="globals/Rez/Strings" pc="268439372" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="62" lineNum="1" parent="globals/Rez" pc="268439324" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="62" lineNum="1" parent="globals/Rez" pc="268439324" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="1" lineNum="38" parent="globals/BluetoothFetcher" pc="268435456" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="1" lineNum="39" parent="globals/BluetoothFetcher" pc="268435460" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="2" lineNum="47" parent="globals/BluetoothFetcher" pc="268435485" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="2" lineNum="48" parent="globals/BluetoothFetcher" pc="268435489" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="2" lineNum="49" parent="globals/BluetoothFetcher" pc="268435506" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="2" lineNum="50" parent="globals/BluetoothFetcher" pc="268435524" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="2" lineNum="51" parent="globals/BluetoothFetcher" pc="268435534" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="3" lineNum="55" parent="globals/BluetoothFetcher" pc="268435545" symbol="onProfileRegister"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="3" lineNum="56" parent="globals/BluetoothFetcher" pc="268435549" symbol="onProfileRegister"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="64" parent="globals/BluetoothFetcher" pc="268435579" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="65" parent="globals/BluetoothFetcher" pc="268435583" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="66" parent="globals/BluetoothFetcher" pc="268435594" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="67" parent="globals/BluetoothFetcher" pc="268435611" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="69" parent="globals/BluetoothFetcher" pc="268435615" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="79" parent="globals/BluetoothFetcher" pc="268435713" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="4" lineNum="80" parent="globals/BluetoothFetcher" pc="268435723" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="5" lineNum="89" parent="globals/BluetoothFetcher" pc="268435742" symbol="onScanStateChange"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="5" lineNum="90" parent="globals/BluetoothFetcher" pc="268435746" symbol="onScanStateChange"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="5" lineNum="91" parent="globals/BluetoothFetcher" pc="268435775" symbol="onScanStateChange"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="5" lineNum="92" parent="globals/BluetoothFetcher" pc="268435793" symbol="onScanStateChange"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="5" lineNum="93" parent="globals/BluetoothFetcher" pc="268435819" symbol="onScanStateChange"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="5" lineNum="95" parent="globals/BluetoothFetcher" pc="268435832" symbol="onScanStateChange"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="6" lineNum="104" parent="globals/BluetoothFetcher" pc="268435843" symbol="startScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="6" lineNum="105" parent="globals/BluetoothFetcher" pc="268435847" symbol="startScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="6" lineNum="106" parent="globals/BluetoothFetcher" pc="268435864" symbol="startScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="6" lineNum="107" parent="globals/BluetoothFetcher" pc="268435876" symbol="startScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="7" lineNum="111" parent="globals/BluetoothFetcher" pc="268435905" symbol="stopScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="7" lineNum="112" parent="globals/BluetoothFetcher" pc="268435909" symbol="stopScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="7" lineNum="113" parent="globals/BluetoothFetcher" pc="268435920" symbol="stopScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="7" lineNum="114" parent="globals/BluetoothFetcher" pc="268435948" symbol="stopScan"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="8" lineNum="122" parent="globals/BluetoothFetcher" pc="268435969" symbol="close"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="8" lineNum="123" parent="globals/BluetoothFetcher" pc="268435973" symbol="close"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="8" lineNum="124" parent="globals/BluetoothFetcher" pc="268435985" symbol="close"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="8" lineNum="125" parent="globals/BluetoothFetcher" pc="268435996" symbol="close"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="9" lineNum="132" parent="globals/BluetoothFetcher" pc="268436024" symbol="getConnectedDeviceName"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="9" lineNum="133" parent="globals/BluetoothFetcher" pc="268436028" symbol="getConnectedDeviceName"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="9" lineNum="134" parent="globals/BluetoothFetcher" pc="268436039" symbol="getConnectedDeviceName"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="10" lineNum="141" parent="globals/BluetoothFetcher" pc="268436061" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="10" lineNum="142" parent="globals/BluetoothFetcher" pc="268436065" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="10" lineNum="143" parent="globals/BluetoothFetcher" pc="268436082" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="10" lineNum="144" parent="globals/BluetoothFetcher" pc="268436094" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="11" lineNum="155" parent="globals/BluetoothFetcher" pc="268436113" symbol="onCharacteristicChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="11" lineNum="156" parent="globals/BluetoothFetcher" pc="268436117" symbol="onCharacteristicChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="11" lineNum="157" parent="globals/BluetoothFetcher" pc="268436155" symbol="onCharacteristicChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="11" lineNum="158" parent="globals/BluetoothFetcher" pc="268436215" symbol="onCharacteristicChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="11" lineNum="159" parent="globals/BluetoothFetcher" pc="268436230" symbol="onCharacteristicChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="168" parent="globals/BluetoothFetcher" pc="268436251" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="169" parent="globals/BluetoothFetcher" pc="268436255" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="170" parent="globals/BluetoothFetcher" pc="268436293" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="171" parent="globals/BluetoothFetcher" pc="268436311" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="172" parent="globals/BluetoothFetcher" pc="268436321" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="173" parent="globals/BluetoothFetcher" pc="268436338" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="174" parent="globals/BluetoothFetcher" pc="268436354" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="12" lineNum="176" parent="globals/BluetoothFetcher" pc="268436383" symbol="onConnectedStateChanged"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="13" lineNum="184" parent="globals/BluetoothFetcher" pc="268436393" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="13" lineNum="185" parent="globals/BluetoothFetcher" pc="268436397" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="13" lineNum="186" parent="globals/BluetoothFetcher" pc="268436417" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="195" parent="globals/BluetoothFetcher" pc="268436454" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="196" parent="globals/BluetoothFetcher" pc="268436458" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="197" parent="globals/BluetoothFetcher" pc="268436458" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="198" parent="globals/BluetoothFetcher" pc="268436458" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="200" parent="globals/BluetoothFetcher" pc="268436458" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="201" parent="globals/BluetoothFetcher" pc="268436471" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="202" parent="globals/BluetoothFetcher" pc="268436488" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="204" parent="globals/BluetoothFetcher" pc="268436492" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="206" parent="globals/BluetoothFetcher" pc="268436512" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="207" parent="globals/BluetoothFetcher" pc="268436539" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="208" parent="globals/BluetoothFetcher" pc="268436560" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="14" lineNum="209" parent="globals/BluetoothFetcher" pc="268436581" symbol="setGlucoseNotifications"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="219" parent="globals/BluetoothFetcher" pc="268436629" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="220" parent="globals/BluetoothFetcher" pc="268436633" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="221" parent="globals/BluetoothFetcher" pc="268436650" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="222" parent="globals/BluetoothFetcher" pc="268436650" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="223" parent="globals/BluetoothFetcher" pc="268436650" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="224" parent="globals/BluetoothFetcher" pc="268436670" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="225" parent="globals/BluetoothFetcher" pc="268436683" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="226" parent="globals/BluetoothFetcher" pc="268436702" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="227" parent="globals/BluetoothFetcher" pc="268436715" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="228" parent="globals/BluetoothFetcher" pc="268436728" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="230" parent="globals/BluetoothFetcher" pc="268436741" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="232" parent="globals/BluetoothFetcher" pc="268436785" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="233" parent="globals/BluetoothFetcher" pc="268436805" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="234" parent="globals/BluetoothFetcher" pc="268436825" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="235" parent="globals/BluetoothFetcher" pc="268436847" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="15" lineNum="236" parent="globals/BluetoothFetcher" pc="268436861" symbol="onScanResults"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="256" parent="globals/BluetoothFetcher" pc="268436898" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="257" parent="globals/BluetoothFetcher" pc="268436902" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="258" parent="globals/BluetoothFetcher" pc="268436909" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="259" parent="globals/BluetoothFetcher" pc="268436929" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="262" parent="globals/BluetoothFetcher" pc="268436935" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="263" parent="globals/BluetoothFetcher" pc="268436946" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="264" parent="globals/BluetoothFetcher" pc="268436956" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="265" parent="globals/BluetoothFetcher" pc="268436967" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="267" parent="globals/BluetoothFetcher" pc="268436977" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="268" parent="globals/BluetoothFetcher" pc="268437015" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="269" parent="globals/BluetoothFetcher" pc="268437031" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="16" lineNum="271" parent="globals/BluetoothFetcher" pc="268437049" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="17" lineNum="274" parent="globals/BluetoothFetcher" pc="268437053" symbol="getConnectionState"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="17" lineNum="275" parent="globals/BluetoothFetcher" pc="268437057" symbol="getConnectionState"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="18" lineNum="15" parent="globals/BluetoothFetcher" pc="268439401" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="18" lineNum="18" parent="globals/BluetoothFetcher" pc="268439419" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="18" lineNum="19" parent="globals/BluetoothFetcher" pc="268439447" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="18" lineNum="20" parent="globals/BluetoothFetcher" pc="268439475" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="18" lineNum="36" parent="globals/BluetoothFetcher" pc="268439498" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="18" lineNum="15" parent="globals/BluetoothFetcher" pc="268439401" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="20" lineNum="29" parent="globals/BluetoothFetcherView" pc="268437067" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="20" lineNum="30" parent="globals/BluetoothFetcherView" pc="268437071" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="20" lineNum="31" parent="globals/BluetoothFetcherView" pc="268437089" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="20" lineNum="32" parent="globals/BluetoothFetcherView" pc="268437151" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="20" lineNum="33" parent="globals/BluetoothFetcherView" pc="268437175" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="21" lineNum="37" parent="globals/BluetoothFetcherView" pc="268437194" symbol="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="21" lineNum="38" parent="globals/BluetoothFetcherView" pc="268437198" symbol="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="22" lineNum="42" parent="globals/BluetoothFetcherView" pc="268437211" symbol="onLayout"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="22" lineNum="43" parent="globals/BluetoothFetcherView" pc="268437215" symbol="onLayout"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="52" parent="globals/BluetoothFetcherView" pc="268437253" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="54" parent="globals/BluetoothFetcherView" pc="268437257" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="55" parent="globals/BluetoothFetcherView" pc="268437281" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="56" parent="globals/BluetoothFetcherView" pc="268437305" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="57" parent="globals/BluetoothFetcherView" pc="268437349" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="59" parent="globals/BluetoothFetcherView" pc="268437373" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="70" parent="globals/BluetoothFetcherView" pc="268437449" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="71" parent="globals/BluetoothFetcherView" pc="268437469" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="72" parent="globals/BluetoothFetcherView" pc="268437483" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="23" lineNum="75" parent="globals/BluetoothFetcherView" pc="268437503" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="24" lineNum="83" parent="globals/BluetoothFetcherView" pc="268437524" symbol="updateConnectionState"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="24" lineNum="84" parent="globals/BluetoothFetcherView" pc="268437528" symbol="updateConnectionState"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="24" lineNum="85" parent="globals/BluetoothFetcherView" pc="268437538" symbol="updateConnectionState"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="25" lineNum="95" parent="globals/BluetoothFetcherView" pc="268437551" symbol="updateGlucoseValue"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="25" lineNum="96" parent="globals/BluetoothFetcherView" pc="268437555" symbol="updateGlucoseValue"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="25" lineNum="97" parent="globals/BluetoothFetcherView" pc="268437565" symbol="updateGlucoseValue"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="26" lineNum="103" parent="globals/BluetoothFetcherView" pc="268437578" symbol="onHide"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="26" lineNum="104" parent="globals/BluetoothFetcherView" pc="268437582" symbol="onHide"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="27" lineNum="16" parent="globals/BluetoothFetcherView" pc="268439382" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="27" lineNum="16" parent="globals/BluetoothFetcherView" pc="268439382" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="29" lineNum="9" parent="globals/GlucometerAppView" pc="268437601" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="29" lineNum="10" parent="globals/GlucometerAppView" pc="268437605" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="30" lineNum="13" parent="globals/GlucometerAppView" pc="268437624" symbol="timerCallback"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="30" lineNum="14" parent="globals/GlucometerAppView" pc="268437628" symbol="timerCallback"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="31" lineNum="22" parent="globals/GlucometerAppView" pc="268437641" symbol="onLayout"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="31" lineNum="23" parent="globals/GlucometerAppView" pc="268437645" symbol="onLayout"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="31" lineNum="24" parent="globals/GlucometerAppView" pc="268437682" symbol="onLayout"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="31" lineNum="25" parent="globals/GlucometerAppView" pc="268437710" symbol="onLayout"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="32" lineNum="31" parent="globals/GlucometerAppView" pc="268437746" symbol="onShow"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="38" parent="globals/GlucometerAppView" pc="268437751" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="41" parent="globals/GlucometerAppView" pc="268437755" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="42" parent="globals/GlucometerAppView" pc="268437774" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="43" parent="globals/GlucometerAppView" pc="268437818" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="52" parent="globals/GlucometerAppView" pc="268437896" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="54" parent="globals/GlucometerAppView" pc="268437920" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="33" lineNum="56" parent="globals/GlucometerAppView" pc="268437934" symbol="onUpdate"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="34" lineNum="63" parent="globals/GlucometerAppView" pc="268437955" symbol="onHide"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="35" lineNum="7" parent="globals/GlucometerAppView" pc="268439314" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="35" lineNum="7" parent="globals/GlucometerAppView" pc="268439314" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="37" lineNum="7" parent="globals/GlucometerAppMenuDelegate" pc="268437960" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="37" lineNum="8" parent="globals/GlucometerAppMenuDelegate" pc="268437964" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="38" lineNum="11" parent="globals/GlucometerAppMenuDelegate" pc="268437983" symbol="onMenuItem"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="38" lineNum="12" parent="globals/GlucometerAppMenuDelegate" pc="268437987" symbol="onMenuItem"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="38" lineNum="13" parent="globals/GlucometerAppMenuDelegate" pc="268437998" symbol="onMenuItem"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="38" lineNum="14" parent="globals/GlucometerAppMenuDelegate" pc="268438022" symbol="onMenuItem"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="38" lineNum="15" parent="globals/GlucometerAppMenuDelegate" pc="268438033" symbol="onMenuItem"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="39" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268439276" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="39" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268439276" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="41" lineNum="7" parent="globals/GlucometerAppApp" pc="268438058" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="41" lineNum="8" parent="globals/GlucometerAppApp" pc="268438062" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="42" lineNum="12" parent="globals/GlucometerAppApp" pc="268438081" symbol="onStart"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="43" lineNum="17" parent="globals/GlucometerAppApp" pc="268438086" symbol="onStop"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="44" lineNum="21" parent="globals/GlucometerAppApp" pc="268438091" symbol="getInitialView"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="44" lineNum="22" parent="globals/GlucometerAppApp" pc="268438095" symbol="getInitialView"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="45" lineNum="5" parent="globals/GlucometerAppApp" pc="268439515" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="45" lineNum="5" parent="globals/GlucometerAppApp" pc="268439515" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="46" lineNum="27" parent="globals" pc="268438163" symbol="getApp"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="46" lineNum="28" parent="globals" pc="268438175" symbol="getApp"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="48" lineNum="6" parent="globals/GlucometerAppDelegate" pc="268438192" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="48" lineNum="7" parent="globals/GlucometerAppDelegate" pc="268438196" symbol="initialize"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="49" lineNum="15" parent="globals/GlucometerAppDelegate" pc="268438215" symbol="onSelect"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="49" lineNum="16" parent="globals/GlucometerAppDelegate" pc="268438219" symbol="onSelect"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="49" lineNum="17" parent="globals/GlucometerAppDelegate" pc="268438270" symbol="onSelect"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="50" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268439295" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/a15922/Library/Mobile Documents/com~apple~CloudDocs/Duke Archive Spring 2022/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="50" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268439295" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="52" lineNum="2" parent="globals/Rez/Drawables" pc="268439357" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="53" lineNum="7" parent="globals/Rez/Fonts" pc="268439378" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="54" lineNum="9" parent="globals/Rez/JsonData" pc="268439380" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="55" lineNum="18" parent="globals/Rez/Layouts" pc="268438274" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="20" parent="globals/Rez/Layouts" pc="268438286" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="21" parent="globals/Rez/Layouts" pc="268438468" symbol="MainLayout"/>
+        <entry filename="Rez" id="55" lineNum="23" parent="globals/Rez/Layouts" pc="268438601" symbol="MainLayout"/>
+        <entry filename="Rez" id="56" lineNum="32" parent="globals/Rez/Layouts" pc="268438629" symbol="PairingScreen"/>
+        <entry filename="Rez" id="56" lineNum="34" parent="globals/Rez/Layouts" pc="268438641" symbol="PairingScreen"/>
+        <entry filename="Rez" id="56" lineNum="35" parent="globals/Rez/Layouts" pc="268438774" symbol="PairingScreen"/>
+        <entry filename="Rez" id="56" lineNum="36" parent="globals/Rez/Layouts" pc="268438907" symbol="PairingScreen"/>
+        <entry filename="Rez" id="56" lineNum="38" parent="globals/Rez/Layouts" pc="268439102" symbol="PairingScreen"/>
+        <entry filename="Rez" id="57" lineNum="11" parent="globals/Rez/Layouts" pc="268439379" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="58" lineNum="52" parent="globals/Rez/Menus/MainMenu" pc="268439140" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="53" parent="globals/Rez/Menus/MainMenu" pc="268439144" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="54" parent="globals/Rez/Menus/MainMenu" pc="268439162" symbol="initialize"/>
+        <entry filename="Rez" id="58" lineNum="55" parent="globals/Rez/Menus/MainMenu" pc="268439218" symbol="initialize"/>
+        <entry filename="Rez" id="59" lineNum="50" parent="globals/Rez/Menus/MainMenu" pc="268439359" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="59" lineNum="50" parent="globals/Rez/Menus/MainMenu" pc="268439359" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="60" lineNum="43" parent="globals/Rez/Menus" pc="268439358" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="61" lineNum="61" parent="globals/Rez/Strings" pc="268439381" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="62" lineNum="1" parent="globals/Rez" pc="268439333" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="62" lineNum="1" parent="globals/Rez" pc="268439333" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="10" object="true" symbol="BluetoothFetcherView"/>
         <entry id="8389346" symbol="text"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="37" symbol="glucoseValueCallback"/>
+        <entry field="true" id="43" symbol="glucoseValueCallback"/>
         <entry id="4" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="52" method="true" symbol="getConnectionState"/>
+        <entry id="57" method="true" symbol="getConnectionState"/>
         <entry id="21" method="true" symbol="MainLayout"/>
+        <entry field="true" id="29" symbol="bgDisplay"/>
         <entry id="8391342" symbol="endianness"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="30" symbol="GLUCOSE_CHAR_DESCRIPTOR"/>
+        <entry field="true" id="36" symbol="GLUCOSE_CHAR_DESCRIPTOR"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="34" symbol="deviceName"/>
+        <entry field="true" id="40" symbol="deviceName"/>
         <entry id="8391256" method="true" symbol="onScanResults"/>
-        <entry id="54" method="true" symbol="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;"/>
+        <entry id="31" method="true" symbol="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;"/>
         <entry field="true" id="27" symbol="AppName"/>
         <entry id="8391255" method="true" symbol="onScanStateChange"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="38" symbol="FETCHER_STATE_SEARCHING"/>
-        <entry field="true" id="36" symbol="connectionCallback"/>
+        <entry field="true" id="44" symbol="FETCHER_STATE_SEARCHING"/>
+        <entry field="true" id="42" symbol="connectionCallback"/>
         <entry field="true" id="18" symbol="button"/>
-        <entry id="50" method="true" symbol="setGlucoseNotifications"/>
+        <entry id="55" method="true" symbol="setGlucoseNotifications"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="55" method="true" symbol="updateConnectionState"/>
-        <entry field="true" id="42" symbol="glucoseConcentration"/>
+        <entry id="32" method="true" symbol="updateConnectionState"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry field="true" id="26" symbol="prompt"/>
         <entry id="8391340" symbol="descriptors"/>
@@ -239,38 +242,38 @@
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8391258" method="true" symbol="onConnectedStateChanged"/>
-        <entry id="58" symbol="item_2"/>
-        <entry id="57" symbol="item_1"/>
+        <entry id="59" symbol="item_2"/>
+        <entry id="58" symbol="item_1"/>
         <entry id="17" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="22" method="true" symbol="PairingScreen"/>
         <entry id="11" object="true" symbol="GlucometerAppView"/>
-        <entry field="true" id="39" symbol="FETCHER_STATE_CONNECTED"/>
+        <entry field="true" id="45" symbol="FETCHER_STATE_CONNECTED"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="46" method="true" symbol="stopScan"/>
+        <entry id="51" method="true" symbol="stopScan"/>
         <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="28" symbol="GLUCOSE_SERVICE"/>
+        <entry field="true" id="34" symbol="GLUCOSE_SERVICE"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="12" object="true" symbol="GlucometerAppApp"/>
-        <entry field="true" id="41" symbol="connectionState"/>
+        <entry id="13" object="true" symbol="GlucometerAppApp"/>
+        <entry field="true" id="47" symbol="connectionState"/>
         <entry id="20" object="true" symbol="MainMenu"/>
         <entry field="true" id="23" symbol="waitingGlucose"/>
-        <entry id="49" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
+        <entry id="54" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;"/>
         <entry id="8391337" symbol="offset"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8391257" method="true" symbol="onProfileRegister"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="32" symbol="scanning"/>
-        <entry field="true" id="35" symbol="profileRegistered"/>
-        <entry id="9" object="true" symbol="GlucometerAppMenuDelegate"/>
+        <entry field="true" id="38" symbol="scanning"/>
+        <entry field="true" id="41" symbol="profileRegistered"/>
+        <entry id="12" object="true" symbol="GlucometerAppMenuDelegate"/>
         <entry id="15" method="true" symbol="timerCallback"/>
-        <entry field="true" id="31" symbol="GLUCOMETER_NAME"/>
-        <entry field="true" id="29" symbol="GLUCOSE_CHARACTERISTIC"/>
+        <entry field="true" id="37" symbol="GLUCOMETER_NAME"/>
+        <entry field="true" id="35" symbol="GLUCOSE_CHARACTERISTIC"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="14" object="true" symbol="GlucometerAppDelegate"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
@@ -280,89 +283,93 @@
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8391334" symbol="uuid"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="43" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;"/>
+        <entry id="48" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;"/>
         <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="30" symbol="bleConnectionState"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="13" object="true" symbol="BluetoothFetcher"/>
-        <entry id="47" method="true" symbol="getConnectedDeviceName"/>
+        <entry id="9" object="true" symbol="BluetoothFetcher"/>
+        <entry id="52" method="true" symbol="getConnectedDeviceName"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
-        <entry id="48" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
+        <entry id="53" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry id="8389347" symbol="color"/>
         <entry id="8391341" symbol="characteristics"/>
-        <entry field="true" id="33" symbol="device"/>
-        <entry field="true" id="53" symbol="bleFetcher"/>
+        <entry field="true" id="39" symbol="device"/>
+        <entry field="true" id="28" symbol="bleFetcher"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
         <entry id="16" module="true" symbol="Layouts"/>
-        <entry field="true" id="40" symbol="FETCHER_STATE_FINISHED"/>
+        <entry field="true" id="46" symbol="FETCHER_STATE_FINISHED"/>
         <entry id="8389257" method="true" symbol="close"/>
-        <entry id="56" method="true" symbol="updateGlucoseValue"/>
-        <entry id="45" method="true" symbol="startScan"/>
+        <entry id="33" method="true" symbol="updateGlucoseValue"/>
+        <entry id="56" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;"/>
+        <entry id="50" method="true" symbol="startScan"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="44" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
+        <entry id="49" method="true" symbol="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;"/>
         <entry field="true" id="25" symbol="menu_label_2"/>
         <entry field="true" id="24" symbol="menu_label_1"/>
-        <entry id="51" method="true" symbol="handleBLEValue"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435553" name="item" stackId="1" startPc="268435479"/>
-        <entry arg="true" endPc="268435739" name="dc" stackId="1" startPc="268435698"/>
-        <entry endPc="268436059" name="timeText" stackId="3" startPc="268435744"/>
-        <entry endPc="268436059" name="today" stackId="4" startPc="268435744"/>
-        <entry endPc="268436059" name="timeString" stackId="6" startPc="268435744"/>
-        <entry endPc="268436059" name="glucoseText" stackId="5" startPc="268435744"/>
-        <entry endPc="268436059" name="bleResultsText" stackId="2" startPc="268435744"/>
-        <entry arg="true" endPc="268436060" name="dc" stackId="1" startPc="268435740"/>
-        <entry arg="true" endPc="268436094" name="value" stackId="1" startPc="268436078"/>
-        <entry endPc="268436261" name="myTimer" stackId="2" startPc="268436162"/>
-        <entry arg="true" endPc="268436262" name="dc" stackId="1" startPc="268436158"/>
-        <entry endPc="268436470" name="timeText" stackId="5" startPc="268436272"/>
-        <entry endPc="268436470" name="today" stackId="3" startPc="268436272"/>
-        <entry endPc="268436470" name="timeString" stackId="4" startPc="268436272"/>
-        <entry endPc="268436470" name="clockTime" stackId="2" startPc="268436272"/>
-        <entry arg="true" endPc="268436471" name="dc" stackId="1" startPc="268436268"/>
-        <entry arg="true" endPc="268436504" name="state" stackId="1" startPc="268436500"/>
-        <entry arg="true" endPc="268436509" name="state" stackId="1" startPc="268436505"/>
-        <entry arg="true" endPc="268436639" name="str" stackId="1" startPc="268436611"/>
-        <entry arg="true" endPc="268436699" name="glucoseValueCallbackMethod" stackId="2" startPc="268436640"/>
-        <entry arg="true" endPc="268436699" name="connectionCallbackMethod" stackId="1" startPc="268436640"/>
-        <entry arg="true" endPc="268436733" name="status" stackId="2" startPc="268436700"/>
-        <entry arg="true" endPc="268436733" name="uuid" stackId="1" startPc="268436700"/>
-        <entry endPc="268436895" name="profile" stackId="1" startPc="268436738"/>
-        <entry arg="true" endPc="268436971" name="status" stackId="2" startPc="268436897"/>
-        <entry arg="true" endPc="268436971" name="scanState" stackId="1" startPc="268436897"/>
-        <entry arg="true" endPc="268437241" name="result" stackId="1" startPc="268437190"/>
-        <entry endPc="268437373" name="BG" stackId="3" startPc="268437246"/>
-        <entry arg="true" endPc="268437374" name="ch" stackId="1" startPc="268437242"/>
-        <entry arg="true" endPc="268437374" name="value" stackId="2" startPc="268437242"/>
-        <entry arg="true" endPc="268437508" name="device" stackId="1" startPc="268437375"/>
-        <entry arg="true" endPc="268437508" name="state" stackId="2" startPc="268437375"/>
-        <entry endPc="268437568" name="x" stackId="2" startPc="268437533"/>
-        <entry arg="true" endPc="268437569" name="iter" stackId="1" startPc="268437509"/>
-        <entry endPc="268437743" name="service" stackId="2" startPc="268437574"/>
-        <entry endPc="268437743" name="ch" stackId="3" startPc="268437574"/>
-        <entry endPc="268437743" name="desc" stackId="4" startPc="268437574"/>
-        <entry arg="true" endPc="268437744" name="value" stackId="1" startPc="268437570"/>
-        <entry endPc="268437996" name="foundID" stackId="9" startPc="268437921"/>
-        <entry endPc="268438012" name="result" stackId="8" startPc="268437786"/>
-        <entry endPc="268438012" name="service" stackId="7" startPc="268437749"/>
-        <entry endPc="268438012" name="appearance" stackId="2" startPc="268437749"/>
-        <entry endPc="268438012" name="name" stackId="3" startPc="268437749"/>
-        <entry endPc="268438012" name="uuids" stackId="6" startPc="268437749"/>
-        <entry endPc="268438012" name="rssi" stackId="4" startPc="268437749"/>
-        <entry endPc="268438012" name="mfg" stackId="5" startPc="268437749"/>
-        <entry arg="true" endPc="268438013" name="scanResults" stackId="1" startPc="268437745"/>
-        <entry endPc="268438167" name="outputString" stackId="1" startPc="268438018"/>
-        <entry endPc="268438618" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268438277"/>
-        <entry endPc="268438618" name="rez_cmp_local_text_1802847225" stackId="2" startPc="268438277"/>
-        <entry arg="true" endPc="268438619" name="dc" stackId="1" startPc="268438265"/>
-        <entry endPc="268439129" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268438632"/>
-        <entry endPc="268439129" name="rez_cmp_local_text_GlucoseValue" stackId="4" startPc="268438632"/>
-        <entry endPc="268439129" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268438632"/>
-        <entry arg="true" endPc="268439130" name="dc" stackId="1" startPc="268438620"/>
+        <entry arg="true" endPc="268435484" name="str" stackId="1" startPc="268435456"/>
+        <entry arg="true" endPc="268435544" name="glucoseValueCallbackMethod" stackId="2" startPc="268435485"/>
+        <entry arg="true" endPc="268435544" name="connectionCallbackMethod" stackId="1" startPc="268435485"/>
+        <entry arg="true" endPc="268435578" name="status" stackId="2" startPc="268435545"/>
+        <entry arg="true" endPc="268435578" name="uuid" stackId="1" startPc="268435545"/>
+        <entry endPc="268435740" name="profile" stackId="1" startPc="268435583"/>
+        <entry arg="true" endPc="268435842" name="status" stackId="2" startPc="268435742"/>
+        <entry arg="true" endPc="268435842" name="scanState" stackId="1" startPc="268435742"/>
+        <entry arg="true" endPc="268436112" name="result" stackId="1" startPc="268436061"/>
+        <entry endPc="268436249" name="BG" stackId="3" startPc="268436117"/>
+        <entry endPc="268436249" name="callbackString" stackId="4" startPc="268436117"/>
+        <entry arg="true" endPc="268436250" name="ch" stackId="1" startPc="268436113"/>
+        <entry arg="true" endPc="268436250" name="value" stackId="2" startPc="268436113"/>
+        <entry arg="true" endPc="268436392" name="device" stackId="1" startPc="268436251"/>
+        <entry arg="true" endPc="268436392" name="state" stackId="2" startPc="268436251"/>
+        <entry endPc="268436452" name="x" stackId="2" startPc="268436417"/>
+        <entry arg="true" endPc="268436453" name="iter" stackId="1" startPc="268436393"/>
+        <entry endPc="268436627" name="service" stackId="2" startPc="268436458"/>
+        <entry endPc="268436627" name="ch" stackId="3" startPc="268436458"/>
+        <entry endPc="268436627" name="desc" stackId="4" startPc="268436458"/>
+        <entry arg="true" endPc="268436628" name="value" stackId="1" startPc="268436454"/>
+        <entry endPc="268436880" name="foundID" stackId="9" startPc="268436805"/>
+        <entry endPc="268436896" name="result" stackId="8" startPc="268436670"/>
+        <entry endPc="268436896" name="service" stackId="7" startPc="268436633"/>
+        <entry endPc="268436896" name="appearance" stackId="2" startPc="268436633"/>
+        <entry endPc="268436896" name="name" stackId="3" startPc="268436633"/>
+        <entry endPc="268436896" name="uuids" stackId="6" startPc="268436633"/>
+        <entry endPc="268436896" name="rssi" stackId="4" startPc="268436633"/>
+        <entry endPc="268436896" name="mfg" stackId="5" startPc="268436633"/>
+        <entry arg="true" endPc="268436897" name="scanResults" stackId="1" startPc="268436629"/>
+        <entry endPc="268437051" name="outputString" stackId="2" startPc="268436902"/>
+        <entry arg="true" endPc="268437052" name="glucoseConcentration" stackId="1" startPc="268436898"/>
+        <entry arg="true" endPc="268437252" name="dc" stackId="1" startPc="268437211"/>
+        <entry endPc="268437522" name="timeText" stackId="3" startPc="268437257"/>
+        <entry endPc="268437522" name="today" stackId="4" startPc="268437257"/>
+        <entry endPc="268437522" name="timeString" stackId="6" startPc="268437257"/>
+        <entry endPc="268437522" name="glucoseText" stackId="5" startPc="268437257"/>
+        <entry endPc="268437522" name="bleResultsText" stackId="2" startPc="268437257"/>
+        <entry arg="true" endPc="268437523" name="dc" stackId="1" startPc="268437253"/>
+        <entry arg="true" endPc="268437550" name="connectionState" stackId="1" startPc="268437524"/>
+        <entry arg="true" endPc="268437577" name="value" stackId="1" startPc="268437551"/>
+        <entry endPc="268437744" name="myTimer" stackId="2" startPc="268437645"/>
+        <entry arg="true" endPc="268437745" name="dc" stackId="1" startPc="268437641"/>
+        <entry endPc="268437953" name="timeText" stackId="5" startPc="268437755"/>
+        <entry endPc="268437953" name="today" stackId="3" startPc="268437755"/>
+        <entry endPc="268437953" name="timeString" stackId="4" startPc="268437755"/>
+        <entry endPc="268437953" name="clockTime" stackId="2" startPc="268437755"/>
+        <entry arg="true" endPc="268437954" name="dc" stackId="1" startPc="268437751"/>
+        <entry arg="true" endPc="268438057" name="item" stackId="1" startPc="268437983"/>
+        <entry arg="true" endPc="268438085" name="state" stackId="1" startPc="268438081"/>
+        <entry arg="true" endPc="268438090" name="state" stackId="1" startPc="268438086"/>
+        <entry endPc="268438627" name="rez_cmp_local_text_7003941641" stackId="2" startPc="268438286"/>
+        <entry endPc="268438627" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268438286"/>
+        <entry arg="true" endPc="268438628" name="dc" stackId="1" startPc="268438274"/>
+        <entry endPc="268439138" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268438641"/>
+        <entry endPc="268439138" name="rez_cmp_local_text_GlucoseValue" stackId="4" startPc="268438641"/>
+        <entry endPc="268439138" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268438641"/>
+        <entry arg="true" endPc="268439139" name="dc" stackId="1" startPc="268438629"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="button"/>
@@ -386,202 +393,204 @@
         <dataEntry label="globals/Rez/Layouts" offset="630" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/JsonData" offset="677" parentId="Rez" symbolId="JsonData" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="708" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/BluetoothFetcher" offset="779" parentId="globals" symbolId="BluetoothFetcher" type="class"/>
-        <dataEntry label="globals/BluetoothFetcherView" offset="1074" parentId="globals" symbolId="BluetoothFetcherView" type="class"/>
-        <dataEntry label="globals/GlucometerAppApp" offset="1177" parentId="globals" symbolId="GlucometerAppApp" type="class"/>
+        <dataEntry label="globals/BluetoothFetcherView" offset="779" parentId="globals" symbolId="BluetoothFetcherView" type="class"/>
+        <dataEntry label="globals/BluetoothFetcher" offset="898" parentId="globals" symbolId="BluetoothFetcher" type="class"/>
+        <dataEntry label="globals/GlucometerAppApp" offset="1185" parentId="globals" symbolId="GlucometerAppApp" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435478" name="initialize" parent="GlucometerAppMenuDelegate" startPc="268435456">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435553" name="onMenuItem" parent="GlucometerAppMenuDelegate" startPc="268435479">
-            <param id="item"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439285" name="&lt;init&gt;" parent="GlucometerAppMenuDelegate" startPc="268439267">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435680" name="initialize" parent="BluetoothFetcherView" startPc="268435554">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="private" endPc="268435697" name="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;" parent="BluetoothFetcherView" startPc="268435681">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435739" name="onLayout" parent="BluetoothFetcherView" startPc="268435698">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436060" name="onUpdate" parent="BluetoothFetcherView" startPc="268435740">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436077" name="updateConnectionState" parent="BluetoothFetcherView" startPc="268436061">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436094" name="updateGlucoseValue" parent="BluetoothFetcherView" startPc="268436078">
-            <param id="value"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436117" name="onHide" parent="BluetoothFetcherView" startPc="268436095">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439505" name="&lt;init&gt;" parent="BluetoothFetcherView" startPc="268439487">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436140" name="initialize" parent="GlucometerAppView" startPc="268436118">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436157" name="timerCallback" parent="GlucometerAppView" startPc="268436141">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436262" name="onLayout" parent="GlucometerAppView" startPc="268436158">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436267" name="onShow" parent="GlucometerAppView" startPc="268436263">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436471" name="onUpdate" parent="GlucometerAppView" startPc="268436268">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436476" name="onHide" parent="GlucometerAppView" startPc="268436472">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439323" name="&lt;init&gt;" parent="GlucometerAppView" startPc="268439305">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436499" name="initialize" parent="GlucometerAppApp" startPc="268436477">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436504" name="onStart" parent="GlucometerAppApp" startPc="268436500">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436509" name="onStop" parent="GlucometerAppApp" startPc="268436505">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436581" name="getInitialView" parent="GlucometerAppApp" startPc="268436510">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439524" name="&lt;init&gt;" parent="GlucometerAppApp" startPc="268439506">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436610" name="getApp" startPc="268436582">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="private" endPc="268436639" name="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;" parent="BluetoothFetcher" startPc="268436611">
+        <functionEntry accessMode="private" endPc="268435484" name="&lt;globals/BluetoothFetcher/&lt;&gt;debug&gt;" parent="BluetoothFetcher" startPc="268435456">
             <param id="str"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436699" name="initialize" parent="BluetoothFetcher" startPc="268436640">
+        <functionEntry accessMode="public" endPc="268435544" name="initialize" parent="BluetoothFetcher" startPc="268435485">
             <param id="connectionCallbackMethod"/>
             <param id="glucoseValueCallbackMethod"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436733" name="onProfileRegister" parent="BluetoothFetcher" startPc="268436700">
+        <functionEntry accessMode="public" endPc="268435578" name="onProfileRegister" parent="BluetoothFetcher" startPc="268435545">
             <param id="uuid"/>
             <param id="status"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268436896" name="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;" parent="BluetoothFetcher" startPc="268436734">
+        <functionEntry accessMode="private" endPc="268435741" name="&lt;globals/BluetoothFetcher/&lt;&gt;registerProfiles&gt;" parent="BluetoothFetcher" startPc="268435579">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436971" name="onScanStateChange" parent="BluetoothFetcher" startPc="268436897">
+        <functionEntry accessMode="public" endPc="268435842" name="onScanStateChange" parent="BluetoothFetcher" startPc="268435742">
             <param id="scanState"/>
             <param id="status"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437033" name="startScan" parent="BluetoothFetcher" startPc="268436972">
+        <functionEntry accessMode="public" endPc="268435904" name="startScan" parent="BluetoothFetcher" startPc="268435843">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437097" name="stopScan" parent="BluetoothFetcher" startPc="268437034">
+        <functionEntry accessMode="public" endPc="268435968" name="stopScan" parent="BluetoothFetcher" startPc="268435905">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437152" name="close" parent="BluetoothFetcher" startPc="268437098">
+        <functionEntry accessMode="public" endPc="268436023" name="close" parent="BluetoothFetcher" startPc="268435969">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437189" name="getConnectedDeviceName" parent="BluetoothFetcher" startPc="268437153">
+        <functionEntry accessMode="public" endPc="268436060" name="getConnectedDeviceName" parent="BluetoothFetcher" startPc="268436024">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437241" name="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;" parent="BluetoothFetcher" startPc="268437190">
+        <functionEntry accessMode="private" endPc="268436112" name="&lt;globals/BluetoothFetcher/&lt;&gt;connect&gt;" parent="BluetoothFetcher" startPc="268436061">
             <param id="result"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437374" name="onCharacteristicChanged" parent="BluetoothFetcher" startPc="268437242">
+        <functionEntry accessMode="public" endPc="268436250" name="onCharacteristicChanged" parent="BluetoothFetcher" startPc="268436113">
             <param id="ch"/>
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437508" name="onConnectedStateChanged" parent="BluetoothFetcher" startPc="268437375">
+        <functionEntry accessMode="public" endPc="268436392" name="onConnectedStateChanged" parent="BluetoothFetcher" startPc="268436251">
             <param id="device"/>
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437569" name="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;" parent="BluetoothFetcher" startPc="268437509">
+        <functionEntry accessMode="private" endPc="268436453" name="&lt;globals/BluetoothFetcher/&lt;&gt;scanServiceUUID&gt;" parent="BluetoothFetcher" startPc="268436393">
             <param id="iter"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437744" name="setGlucoseNotifications" parent="BluetoothFetcher" startPc="268437570">
+        <functionEntry accessMode="public" endPc="268436628" name="setGlucoseNotifications" parent="BluetoothFetcher" startPc="268436454">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438013" name="onScanResults" parent="BluetoothFetcher" startPc="268437745">
+        <functionEntry accessMode="public" endPc="268436897" name="onScanResults" parent="BluetoothFetcher" startPc="268436629">
             <param id="scanResults"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438168" name="handleBLEValue" parent="BluetoothFetcher" startPc="268438014">
+        <functionEntry accessMode="private" endPc="268437052" name="&lt;globals/BluetoothFetcher/&lt;&gt;handleBLEValue&gt;" parent="BluetoothFetcher" startPc="268436898">
+            <param id="glucoseConcentration"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438182" name="getConnectionState" parent="BluetoothFetcher" startPc="268438169">
+        <functionEntry accessMode="public" endPc="268437066" name="getConnectionState" parent="BluetoothFetcher" startPc="268437053">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439486" name="&lt;init&gt;" parent="BluetoothFetcher" startPc="268439373">
+        <functionEntry accessMode="protected" endPc="268439514" name="&lt;init&gt;" parent="BluetoothFetcher" startPc="268439401">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438205" name="initialize" parent="GlucometerAppDelegate" startPc="268438183">
+        <functionEntry accessMode="public" endPc="268437193" name="initialize" parent="BluetoothFetcherView" startPc="268437067">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438264" name="onSelect" parent="GlucometerAppDelegate" startPc="268438206">
+        <functionEntry accessMode="private" endPc="268437210" name="&lt;globals/BluetoothFetcherView/&lt;&gt;timerCallback&gt;" parent="BluetoothFetcherView" startPc="268437194">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439304" name="&lt;init&gt;" parent="GlucometerAppDelegate" startPc="268439286">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439348" name="&lt;init&gt;" parent="Drawables" startPc="268439348">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439369" name="&lt;init&gt;" parent="Fonts" startPc="268439369">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439371" name="&lt;init&gt;" parent="JsonData" startPc="268439371">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438619" name="MainLayout" parent="Layouts" startPc="268438265">
+        <functionEntry accessMode="public" endPc="268437252" name="onLayout" parent="BluetoothFetcherView" startPc="268437211">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439130" name="PairingScreen" parent="Layouts" startPc="268438620">
+        <functionEntry accessMode="public" endPc="268437523" name="onUpdate" parent="BluetoothFetcherView" startPc="268437253">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439370" name="&lt;init&gt;" parent="Layouts" startPc="268439370">
+        <functionEntry accessMode="public" endPc="268437550" name="updateConnectionState" parent="BluetoothFetcherView" startPc="268437524">
+            <param id="connectionState"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439265" name="initialize" parent="MainMenu" startPc="268439131">
+        <functionEntry accessMode="public" endPc="268437577" name="updateGlucoseValue" parent="BluetoothFetcherView" startPc="268437551">
+            <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439368" name="&lt;init&gt;" parent="MainMenu" startPc="268439350">
+        <functionEntry accessMode="public" endPc="268437600" name="onHide" parent="BluetoothFetcherView" startPc="268437578">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439349" name="&lt;init&gt;" parent="Menus" startPc="268439349">
+        <functionEntry accessMode="protected" endPc="268439400" name="&lt;init&gt;" parent="BluetoothFetcherView" startPc="268439382">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439372" name="&lt;init&gt;" parent="Strings" startPc="268439372">
+        <functionEntry accessMode="public" endPc="268437623" name="initialize" parent="GlucometerAppView" startPc="268437601">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268439347" name="&lt;init&gt;" parent="Rez" startPc="268439324">
+        <functionEntry accessMode="public" endPc="268437640" name="timerCallback" parent="GlucometerAppView" startPc="268437624">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437745" name="onLayout" parent="GlucometerAppView" startPc="268437641">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437750" name="onShow" parent="GlucometerAppView" startPc="268437746">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437954" name="onUpdate" parent="GlucometerAppView" startPc="268437751">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437959" name="onHide" parent="GlucometerAppView" startPc="268437955">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439332" name="&lt;init&gt;" parent="GlucometerAppView" startPc="268439314">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437982" name="initialize" parent="GlucometerAppMenuDelegate" startPc="268437960">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438057" name="onMenuItem" parent="GlucometerAppMenuDelegate" startPc="268437983">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439294" name="&lt;init&gt;" parent="GlucometerAppMenuDelegate" startPc="268439276">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438080" name="initialize" parent="GlucometerAppApp" startPc="268438058">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438085" name="onStart" parent="GlucometerAppApp" startPc="268438081">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438090" name="onStop" parent="GlucometerAppApp" startPc="268438086">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438162" name="getInitialView" parent="GlucometerAppApp" startPc="268438091">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439533" name="&lt;init&gt;" parent="GlucometerAppApp" startPc="268439515">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438191" name="getApp" startPc="268438163">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438214" name="initialize" parent="GlucometerAppDelegate" startPc="268438192">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438273" name="onSelect" parent="GlucometerAppDelegate" startPc="268438215">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439313" name="&lt;init&gt;" parent="GlucometerAppDelegate" startPc="268439295">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439357" name="&lt;init&gt;" parent="Drawables" startPc="268439357">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439378" name="&lt;init&gt;" parent="Fonts" startPc="268439378">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439380" name="&lt;init&gt;" parent="JsonData" startPc="268439380">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438628" name="MainLayout" parent="Layouts" startPc="268438274">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439139" name="PairingScreen" parent="Layouts" startPc="268438629">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439379" name="&lt;init&gt;" parent="Layouts" startPc="268439379">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439274" name="initialize" parent="MainMenu" startPc="268439140">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439377" name="&lt;init&gt;" parent="MainMenu" startPc="268439359">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439358" name="&lt;init&gt;" parent="Menus" startPc="268439358">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439381" name="&lt;init&gt;" parent="Strings" startPc="268439381">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268439356" name="&lt;init&gt;" parent="Rez" startPc="268439333">
             <documentation/>
         </functionEntry>
     </functions>

@@ -17,6 +17,8 @@ class BluetoothFetcherView extends WatchUi.View {
 
 
     var bleFetcher = null; 
+    var bgDisplay = ""; 
+    var bleConnectionState = ""; 
 
     
     /* 
@@ -45,7 +47,7 @@ class BluetoothFetcherView extends WatchUi.View {
 
     /* 
         On view update, update the current time as well as any other 
-        BLE dependent parameters that have changed. 
+        BLE dependent parameters that may have changed. 
     */
     function onUpdate(dc){ 
         
@@ -65,31 +67,33 @@ class BluetoothFetcherView extends WatchUi.View {
         );
         
 
-        bleResultsText.setText(bleFetcher.getConnectionState()); 
+        bleResultsText.setText(bleConnectionState); 
         timeText.setText(timeString); 
-        if (bleFetcher.getConnectionState() != FETCHER_STATE_FINISHED){ 
-            glucoseText.setText(bleFetcher.handleBLEValue()); 
-        }
+        glucoseText.setText(bgDisplay); 
+        
 
         View.onUpdate(dc); 
     }
 
     /* 
         Callback function for the onConnectStateChanged() call
-        in the BleDelegate. Updates the connection state and 
-        refreshes the UI. 
+        in the BleDelegate. Receives and updates the connection 
+        state and refreshes the UI. 
     */
-    function updateConnectionState(){ 
+    function updateConnectionState(connectionState){ 
+        bleConnectionState = connectionState; 
         self.requestUpdate(); 
     }
 
     /*
          Callback function for the onCharacteristicChanged() call
-         in the BleDelegate. The value received is a byte array, which
-         is decoded into an unsigned 16-bit integer and stored in 
-         glucoseConcentration. Also refreshes the UI. 
+         in the BleDelegate. The value received is a string representation
+         of either the glucometer state or the glucose concentration. It 
+         sets the value of bgDisplay to the string received and refreshes 
+         the UI. 
     */
     function updateGlucoseValue(value) { 
+        bgDisplay = value; 
         self.requestUpdate(); 
     }
     /* 
