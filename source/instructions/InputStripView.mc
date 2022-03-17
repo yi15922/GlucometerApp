@@ -9,6 +9,8 @@ import Toybox.BluetoothLowEnergy;
 
 class InputStripView extends WatchUi.View { 
     
+    var flip = true;
+
     function initialize() { 
         View.initialize();
     }
@@ -22,6 +24,14 @@ class InputStripView extends WatchUi.View {
     }
 
     function onUpdate(dc){ 
+
+        View.onUpdate(dc); 
+
+        flip = !flip;
+
+        if(flip){
+            dc.drawBitmap(210-65, 210+50, WatchUi.loadResource(Rez.Drawables.TestStrip));
+        }
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -42,7 +52,6 @@ class InputStripView extends WatchUi.View {
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
 
-        View.onUpdate(dc); 
     }
 
 }

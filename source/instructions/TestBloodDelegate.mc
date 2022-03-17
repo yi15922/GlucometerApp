@@ -8,7 +8,7 @@ class TestBloodDelegate extends WatchUi.BehaviorDelegate{
     }
 
     function onSelect() as Boolean {
-        WatchUi.pushView(new InformationView(), new InformationDelegate(), WatchUi.SLIDE_UP);
+        WatchUi.switchToView(new InformationView(), new InformationDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 }

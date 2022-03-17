@@ -8,9 +8,10 @@ import Toybox.Time.Gregorian;
 import Toybox.BluetoothLowEnergy; 
 
 class TestBloodView extends WatchUi.View { 
+
+    var flip = true;
     
     function initialize() { 
-        System.print("GOT HERE");
         View.initialize();
     }
 
@@ -23,6 +24,15 @@ class TestBloodView extends WatchUi.View {
     }
 
     function onUpdate(dc){ 
+
+        View.onUpdate(dc); 
+
+        dc.drawBitmap(210-65, 210+50, WatchUi.loadResource(Rez.Drawables.TestStrip));
+        flip = !flip;
+
+        if(flip){
+            dc.drawBitmap(210+40, 210+20, WatchUi.loadResource(Rez.Drawables.Blood));
+        }
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -42,8 +52,6 @@ class TestBloodView extends WatchUi.View {
 
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
-
-        View.onUpdate(dc); 
     }
 
 }

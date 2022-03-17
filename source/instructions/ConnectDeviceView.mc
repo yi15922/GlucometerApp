@@ -7,7 +7,9 @@ import Toybox.Time;
 import Toybox.Time.Gregorian;
 import Toybox.BluetoothLowEnergy; 
 
-class ConnectDeviceView extends WatchUi.View { 
+class ConnectDeviceView extends WatchUi.View {
+
+    var flip = true; 
     
     function initialize() { 
         View.initialize();
@@ -19,9 +21,18 @@ class ConnectDeviceView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.ConnectDevice(dc));
+        var myTimer = new Timer.Timer(); 
+        myTimer.start(method(:timerCallback), 1000, true); 
     }
 
     function onUpdate(dc){ 
+        View.onUpdate(dc);
+
+        flip = !flip;
+
+        if(flip){
+            dc.drawBitmap(210-50, 210+15, WatchUi.loadResource(Rez.Drawables.Bluetooth));
+        }
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -42,7 +53,6 @@ class ConnectDeviceView extends WatchUi.View {
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
 
-        View.onUpdate(dc); 
     }
 
 }

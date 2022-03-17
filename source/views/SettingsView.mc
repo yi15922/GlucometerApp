@@ -9,6 +9,8 @@ import Toybox.BluetoothLowEnergy;
 
 class SettingsView extends WatchUi.View { 
     
+    var design = new BaseDesign();
+    
     function initialize() { 
         View.initialize();
     }
@@ -22,6 +24,8 @@ class SettingsView extends WatchUi.View {
     }
 
     function onUpdate(dc){ 
+        View.onUpdate(dc);
+        design.menuDots(dc, 3);
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -42,7 +46,6 @@ class SettingsView extends WatchUi.View {
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
 
-        View.onUpdate(dc); 
     }
 
 }
