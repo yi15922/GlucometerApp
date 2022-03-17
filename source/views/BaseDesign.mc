@@ -14,14 +14,13 @@ class BaseDesign {
     var white = Graphics.COLOR_WHITE;
 
     function menuDots(dc as Dc, menu_value) as Void {
-        System.println(menu_value);
-        dc.setColor(menu_value == 1 ? white : gray, Graphics.COLOR_WHITE);
+        dc.setColor(menu_value == 1 ? white : gray, Graphics.COLOR_BLACK);
         dc.fillCircle(10, VENU2_CENTER-20, 8);
-        dc.setColor(menu_value == 2 ? white : gray, Graphics.COLOR_WHITE);
+        dc.setColor(menu_value == 2 ? white : gray, Graphics.COLOR_BLACK);
         dc.fillCircle(10, VENU2_CENTER, 8);
-        dc.setColor(menu_value == 3 ? white : gray, Graphics.COLOR_WHITE);
+        dc.setColor(menu_value == 3 ? white : gray, Graphics.COLOR_BLACK);
         dc.fillCircle(10, VENU2_CENTER+20, 8);
-        dc.setColor(white, Graphics.COLOR_WHITE);
+        dc.setColor(white, Graphics.COLOR_BLACK);
     }
 
     function upArrow(dc as Dc) as Void {
@@ -38,4 +37,17 @@ class BaseDesign {
         dc.drawLine(VENU2_CENTER+20, VENU2_CENTER+150, VENU2_CENTER, VENU2_CENTER+150);
     }
 
+    function graph(dc as Dc, bsVals) as Void {
+        dc.setPenWidth(2);
+        dc.drawLine(100, VENU2_CENTER*2-80, 100, 120);
+        dc.drawLine(100, VENU2_CENTER*2-80, VENU2_CENTER*2-100, VENU2_CENTER*2-80);
+        dc.drawText(95, 115, Graphics.FONT_XTINY, "mg/dL", Graphics.TEXT_JUSTIFY_CENTER);
+        var offset = (VENU2_CENTER*2-200)/(bsVals.size()+2);
+        var currX = 100 + offset;
+        dc.setColor(white, Graphics.COLOR_BLACK);
+        for(var i = 0; i<bsVals.size(); i++){
+            dc.fillCircle(currX, VENU2_CENTER*2-80-bsVals[i], 3);
+            currX += offset;
+        }
+    }
 }

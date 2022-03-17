@@ -26,6 +26,7 @@ class GraphView extends WatchUi.View {
     function onUpdate(dc){ 
         View.onUpdate(dc);
         design.menuDots(dc, 2);
+        design.graph(dc, [100, 80, 150, 200, 180]);
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -41,10 +42,14 @@ class GraphView extends WatchUi.View {
             ]
         );
 
-        var available = "Graph"; 
+        var available = ""; 
 
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
+    }
+
+    function buildGraph(dc){
+
     }
 
 }
