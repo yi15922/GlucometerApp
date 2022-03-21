@@ -32,7 +32,4 @@ class BluetoothFetcher {
         return [UUID, availCount]; 
     }
 
-
-
-
 }
