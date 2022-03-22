@@ -11,6 +11,7 @@ import Toybox.Application.Storage;
 class GraphView extends WatchUi.View { 
     
     var design = new BaseDesign();
+    var currGraphValues = new [10];
 
     function initialize() { 
         View.initialize();
@@ -22,13 +23,15 @@ class GraphView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Graph(dc));
-        getRecentReadings();
+        setRecentReadings();
+        currGraphValues = getTenMostRecentReadings();
     }
 
     function onUpdate(dc){ 
         View.onUpdate(dc);
         design.menuDots(dc, 2);
-        design.graph(dc, [100, 80, 150, 200, 180]);
+        // design.graph(dc, [100, 80, 150, 200, 180]);
+        design.graph(dc,currGraphValues);
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -50,31 +53,48 @@ class GraphView extends WatchUi.View {
         timeText.setText(timeString); 
     }
 
-    function getRecentReadings() as Void {
-        Storage.setValue("number", 2);
-        System.println("Set number to 2");
-        Storage.setValue("float", 3.14);
-        System.println("Set float to 3.14");
-        Storage.setValue("string", "Hello World!");
-        System.println("Set string to \"Hello World!\"");
-        Storage.setValue("boolean1", false);
-        System.println("Set boolean to true");
+    function getTenMostRecentReadings() as Lang.Array<Lang.Number or Null> {
+        var arr = new [10];
+        arr[0] = Storage.getValue("0");
+        arr[1] = Storage.getValue("1");
+        arr[2] = Storage.getValue("2");
+        arr[3] = Storage.getValue("3");
+        arr[4] = Storage.getValue("4");
+        arr[5] = Storage.getValue("5");
+        arr[6] = Storage.getValue("6");
+        arr[7] = Storage.getValue("7");
+        arr[8] = Storage.getValue("8");
+        arr[9] = Storage.getValue("9");
+        return arr;
+    }
 
-        var int = Storage.getValue("number");
-        System.print("Found number to be ");
-        System.println(int);
-        var float = Storage.getValue("float");
-        System.print("Found float to be ");
-        System.println(float);
-        var string = Storage.getValue("string");
-        System.print("Found string to be ");
-        System.println(string);
-        var boolean = Storage.getValue("boolean");
-        System.print("Found boolean to be ");
-        System.println(boolean);
-        var boolean1 = Storage.getValue("boolean1");
-        System.print("Found boolean1 to be ");
-        System.println(boolean1);
+    function setRecentReadings() as Void {
+        Storage.setValue("0", 110);
+        Storage.setValue("1", 100);
+        Storage.setValue("2", 80);
+        Storage.setValue("3", 90);
+        Storage.setValue("4", 130);
+        Storage.setValue("5", 120);
+        Storage.setValue("6", 150);
+        Storage.setValue("7", 110);
+        Storage.setValue("8", 70);
+        Storage.setValue("9", 65);
+    }
+
+    function setLowValue() as Void {
+        Storage.setValue("low", 70);
+    }
+
+    function getLowValue() as Lang.Number {
+        return Storage.getValue("low");
+    }
+
+    function setHighValue() as Void {
+        Storage.setValue("high", 150);
+    }
+
+    function getHighValue() as Lang.Number {
+        return Storage.getValue("high");
     }
 
     function buildGraph(dc){
