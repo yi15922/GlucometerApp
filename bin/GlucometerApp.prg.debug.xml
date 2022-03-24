@@ -22,8 +22,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="4" lineNum="51" parent="globals/ConnectDeviceView" pc="268435881" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="4" lineNum="53" parent="globals/ConnectDeviceView" pc="268435888" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="4" lineNum="54" parent="globals/ConnectDeviceView" pc="268435902" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="5" lineNum="10" parent="globals/ConnectDeviceView" pc="268445812" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="5" lineNum="10" parent="globals/ConnectDeviceView" pc="268445812" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="5" lineNum="10" parent="globals/ConnectDeviceView" pc="268445862" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceView.mc" id="5" lineNum="10" parent="globals/ConnectDeviceView" pc="268445862" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="7" lineNum="7" parent="globals/GlucometerAppMenuDelegate" pc="268435917" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="7" lineNum="8" parent="globals/GlucometerAppMenuDelegate" pc="268435921" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="8" lineNum="11" parent="globals/GlucometerAppMenuDelegate" pc="268435940" symbol="onMenuItem"/>
@@ -31,8 +31,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="8" lineNum="13" parent="globals/GlucometerAppMenuDelegate" pc="268435955" symbol="onMenuItem"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="8" lineNum="14" parent="globals/GlucometerAppMenuDelegate" pc="268435979" symbol="onMenuItem"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="8" lineNum="15" parent="globals/GlucometerAppMenuDelegate" pc="268435990" symbol="onMenuItem"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="9" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268445725" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="9" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268445725" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="9" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268445775" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppMenuDelegate.mc" id="9" lineNum="5" parent="globals/GlucometerAppMenuDelegate" pc="268445775" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="11" lineNum="7" parent="globals/GlucometerAppApp" pc="268436015" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="11" lineNum="8" parent="globals/GlucometerAppApp" pc="268436019" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="12" lineNum="12" parent="globals/GlucometerAppApp" pc="268436038" symbol="onStart"/>
@@ -40,8 +40,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="13" lineNum="17" parent="globals/GlucometerAppApp" pc="268436067" symbol="onStop"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="14" lineNum="21" parent="globals/GlucometerAppApp" pc="268436072" symbol="getInitialView"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="14" lineNum="22" parent="globals/GlucometerAppApp" pc="268436076" symbol="getInitialView"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="15" lineNum="5" parent="globals/GlucometerAppApp" pc="268445264" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="15" lineNum="5" parent="globals/GlucometerAppApp" pc="268445264" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="15" lineNum="5" parent="globals/GlucometerAppApp" pc="268445314" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="15" lineNum="5" parent="globals/GlucometerAppApp" pc="268445314" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="16" lineNum="27" parent="globals" pc="268436144" symbol="getApp"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppApp.mc" id="16" lineNum="28" parent="globals" pc="268436156" symbol="getApp"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="18" lineNum="14" parent="globals/TestBloodView" pc="268436173" symbol="initialize"/>
@@ -63,8 +63,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="21" lineNum="51" parent="globals/TestBloodView" pc="268436592" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="21" lineNum="53" parent="globals/TestBloodView" pc="268436599" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="21" lineNum="54" parent="globals/TestBloodView" pc="268436613" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="22" lineNum="10" parent="globals/TestBloodView" pc="268445419" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="22" lineNum="10" parent="globals/TestBloodView" pc="268445419" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="22" lineNum="10" parent="globals/TestBloodView" pc="268445469" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodView.mc" id="22" lineNum="10" parent="globals/TestBloodView" pc="268445469" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="24" lineNum="11" parent="globals/GlucometerAppView" pc="268436628" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="24" lineNum="12" parent="globals/GlucometerAppView" pc="268436632" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="25" lineNum="15" parent="globals/GlucometerAppView" pc="268436651" symbol="timerCallback"/>
@@ -89,8 +89,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="30" lineNum="64" parent="globals/GlucometerAppView" pc="268437108" symbol="setBloodSugar"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="30" lineNum="65" parent="globals/GlucometerAppView" pc="268437112" symbol="setBloodSugar"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="31" lineNum="71" parent="globals/GlucometerAppView" pc="268437123" symbol="onHide"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="32" lineNum="7" parent="globals/GlucometerAppView" pc="268445400" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="32" lineNum="7" parent="globals/GlucometerAppView" pc="268445400" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="32" lineNum="7" parent="globals/GlucometerAppView" pc="268445450" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppView.mc" id="32" lineNum="7" parent="globals/GlucometerAppView" pc="268445450" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="34" lineNum="6" parent="globals/GraphDelegate" pc="268437128" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="34" lineNum="7" parent="globals/GraphDelegate" pc="268437132" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="35" lineNum="10" parent="globals/GraphDelegate" pc="268437151" symbol="onSelect"/>
@@ -103,16 +103,16 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="36" lineNum="20" parent="globals/GraphDelegate" pc="268437334" symbol="onSwipe"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="36" lineNum="21" parent="globals/GraphDelegate" pc="268437345" symbol="onSwipe"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="36" lineNum="23" parent="globals/GraphDelegate" pc="268437376" symbol="onSwipe"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="37" lineNum="5" parent="globals/GraphDelegate" pc="268445619" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="37" lineNum="5" parent="globals/GraphDelegate" pc="268445619" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="37" lineNum="5" parent="globals/GraphDelegate" pc="268445669" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphDelegate.mc" id="37" lineNum="5" parent="globals/GraphDelegate" pc="268445669" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="39" lineNum="6" parent="globals/ConnectDeviceDelegate" pc="268437380" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="39" lineNum="7" parent="globals/ConnectDeviceDelegate" pc="268437384" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="39" lineNum="8" parent="globals/ConnectDeviceDelegate" pc="268437412" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="40" lineNum="11" parent="globals/ConnectDeviceDelegate" pc="268437431" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="40" lineNum="12" parent="globals/ConnectDeviceDelegate" pc="268437435" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="40" lineNum="13" parent="globals/ConnectDeviceDelegate" pc="268437507" symbol="onSelect"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="41" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268445638" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="41" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268445638" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="41" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268445688" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/ConnectDeviceDelegate.mc" id="41" lineNum="5" parent="globals/ConnectDeviceDelegate" pc="268445688" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="43" lineNum="16" parent="globals/BaseDesign" pc="268437511" symbol="menuDots"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="43" lineNum="17" parent="globals/BaseDesign" pc="268437515" symbol="menuDots"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="43" lineNum="18" parent="globals/BaseDesign" pc="268437569" symbol="menuDots"/>
@@ -132,27 +132,27 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="45" lineNum="36" parent="globals/BaseDesign" pc="268438121" symbol="downArrow"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="45" lineNum="37" parent="globals/BaseDesign" pc="268438189" symbol="downArrow"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="40" parent="globals/BaseDesign" pc="268438252" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="41" parent="globals/BaseDesign" pc="268438256" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="42" parent="globals/BaseDesign" pc="268438273" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="43" parent="globals/BaseDesign" pc="268438320" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="44" parent="globals/BaseDesign" pc="268438397" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="45" parent="globals/BaseDesign" pc="268438448" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="46" parent="globals/BaseDesign" pc="268438488" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="47" parent="globals/BaseDesign" pc="268438498" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="48" parent="globals/BaseDesign" pc="268438530" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="49" parent="globals/BaseDesign" pc="268438554" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="50" parent="globals/BaseDesign" pc="268438599" symbol="graph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="47" lineNum="13" parent="globals/BaseDesign" pc="268445540" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="47" lineNum="14" parent="globals/BaseDesign" pc="268445560" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="47" lineNum="10" parent="globals/BaseDesign" pc="268445540" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="43" parent="globals/BaseDesign" pc="268438256" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="44" parent="globals/BaseDesign" pc="268438273" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="45" parent="globals/BaseDesign" pc="268438320" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="46" parent="globals/BaseDesign" pc="268438397" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="51" parent="globals/BaseDesign" pc="268438448" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="52" parent="globals/BaseDesign" pc="268438488" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="53" parent="globals/BaseDesign" pc="268438498" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="54" parent="globals/BaseDesign" pc="268438530" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="55" parent="globals/BaseDesign" pc="268438554" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="46" lineNum="56" parent="globals/BaseDesign" pc="268438599" symbol="graph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="47" lineNum="13" parent="globals/BaseDesign" pc="268445590" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="47" lineNum="14" parent="globals/BaseDesign" pc="268445610" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="47" lineNum="10" parent="globals/BaseDesign" pc="268445590" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/BaseDesign.mc" id="48" lineNum="10" parent="globals/BaseDesign" pc="268438620" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="50" lineNum="6" parent="globals/InputStripDelegate" pc="268438623" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="50" lineNum="7" parent="globals/InputStripDelegate" pc="268438627" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="51" lineNum="10" parent="globals/InputStripDelegate" pc="268438646" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="51" lineNum="11" parent="globals/InputStripDelegate" pc="268438650" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="51" lineNum="12" parent="globals/InputStripDelegate" pc="268438722" symbol="onSelect"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="52" lineNum="5" parent="globals/InputStripDelegate" pc="268445600" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="52" lineNum="5" parent="globals/InputStripDelegate" pc="268445600" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="52" lineNum="5" parent="globals/InputStripDelegate" pc="268445650" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripDelegate.mc" id="52" lineNum="5" parent="globals/InputStripDelegate" pc="268445650" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="54" lineNum="14" parent="globals/SettingsView" pc="268438726" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="54" lineNum="15" parent="globals/SettingsView" pc="268438730" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="55" lineNum="18" parent="globals/SettingsView" pc="268438749" symbol="timerCallback"/>
@@ -169,23 +169,23 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="57" lineNum="44" parent="globals/SettingsView" pc="268439025" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="57" lineNum="46" parent="globals/SettingsView" pc="268439032" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="57" lineNum="47" parent="globals/SettingsView" pc="268439046" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="58" lineNum="10" parent="globals/SettingsView" pc="268445657" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="58" lineNum="12" parent="globals/SettingsView" pc="268445675" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="58" lineNum="10" parent="globals/SettingsView" pc="268445657" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="58" lineNum="10" parent="globals/SettingsView" pc="268445707" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="58" lineNum="12" parent="globals/SettingsView" pc="268445725" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsView.mc" id="58" lineNum="10" parent="globals/SettingsView" pc="268445707" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="60" lineNum="6" parent="globals/TestBloodDelegate" pc="268439061" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="60" lineNum="7" parent="globals/TestBloodDelegate" pc="268439065" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="61" lineNum="10" parent="globals/TestBloodDelegate" pc="268439084" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="61" lineNum="11" parent="globals/TestBloodDelegate" pc="268439088" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="61" lineNum="12" parent="globals/TestBloodDelegate" pc="268439160" symbol="onSelect"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="62" lineNum="5" parent="globals/TestBloodDelegate" pc="268445706" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="62" lineNum="5" parent="globals/TestBloodDelegate" pc="268445706" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="62" lineNum="5" parent="globals/TestBloodDelegate" pc="268445756" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/TestBloodDelegate.mc" id="62" lineNum="5" parent="globals/TestBloodDelegate" pc="268445756" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="64" lineNum="6" parent="globals/BluetoothFetcherDelegate" pc="268439164" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="64" lineNum="7" parent="globals/BluetoothFetcherDelegate" pc="268439168" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="65" lineNum="10" parent="globals/BluetoothFetcherDelegate" pc="268439187" symbol="onScanResults"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="65" lineNum="11" parent="globals/BluetoothFetcherDelegate" pc="268439191" symbol="onScanResults"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="65" lineNum="12" parent="globals/BluetoothFetcherDelegate" pc="268439212" symbol="onScanResults"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="66" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268445381" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="66" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268445381" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="66" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268445431" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherDelegate.mc" id="66" lineNum="5" parent="globals/BluetoothFetcherDelegate" pc="268445431" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="68" lineNum="6" parent="globals/SettingsDelegate" pc="268439259" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="68" lineNum="7" parent="globals/SettingsDelegate" pc="268439263" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="69" lineNum="10" parent="globals/SettingsDelegate" pc="268439282" symbol="onSelect"/>
@@ -195,8 +195,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="70" lineNum="17" parent="globals/SettingsDelegate" pc="268439307" symbol="onSwipe"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="70" lineNum="18" parent="globals/SettingsDelegate" pc="268439318" symbol="onSwipe"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="70" lineNum="20" parent="globals/SettingsDelegate" pc="268439349" symbol="onSwipe"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="71" lineNum="5" parent="globals/SettingsDelegate" pc="268445439" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="71" lineNum="5" parent="globals/SettingsDelegate" pc="268445439" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="71" lineNum="5" parent="globals/SettingsDelegate" pc="268445489" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/SettingsDelegate.mc" id="71" lineNum="5" parent="globals/SettingsDelegate" pc="268445489" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="73" lineNum="14" parent="globals/InformationView" pc="268439353" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="73" lineNum="15" parent="globals/InformationView" pc="268439357" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="74" lineNum="18" parent="globals/InformationView" pc="268439376" symbol="timerCallback"/>
@@ -216,9 +216,9 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="76" lineNum="50" parent="globals/InformationView" pc="268439783" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="76" lineNum="52" parent="globals/InformationView" pc="268439790" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="76" lineNum="53" parent="globals/InformationView" pc="268439804" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="77" lineNum="10" parent="globals/InformationView" pc="268445283" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="77" lineNum="12" parent="globals/InformationView" pc="268445301" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="77" lineNum="10" parent="globals/InformationView" pc="268445283" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="77" lineNum="10" parent="globals/InformationView" pc="268445333" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="77" lineNum="12" parent="globals/InformationView" pc="268445351" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationView.mc" id="77" lineNum="10" parent="globals/InformationView" pc="268445333" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="79" lineNum="14" parent="globals/InputStripView" pc="268439819" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="79" lineNum="15" parent="globals/InputStripView" pc="268439823" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="80" lineNum="18" parent="globals/InputStripView" pc="268439842" symbol="timerCallback"/>
@@ -237,15 +237,15 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="82" lineNum="50" parent="globals/InputStripView" pc="268440181" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="82" lineNum="52" parent="globals/InputStripView" pc="268440188" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="82" lineNum="53" parent="globals/InputStripView" pc="268440202" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="83" lineNum="10" parent="globals/InputStripView" pc="268445458" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="83" lineNum="10" parent="globals/InputStripView" pc="268445458" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="83" lineNum="10" parent="globals/InputStripView" pc="268445508" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/instructions/InputStripView.mc" id="83" lineNum="10" parent="globals/InputStripView" pc="268445508" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="85" lineNum="6" parent="globals/GlucometerAppDelegate" pc="268440217" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="85" lineNum="7" parent="globals/GlucometerAppDelegate" pc="268440221" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="86" lineNum="10" parent="globals/GlucometerAppDelegate" pc="268440240" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="86" lineNum="11" parent="globals/GlucometerAppDelegate" pc="268440244" symbol="onSelect"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="86" lineNum="12" parent="globals/GlucometerAppDelegate" pc="268440295" symbol="onSelect"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="87" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268445793" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="87" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268445793" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="87" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268445843" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/GlucometerAppDelegate.mc" id="87" lineNum="4" parent="globals/GlucometerAppDelegate" pc="268445843" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="89" lineNum="6" parent="globals/InformationDelegate" pc="268440299" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="89" lineNum="7" parent="globals/InformationDelegate" pc="268440303" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="90" lineNum="10" parent="globals/InformationDelegate" pc="268440322" symbol="onSelect"/>
@@ -257,8 +257,8 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="91" lineNum="18" parent="globals/InformationDelegate" pc="268440437" symbol="onSwipe"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="91" lineNum="19" parent="globals/InformationDelegate" pc="268440448" symbol="onSwipe"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="91" lineNum="21" parent="globals/InformationDelegate" pc="268440523" symbol="onSwipe"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="92" lineNum="5" parent="globals/InformationDelegate" pc="268445581" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="92" lineNum="5" parent="globals/InformationDelegate" pc="268445581" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="92" lineNum="5" parent="globals/InformationDelegate" pc="268445631" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/InformationDelegate.mc" id="92" lineNum="5" parent="globals/InformationDelegate" pc="268445631" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="94" lineNum="15" parent="globals/BluetoothFetcherView" pc="268440527" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="94" lineNum="16" parent="globals/BluetoothFetcherView" pc="268440531" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="95" lineNum="19" parent="globals/BluetoothFetcherView" pc="268440550" symbol="timerCallback"/>
@@ -276,9 +276,9 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="97" lineNum="51" parent="globals/BluetoothFetcherView" pc="268440868" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="97" lineNum="52" parent="globals/BluetoothFetcherView" pc="268440882" symbol="onUpdate"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="97" lineNum="54" parent="globals/BluetoothFetcherView" pc="268440896" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="98" lineNum="10" parent="globals/BluetoothFetcherView" pc="268445744" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="98" lineNum="12" parent="globals/BluetoothFetcherView" pc="268445762" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="98" lineNum="10" parent="globals/BluetoothFetcherView" pc="268445744" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="98" lineNum="10" parent="globals/BluetoothFetcherView" pc="268445794" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="98" lineNum="12" parent="globals/BluetoothFetcherView" pc="268445812" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcherView.mc" id="98" lineNum="10" parent="globals/BluetoothFetcherView" pc="268445794" symbol="&lt;init&gt;"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="100" lineNum="16" parent="globals/GraphView" pc="268440917" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="100" lineNum="17" parent="globals/GraphView" pc="268440921" symbol="initialize"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="101" lineNum="20" parent="globals/GraphView" pc="268440940" symbol="timerCallback"/>
@@ -286,113 +286,115 @@
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="24" parent="globals/GraphView" pc="268440957" symbol="onLayout"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="25" parent="globals/GraphView" pc="268440961" symbol="onLayout"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="26" parent="globals/GraphView" pc="268440998" symbol="onLayout"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="27" parent="globals/GraphView" pc="268441010" symbol="onLayout"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="30" parent="globals/GraphView" pc="268441030" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="31" parent="globals/GraphView" pc="268441034" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="32" parent="globals/GraphView" pc="268441054" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="34" parent="globals/GraphView" pc="268441079" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="36" parent="globals/GraphView" pc="268441107" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="37" parent="globals/GraphView" pc="268441131" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="38" parent="globals/GraphView" pc="268441155" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="40" parent="globals/GraphView" pc="268441199" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="50" parent="globals/GraphView" pc="268441275" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="52" parent="globals/GraphView" pc="268441282" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="53" parent="globals/GraphView" pc="268441296" symbol="onUpdate"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="56" parent="globals/GraphView" pc="268441311" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="57" parent="globals/GraphView" pc="268441315" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="58" parent="globals/GraphView" pc="268441323" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="59" parent="globals/GraphView" pc="268441351" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="60" parent="globals/GraphView" pc="268441379" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="61" parent="globals/GraphView" pc="268441407" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="62" parent="globals/GraphView" pc="268441435" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="63" parent="globals/GraphView" pc="268441463" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="64" parent="globals/GraphView" pc="268441491" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="65" parent="globals/GraphView" pc="268441519" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="66" parent="globals/GraphView" pc="268441547" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="67" parent="globals/GraphView" pc="268441575" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="68" parent="globals/GraphView" pc="268441603" symbol="getTenMostRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="71" parent="globals/GraphView" pc="268441607" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="72" parent="globals/GraphView" pc="268441611" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="73" parent="globals/GraphView" pc="268441637" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="29" parent="globals/GraphView" pc="268441017" symbol="onLayout"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="30" parent="globals/GraphView" pc="268441029" symbol="onLayout"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="102" lineNum="31" parent="globals/GraphView" pc="268441046" symbol="onLayout"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="34" parent="globals/GraphView" pc="268441064" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="35" parent="globals/GraphView" pc="268441068" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="36" parent="globals/GraphView" pc="268441088" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="37" parent="globals/GraphView" pc="268441113" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="39" parent="globals/GraphView" pc="268441163" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="40" parent="globals/GraphView" pc="268441187" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="41" parent="globals/GraphView" pc="268441211" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="43" parent="globals/GraphView" pc="268441255" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="53" parent="globals/GraphView" pc="268441331" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="55" parent="globals/GraphView" pc="268441338" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="103" lineNum="56" parent="globals/GraphView" pc="268441352" symbol="onUpdate"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="59" parent="globals/GraphView" pc="268441367" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="60" parent="globals/GraphView" pc="268441371" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="61" parent="globals/GraphView" pc="268441379" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="62" parent="globals/GraphView" pc="268441407" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="63" parent="globals/GraphView" pc="268441435" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="64" parent="globals/GraphView" pc="268441463" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="65" parent="globals/GraphView" pc="268441491" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="66" parent="globals/GraphView" pc="268441519" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="67" parent="globals/GraphView" pc="268441547" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="68" parent="globals/GraphView" pc="268441575" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="69" parent="globals/GraphView" pc="268441603" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="70" parent="globals/GraphView" pc="268441631" symbol="getTenMostRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="104" lineNum="71" parent="globals/GraphView" pc="268441659" symbol="getTenMostRecentReadings"/>
         <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="74" parent="globals/GraphView" pc="268441663" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="75" parent="globals/GraphView" pc="268441689" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="76" parent="globals/GraphView" pc="268441715" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="77" parent="globals/GraphView" pc="268441741" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="78" parent="globals/GraphView" pc="268441767" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="79" parent="globals/GraphView" pc="268441793" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="80" parent="globals/GraphView" pc="268441819" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="81" parent="globals/GraphView" pc="268441845" symbol="setRecentReadings"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="106" lineNum="84" parent="globals/GraphView" pc="268441872" symbol="setLowValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="106" lineNum="85" parent="globals/GraphView" pc="268441876" symbol="setLowValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="107" lineNum="88" parent="globals/GraphView" pc="268441903" symbol="getLowValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="107" lineNum="89" parent="globals/GraphView" pc="268441907" symbol="getLowValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="108" lineNum="92" parent="globals/GraphView" pc="268441929" symbol="setHighValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="108" lineNum="93" parent="globals/GraphView" pc="268441933" symbol="setHighValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="109" lineNum="96" parent="globals/GraphView" pc="268441960" symbol="getHighValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="109" lineNum="97" parent="globals/GraphView" pc="268441964" symbol="getHighValue"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="110" lineNum="100" parent="globals/GraphView" pc="268441986" symbol="buildGraph"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="11" parent="globals/GraphView" pc="268445477" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="13" parent="globals/GraphView" pc="268445495" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="14" parent="globals/GraphView" pc="268445525" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="11" parent="globals/GraphView" pc="268445477" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="8" parent="globals/BluetoothFetcher" pc="268441991" symbol="initialize"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="9" parent="globals/BluetoothFetcher" pc="268441995" symbol="initialize"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="10" parent="globals/BluetoothFetcher" pc="268442016" symbol="initialize"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="12" parent="globals/BluetoothFetcher" pc="268442040" symbol="initialize"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="14" parent="globals/BluetoothFetcher" pc="268442058" symbol="initialize"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="25" parent="globals/BluetoothFetcher" pc="268442165" symbol="fetchInfo"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="26" parent="globals/BluetoothFetcher" pc="268442169" symbol="fetchInfo"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="28" parent="globals/BluetoothFetcher" pc="268442190" symbol="fetchInfo"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="29" parent="globals/BluetoothFetcher" pc="268442207" symbol="fetchInfo"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="32" parent="globals/BluetoothFetcher" pc="268442224" symbol="fetchInfo"/>
-        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="115" lineNum="6" parent="globals/BluetoothFetcher" pc="268445438" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="117" lineNum="2" parent="globals/Rez/Drawables" pc="268445356" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="118" lineNum="9" parent="globals/Rez/Fonts" pc="268445377" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="119" lineNum="11" parent="globals/Rez/JsonData" pc="268445379" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="120" lineNum="20" parent="globals/Rez/Layouts" pc="268442252" symbol="Settings"/>
-        <entry filename="Rez" id="120" lineNum="22" parent="globals/Rez/Layouts" pc="268442264" symbol="Settings"/>
-        <entry filename="Rez" id="120" lineNum="23" parent="globals/Rez/Layouts" pc="268442397" symbol="Settings"/>
-        <entry filename="Rez" id="120" lineNum="25" parent="globals/Rez/Layouts" pc="268442560" symbol="Settings"/>
-        <entry filename="Rez" id="121" lineNum="34" parent="globals/Rez/Layouts" pc="268442588" symbol="Information"/>
-        <entry filename="Rez" id="121" lineNum="36" parent="globals/Rez/Layouts" pc="268442600" symbol="Information"/>
-        <entry filename="Rez" id="121" lineNum="37" parent="globals/Rez/Layouts" pc="268442733" symbol="Information"/>
-        <entry filename="Rez" id="121" lineNum="38" parent="globals/Rez/Layouts" pc="268442896" symbol="Information"/>
-        <entry filename="Rez" id="121" lineNum="40" parent="globals/Rez/Layouts" pc="268443042" symbol="Information"/>
-        <entry filename="Rez" id="122" lineNum="49" parent="globals/Rez/Layouts" pc="268443080" symbol="MainLayout"/>
-        <entry filename="Rez" id="122" lineNum="51" parent="globals/Rez/Layouts" pc="268443092" symbol="MainLayout"/>
-        <entry filename="Rez" id="122" lineNum="52" parent="globals/Rez/Layouts" pc="268443287" symbol="MainLayout"/>
-        <entry filename="Rez" id="122" lineNum="54" parent="globals/Rez/Layouts" pc="268443420" symbol="MainLayout"/>
-        <entry filename="Rez" id="123" lineNum="63" parent="globals/Rez/Layouts" pc="268443448" symbol="PairingScreen"/>
-        <entry filename="Rez" id="123" lineNum="65" parent="globals/Rez/Layouts" pc="268443460" symbol="PairingScreen"/>
-        <entry filename="Rez" id="123" lineNum="66" parent="globals/Rez/Layouts" pc="268443593" symbol="PairingScreen"/>
-        <entry filename="Rez" id="123" lineNum="68" parent="globals/Rez/Layouts" pc="268443756" symbol="PairingScreen"/>
-        <entry filename="Rez" id="124" lineNum="77" parent="globals/Rez/Layouts" pc="268443784" symbol="Graph"/>
-        <entry filename="Rez" id="124" lineNum="79" parent="globals/Rez/Layouts" pc="268443796" symbol="Graph"/>
-        <entry filename="Rez" id="124" lineNum="80" parent="globals/Rez/Layouts" pc="268443929" symbol="Graph"/>
-        <entry filename="Rez" id="124" lineNum="82" parent="globals/Rez/Layouts" pc="268444092" symbol="Graph"/>
-        <entry filename="Rez" id="125" lineNum="91" parent="globals/Rez/Layouts" pc="268444120" symbol="InputStrip"/>
-        <entry filename="Rez" id="125" lineNum="93" parent="globals/Rez/Layouts" pc="268444132" symbol="InputStrip"/>
-        <entry filename="Rez" id="125" lineNum="94" parent="globals/Rez/Layouts" pc="268444265" symbol="InputStrip"/>
-        <entry filename="Rez" id="125" lineNum="96" parent="globals/Rez/Layouts" pc="268444428" symbol="InputStrip"/>
-        <entry filename="Rez" id="126" lineNum="105" parent="globals/Rez/Layouts" pc="268444456" symbol="TestBlood"/>
-        <entry filename="Rez" id="126" lineNum="107" parent="globals/Rez/Layouts" pc="268444468" symbol="TestBlood"/>
-        <entry filename="Rez" id="126" lineNum="108" parent="globals/Rez/Layouts" pc="268444601" symbol="TestBlood"/>
-        <entry filename="Rez" id="126" lineNum="110" parent="globals/Rez/Layouts" pc="268444764" symbol="TestBlood"/>
-        <entry filename="Rez" id="127" lineNum="119" parent="globals/Rez/Layouts" pc="268444792" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="127" lineNum="121" parent="globals/Rez/Layouts" pc="268444804" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="127" lineNum="122" parent="globals/Rez/Layouts" pc="268444937" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="127" lineNum="124" parent="globals/Rez/Layouts" pc="268445100" symbol="ConnectDevice"/>
-        <entry filename="Rez" id="128" lineNum="13" parent="globals/Rez/Layouts" pc="268445378" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="129" lineNum="138" parent="globals/Rez/Menus/MainMenu" pc="268445128" symbol="initialize"/>
-        <entry filename="Rez" id="129" lineNum="139" parent="globals/Rez/Menus/MainMenu" pc="268445132" symbol="initialize"/>
-        <entry filename="Rez" id="129" lineNum="140" parent="globals/Rez/Menus/MainMenu" pc="268445150" symbol="initialize"/>
-        <entry filename="Rez" id="129" lineNum="141" parent="globals/Rez/Menus/MainMenu" pc="268445206" symbol="initialize"/>
-        <entry filename="Rez" id="130" lineNum="136" parent="globals/Rez/Menus/MainMenu" pc="268445358" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="130" lineNum="136" parent="globals/Rez/Menus/MainMenu" pc="268445358" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="131" lineNum="129" parent="globals/Rez/Menus" pc="268445357" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="132" lineNum="147" parent="globals/Rez/Strings" pc="268445380" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="133" lineNum="1" parent="globals/Rez" pc="268445332" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="133" lineNum="1" parent="globals/Rez" pc="268445332" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="75" parent="globals/GraphView" pc="268441667" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="76" parent="globals/GraphView" pc="268441693" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="77" parent="globals/GraphView" pc="268441719" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="78" parent="globals/GraphView" pc="268441745" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="79" parent="globals/GraphView" pc="268441771" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="80" parent="globals/GraphView" pc="268441797" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="81" parent="globals/GraphView" pc="268441823" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="82" parent="globals/GraphView" pc="268441849" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="83" parent="globals/GraphView" pc="268441875" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="105" lineNum="84" parent="globals/GraphView" pc="268441901" symbol="setRecentReadings"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="106" lineNum="87" parent="globals/GraphView" pc="268441928" symbol="setLowValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="106" lineNum="88" parent="globals/GraphView" pc="268441932" symbol="setLowValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="107" lineNum="91" parent="globals/GraphView" pc="268441956" symbol="getLowValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="107" lineNum="92" parent="globals/GraphView" pc="268441960" symbol="getLowValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="108" lineNum="95" parent="globals/GraphView" pc="268441982" symbol="setHighValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="108" lineNum="96" parent="globals/GraphView" pc="268441986" symbol="setHighValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="109" lineNum="99" parent="globals/GraphView" pc="268442010" symbol="getHighValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="109" lineNum="100" parent="globals/GraphView" pc="268442014" symbol="getHighValue"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="110" lineNum="103" parent="globals/GraphView" pc="268442036" symbol="buildGraph"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="11" parent="globals/GraphView" pc="268445527" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="13" parent="globals/GraphView" pc="268445545" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="14" parent="globals/GraphView" pc="268445575" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/views/GraphView.mc" id="111" lineNum="11" parent="globals/GraphView" pc="268445527" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="8" parent="globals/BluetoothFetcher" pc="268442041" symbol="initialize"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="9" parent="globals/BluetoothFetcher" pc="268442045" symbol="initialize"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="10" parent="globals/BluetoothFetcher" pc="268442066" symbol="initialize"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="12" parent="globals/BluetoothFetcher" pc="268442090" symbol="initialize"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="113" lineNum="14" parent="globals/BluetoothFetcher" pc="268442108" symbol="initialize"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="25" parent="globals/BluetoothFetcher" pc="268442215" symbol="fetchInfo"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="26" parent="globals/BluetoothFetcher" pc="268442219" symbol="fetchInfo"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="28" parent="globals/BluetoothFetcher" pc="268442240" symbol="fetchInfo"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="29" parent="globals/BluetoothFetcher" pc="268442257" symbol="fetchInfo"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="114" lineNum="32" parent="globals/BluetoothFetcher" pc="268442274" symbol="fetchInfo"/>
+        <entry filename="/Users/cameronjarnot/Documents/Duke/ECE469/GlucometerApp/source/BluetoothFetcher.mc" id="115" lineNum="6" parent="globals/BluetoothFetcher" pc="268445488" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="117" lineNum="2" parent="globals/Rez/Drawables" pc="268445406" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="118" lineNum="9" parent="globals/Rez/Fonts" pc="268445427" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="119" lineNum="11" parent="globals/Rez/JsonData" pc="268445429" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="120" lineNum="20" parent="globals/Rez/Layouts" pc="268442302" symbol="Settings"/>
+        <entry filename="Rez" id="120" lineNum="22" parent="globals/Rez/Layouts" pc="268442314" symbol="Settings"/>
+        <entry filename="Rez" id="120" lineNum="23" parent="globals/Rez/Layouts" pc="268442447" symbol="Settings"/>
+        <entry filename="Rez" id="120" lineNum="25" parent="globals/Rez/Layouts" pc="268442610" symbol="Settings"/>
+        <entry filename="Rez" id="121" lineNum="34" parent="globals/Rez/Layouts" pc="268442638" symbol="Information"/>
+        <entry filename="Rez" id="121" lineNum="36" parent="globals/Rez/Layouts" pc="268442650" symbol="Information"/>
+        <entry filename="Rez" id="121" lineNum="37" parent="globals/Rez/Layouts" pc="268442783" symbol="Information"/>
+        <entry filename="Rez" id="121" lineNum="38" parent="globals/Rez/Layouts" pc="268442946" symbol="Information"/>
+        <entry filename="Rez" id="121" lineNum="40" parent="globals/Rez/Layouts" pc="268443092" symbol="Information"/>
+        <entry filename="Rez" id="122" lineNum="49" parent="globals/Rez/Layouts" pc="268443130" symbol="MainLayout"/>
+        <entry filename="Rez" id="122" lineNum="51" parent="globals/Rez/Layouts" pc="268443142" symbol="MainLayout"/>
+        <entry filename="Rez" id="122" lineNum="52" parent="globals/Rez/Layouts" pc="268443337" symbol="MainLayout"/>
+        <entry filename="Rez" id="122" lineNum="54" parent="globals/Rez/Layouts" pc="268443470" symbol="MainLayout"/>
+        <entry filename="Rez" id="123" lineNum="63" parent="globals/Rez/Layouts" pc="268443498" symbol="PairingScreen"/>
+        <entry filename="Rez" id="123" lineNum="65" parent="globals/Rez/Layouts" pc="268443510" symbol="PairingScreen"/>
+        <entry filename="Rez" id="123" lineNum="66" parent="globals/Rez/Layouts" pc="268443643" symbol="PairingScreen"/>
+        <entry filename="Rez" id="123" lineNum="68" parent="globals/Rez/Layouts" pc="268443806" symbol="PairingScreen"/>
+        <entry filename="Rez" id="124" lineNum="77" parent="globals/Rez/Layouts" pc="268443834" symbol="Graph"/>
+        <entry filename="Rez" id="124" lineNum="79" parent="globals/Rez/Layouts" pc="268443846" symbol="Graph"/>
+        <entry filename="Rez" id="124" lineNum="80" parent="globals/Rez/Layouts" pc="268443979" symbol="Graph"/>
+        <entry filename="Rez" id="124" lineNum="82" parent="globals/Rez/Layouts" pc="268444142" symbol="Graph"/>
+        <entry filename="Rez" id="125" lineNum="91" parent="globals/Rez/Layouts" pc="268444170" symbol="InputStrip"/>
+        <entry filename="Rez" id="125" lineNum="93" parent="globals/Rez/Layouts" pc="268444182" symbol="InputStrip"/>
+        <entry filename="Rez" id="125" lineNum="94" parent="globals/Rez/Layouts" pc="268444315" symbol="InputStrip"/>
+        <entry filename="Rez" id="125" lineNum="96" parent="globals/Rez/Layouts" pc="268444478" symbol="InputStrip"/>
+        <entry filename="Rez" id="126" lineNum="105" parent="globals/Rez/Layouts" pc="268444506" symbol="TestBlood"/>
+        <entry filename="Rez" id="126" lineNum="107" parent="globals/Rez/Layouts" pc="268444518" symbol="TestBlood"/>
+        <entry filename="Rez" id="126" lineNum="108" parent="globals/Rez/Layouts" pc="268444651" symbol="TestBlood"/>
+        <entry filename="Rez" id="126" lineNum="110" parent="globals/Rez/Layouts" pc="268444814" symbol="TestBlood"/>
+        <entry filename="Rez" id="127" lineNum="119" parent="globals/Rez/Layouts" pc="268444842" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="127" lineNum="121" parent="globals/Rez/Layouts" pc="268444854" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="127" lineNum="122" parent="globals/Rez/Layouts" pc="268444987" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="127" lineNum="124" parent="globals/Rez/Layouts" pc="268445150" symbol="ConnectDevice"/>
+        <entry filename="Rez" id="128" lineNum="13" parent="globals/Rez/Layouts" pc="268445428" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="129" lineNum="138" parent="globals/Rez/Menus/MainMenu" pc="268445178" symbol="initialize"/>
+        <entry filename="Rez" id="129" lineNum="139" parent="globals/Rez/Menus/MainMenu" pc="268445182" symbol="initialize"/>
+        <entry filename="Rez" id="129" lineNum="140" parent="globals/Rez/Menus/MainMenu" pc="268445200" symbol="initialize"/>
+        <entry filename="Rez" id="129" lineNum="141" parent="globals/Rez/Menus/MainMenu" pc="268445256" symbol="initialize"/>
+        <entry filename="Rez" id="130" lineNum="136" parent="globals/Rez/Menus/MainMenu" pc="268445408" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="130" lineNum="136" parent="globals/Rez/Menus/MainMenu" pc="268445408" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="131" lineNum="129" parent="globals/Rez/Menus" pc="268445407" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="132" lineNum="147" parent="globals/Rez/Strings" pc="268445430" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="133" lineNum="1" parent="globals/Rez" pc="268445382" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="133" lineNum="1" parent="globals/Rez" pc="268445382" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -544,11 +546,13 @@
         <entry arg="true" endPc="268437811" name="menu_value" stackId="2" startPc="268437511"/>
         <entry arg="true" endPc="268438031" name="dc" stackId="1" startPc="268437812"/>
         <entry arg="true" endPc="268438251" name="dc" stackId="1" startPc="268438032"/>
-        <entry endPc="268438618" name="i" stackId="5" startPc="268438554"/>
-        <entry endPc="268438618" name="currX" stackId="4" startPc="268438256"/>
-        <entry endPc="268438618" name="offset" stackId="3" startPc="268438256"/>
+        <entry endPc="268438618" name="i" stackId="7" startPc="268438554"/>
+        <entry endPc="268438618" name="currX" stackId="6" startPc="268438256"/>
+        <entry endPc="268438618" name="offset" stackId="5" startPc="268438256"/>
         <entry arg="true" endPc="268438619" name="dc" stackId="1" startPc="268438252"/>
         <entry arg="true" endPc="268438619" name="bsVals" stackId="2" startPc="268438252"/>
+        <entry arg="true" endPc="268438619" name="highVal" stackId="4" startPc="268438252"/>
+        <entry arg="true" endPc="268438619" name="lowVal" stackId="3" startPc="268438252"/>
         <entry arg="true" endPc="268438807" name="dc" stackId="1" startPc="268438766"/>
         <entry endPc="268439059" name="timeText" stackId="3" startPc="268438812"/>
         <entry endPc="268439059" name="today" stackId="4" startPc="268438812"/>
@@ -584,44 +588,46 @@
         <entry endPc="268440915" name="bleResultsText" stackId="3" startPc="268440613"/>
         <entry endPc="268440915" name="available" stackId="7" startPc="268440613"/>
         <entry arg="true" endPc="268440916" name="dc" stackId="1" startPc="268440609"/>
-        <entry arg="true" endPc="268441029" name="dc" stackId="1" startPc="268440957"/>
-        <entry endPc="268441309" name="timeText" stackId="3" startPc="268441034"/>
-        <entry endPc="268441309" name="today" stackId="4" startPc="268441034"/>
-        <entry endPc="268441309" name="timeString" stackId="5" startPc="268441034"/>
-        <entry endPc="268441309" name="bleResultsText" stackId="2" startPc="268441034"/>
-        <entry endPc="268441309" name="available" stackId="6" startPc="268441034"/>
-        <entry arg="true" endPc="268441310" name="dc" stackId="1" startPc="268441030"/>
-        <entry endPc="268441605" name="arr" stackId="1" startPc="268441315"/>
-        <entry arg="true" endPc="268441990" name="dc" stackId="1" startPc="268441986"/>
-        <entry endPc="268442163" name="profile" stackId="2" startPc="268441995"/>
-        <entry endPc="268442163" name="fetcherDelegate" stackId="1" startPc="268441995"/>
-        <entry endPc="268442250" name="availCount" stackId="1" startPc="268442169"/>
-        <entry endPc="268442250" name="UUID" stackId="2" startPc="268442169"/>
-        <entry endPc="268442586" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442264"/>
-        <entry endPc="268442586" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442264"/>
-        <entry arg="true" endPc="268442587" name="dc" stackId="1" startPc="268442252"/>
-        <entry endPc="268443078" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442600"/>
-        <entry endPc="268443078" name="rez_cmp_local_text_Units" stackId="4" startPc="268442600"/>
-        <entry endPc="268443078" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442600"/>
-        <entry arg="true" endPc="268443079" name="dc" stackId="1" startPc="268442588"/>
-        <entry endPc="268443446" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268443092"/>
-        <entry endPc="268443446" name="rez_cmp_local_text_Text" stackId="2" startPc="268443092"/>
-        <entry arg="true" endPc="268443447" name="dc" stackId="1" startPc="268443080"/>
-        <entry endPc="268443782" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268443460"/>
-        <entry endPc="268443782" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268443460"/>
-        <entry arg="true" endPc="268443783" name="dc" stackId="1" startPc="268443448"/>
-        <entry endPc="268444118" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268443796"/>
-        <entry endPc="268444118" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268443796"/>
-        <entry arg="true" endPc="268444119" name="dc" stackId="1" startPc="268443784"/>
-        <entry endPc="268444454" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268444132"/>
-        <entry endPc="268444454" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268444132"/>
-        <entry arg="true" endPc="268444455" name="dc" stackId="1" startPc="268444120"/>
-        <entry endPc="268444790" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268444468"/>
-        <entry endPc="268444790" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268444468"/>
-        <entry arg="true" endPc="268444791" name="dc" stackId="1" startPc="268444456"/>
-        <entry endPc="268445126" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268444804"/>
-        <entry endPc="268445126" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268444804"/>
-        <entry arg="true" endPc="268445127" name="dc" stackId="1" startPc="268444792"/>
+        <entry arg="true" endPc="268441063" name="dc" stackId="1" startPc="268440957"/>
+        <entry endPc="268441365" name="timeText" stackId="3" startPc="268441068"/>
+        <entry endPc="268441365" name="today" stackId="4" startPc="268441068"/>
+        <entry endPc="268441365" name="timeString" stackId="5" startPc="268441068"/>
+        <entry endPc="268441365" name="bleResultsText" stackId="2" startPc="268441068"/>
+        <entry endPc="268441365" name="available" stackId="6" startPc="268441068"/>
+        <entry arg="true" endPc="268441366" name="dc" stackId="1" startPc="268441064"/>
+        <entry endPc="268441661" name="arr" stackId="1" startPc="268441371"/>
+        <entry arg="true" endPc="268441955" name="lowIn" stackId="1" startPc="268441928"/>
+        <entry arg="true" endPc="268442009" name="highIn" stackId="1" startPc="268441982"/>
+        <entry arg="true" endPc="268442040" name="dc" stackId="1" startPc="268442036"/>
+        <entry endPc="268442213" name="profile" stackId="2" startPc="268442045"/>
+        <entry endPc="268442213" name="fetcherDelegate" stackId="1" startPc="268442045"/>
+        <entry endPc="268442300" name="availCount" stackId="1" startPc="268442219"/>
+        <entry endPc="268442300" name="UUID" stackId="2" startPc="268442219"/>
+        <entry endPc="268442636" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442314"/>
+        <entry endPc="268442636" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442314"/>
+        <entry arg="true" endPc="268442637" name="dc" stackId="1" startPc="268442302"/>
+        <entry endPc="268443128" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268442650"/>
+        <entry endPc="268443128" name="rez_cmp_local_text_Units" stackId="4" startPc="268442650"/>
+        <entry endPc="268443128" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268442650"/>
+        <entry arg="true" endPc="268443129" name="dc" stackId="1" startPc="268442638"/>
+        <entry endPc="268443496" name="rez_cmp_local_text_TimeDisplay" stackId="3" startPc="268443142"/>
+        <entry endPc="268443496" name="rez_cmp_local_text_Text" stackId="2" startPc="268443142"/>
+        <entry arg="true" endPc="268443497" name="dc" stackId="1" startPc="268443130"/>
+        <entry endPc="268443832" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268443510"/>
+        <entry endPc="268443832" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268443510"/>
+        <entry arg="true" endPc="268443833" name="dc" stackId="1" startPc="268443498"/>
+        <entry endPc="268444168" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268443846"/>
+        <entry endPc="268444168" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268443846"/>
+        <entry arg="true" endPc="268444169" name="dc" stackId="1" startPc="268443834"/>
+        <entry endPc="268444504" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268444182"/>
+        <entry endPc="268444504" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268444182"/>
+        <entry arg="true" endPc="268444505" name="dc" stackId="1" startPc="268444170"/>
+        <entry endPc="268444840" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268444518"/>
+        <entry endPc="268444840" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268444518"/>
+        <entry arg="true" endPc="268444841" name="dc" stackId="1" startPc="268444506"/>
+        <entry endPc="268445176" name="rez_cmp_local_text_PairingResult" stackId="3" startPc="268444854"/>
+        <entry endPc="268445176" name="rez_cmp_local_text_TimeDisplay" stackId="2" startPc="268444854"/>
+        <entry arg="true" endPc="268445177" name="dc" stackId="1" startPc="268444842"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="Bluetooth"/>
@@ -679,7 +685,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445830" name="&lt;init&gt;" parent="ConnectDeviceView" startPc="268445812">
+        <functionEntry accessMode="protected" endPc="268445880" name="&lt;init&gt;" parent="ConnectDeviceView" startPc="268445862">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435939" name="initialize" parent="GlucometerAppMenuDelegate" startPc="268435917">
@@ -689,7 +695,7 @@
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445743" name="&lt;init&gt;" parent="GlucometerAppMenuDelegate" startPc="268445725">
+        <functionEntry accessMode="protected" endPc="268445793" name="&lt;init&gt;" parent="GlucometerAppMenuDelegate" startPc="268445775">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436037" name="initialize" parent="GlucometerAppApp" startPc="268436015">
@@ -706,7 +712,7 @@
         <functionEntry accessMode="public" endPc="268436143" name="getInitialView" parent="GlucometerAppApp" startPc="268436072">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445282" name="&lt;init&gt;" parent="GlucometerAppApp" startPc="268445264">
+        <functionEntry accessMode="protected" endPc="268445332" name="&lt;init&gt;" parent="GlucometerAppApp" startPc="268445314">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436172" name="getApp" startPc="268436144">
@@ -726,7 +732,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445437" name="&lt;init&gt;" parent="TestBloodView" startPc="268445419">
+        <functionEntry accessMode="protected" endPc="268445487" name="&lt;init&gt;" parent="TestBloodView" startPc="268445469">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268436650" name="initialize" parent="GlucometerAppView" startPc="268436628">
@@ -756,7 +762,7 @@
         <functionEntry accessMode="public" endPc="268437127" name="onHide" parent="GlucometerAppView" startPc="268437123">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445418" name="&lt;init&gt;" parent="GlucometerAppView" startPc="268445400">
+        <functionEntry accessMode="protected" endPc="268445468" name="&lt;init&gt;" parent="GlucometerAppView" startPc="268445450">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437150" name="initialize" parent="GraphDelegate" startPc="268437128">
@@ -769,7 +775,7 @@
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445637" name="&lt;init&gt;" parent="GraphDelegate" startPc="268445619">
+        <functionEntry accessMode="protected" endPc="268445687" name="&lt;init&gt;" parent="GraphDelegate" startPc="268445669">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437430" name="initialize" parent="ConnectDeviceDelegate" startPc="268437380">
@@ -778,7 +784,7 @@
         <functionEntry accessMode="public" endPc="268437510" name="onSelect" parent="ConnectDeviceDelegate" startPc="268437431">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445656" name="&lt;init&gt;" parent="ConnectDeviceDelegate" startPc="268445638">
+        <functionEntry accessMode="protected" endPc="268445706" name="&lt;init&gt;" parent="ConnectDeviceDelegate" startPc="268445688">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268437811" name="menuDots" parent="BaseDesign" startPc="268437511">
@@ -797,9 +803,11 @@
         <functionEntry accessMode="public" endPc="268438619" name="graph" parent="BaseDesign" startPc="268438252">
             <param id="dc"/>
             <param id="bsVals"/>
+            <param id="lowVal"/>
+            <param id="highVal"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445580" name="&lt;init&gt;" parent="BaseDesign" startPc="268445540">
+        <functionEntry accessMode="protected" endPc="268445630" name="&lt;init&gt;" parent="BaseDesign" startPc="268445590">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438622" name="initialize" parent="BaseDesign" startPc="268438620">
@@ -811,7 +819,7 @@
         <functionEntry accessMode="public" endPc="268438725" name="onSelect" parent="InputStripDelegate" startPc="268438646">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445618" name="&lt;init&gt;" parent="InputStripDelegate" startPc="268445600">
+        <functionEntry accessMode="protected" endPc="268445668" name="&lt;init&gt;" parent="InputStripDelegate" startPc="268445650">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268438748" name="initialize" parent="SettingsView" startPc="268438726">
@@ -828,7 +836,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445705" name="&lt;init&gt;" parent="SettingsView" startPc="268445657">
+        <functionEntry accessMode="protected" endPc="268445755" name="&lt;init&gt;" parent="SettingsView" startPc="268445707">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439083" name="initialize" parent="TestBloodDelegate" startPc="268439061">
@@ -837,7 +845,7 @@
         <functionEntry accessMode="public" endPc="268439163" name="onSelect" parent="TestBloodDelegate" startPc="268439084">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445724" name="&lt;init&gt;" parent="TestBloodDelegate" startPc="268445706">
+        <functionEntry accessMode="protected" endPc="268445774" name="&lt;init&gt;" parent="TestBloodDelegate" startPc="268445756">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439186" name="initialize" parent="BluetoothFetcherDelegate" startPc="268439164">
@@ -847,7 +855,7 @@
             <param id="scanResults"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445399" name="&lt;init&gt;" parent="BluetoothFetcherDelegate" startPc="268445381">
+        <functionEntry accessMode="protected" endPc="268445449" name="&lt;init&gt;" parent="BluetoothFetcherDelegate" startPc="268445431">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439281" name="initialize" parent="SettingsDelegate" startPc="268439259">
@@ -860,7 +868,7 @@
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445457" name="&lt;init&gt;" parent="SettingsDelegate" startPc="268445439">
+        <functionEntry accessMode="protected" endPc="268445507" name="&lt;init&gt;" parent="SettingsDelegate" startPc="268445489">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439375" name="initialize" parent="InformationView" startPc="268439353">
@@ -877,7 +885,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445331" name="&lt;init&gt;" parent="InformationView" startPc="268445283">
+        <functionEntry accessMode="protected" endPc="268445381" name="&lt;init&gt;" parent="InformationView" startPc="268445333">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268439841" name="initialize" parent="InputStripView" startPc="268439819">
@@ -894,7 +902,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445476" name="&lt;init&gt;" parent="InputStripView" startPc="268445458">
+        <functionEntry accessMode="protected" endPc="268445526" name="&lt;init&gt;" parent="InputStripView" startPc="268445508">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268440239" name="initialize" parent="GlucometerAppDelegate" startPc="268440217">
@@ -903,7 +911,7 @@
         <functionEntry accessMode="public" endPc="268440298" name="onSelect" parent="GlucometerAppDelegate" startPc="268440240">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445811" name="&lt;init&gt;" parent="GlucometerAppDelegate" startPc="268445793">
+        <functionEntry accessMode="protected" endPc="268445861" name="&lt;init&gt;" parent="GlucometerAppDelegate" startPc="268445843">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268440321" name="initialize" parent="InformationDelegate" startPc="268440299">
@@ -916,7 +924,7 @@
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445599" name="&lt;init&gt;" parent="InformationDelegate" startPc="268445581">
+        <functionEntry accessMode="protected" endPc="268445649" name="&lt;init&gt;" parent="InformationDelegate" startPc="268445631">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268440549" name="initialize" parent="BluetoothFetcherView" startPc="268440527">
@@ -933,7 +941,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445792" name="&lt;init&gt;" parent="BluetoothFetcherView" startPc="268445744">
+        <functionEntry accessMode="protected" endPc="268445842" name="&lt;init&gt;" parent="BluetoothFetcherView" startPc="268445794">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268440939" name="initialize" parent="GraphView" startPc="268440917">
@@ -942,105 +950,107 @@
         <functionEntry accessMode="public" endPc="268440956" name="timerCallback" parent="GraphView" startPc="268440940">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441029" name="onLayout" parent="GraphView" startPc="268440957">
+        <functionEntry accessMode="public" endPc="268441063" name="onLayout" parent="GraphView" startPc="268440957">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441310" name="onUpdate" parent="GraphView" startPc="268441030">
+        <functionEntry accessMode="public" endPc="268441366" name="onUpdate" parent="GraphView" startPc="268441064">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441606" name="getTenMostRecentReadings" parent="GraphView" startPc="268441311">
+        <functionEntry accessMode="public" endPc="268441662" name="getTenMostRecentReadings" parent="GraphView" startPc="268441367">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441871" name="setRecentReadings" parent="GraphView" startPc="268441607">
+        <functionEntry accessMode="public" endPc="268441927" name="setRecentReadings" parent="GraphView" startPc="268441663">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441902" name="setLowValue" parent="GraphView" startPc="268441872">
+        <functionEntry accessMode="public" endPc="268441955" name="setLowValue" parent="GraphView" startPc="268441928">
+            <param id="lowIn"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441928" name="getLowValue" parent="GraphView" startPc="268441903">
+        <functionEntry accessMode="public" endPc="268441981" name="getLowValue" parent="GraphView" startPc="268441956">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441959" name="setHighValue" parent="GraphView" startPc="268441929">
+        <functionEntry accessMode="public" endPc="268442009" name="setHighValue" parent="GraphView" startPc="268441982">
+            <param id="highIn"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441985" name="getHighValue" parent="GraphView" startPc="268441960">
+        <functionEntry accessMode="public" endPc="268442035" name="getHighValue" parent="GraphView" startPc="268442010">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441990" name="buildGraph" parent="GraphView" startPc="268441986">
+        <functionEntry accessMode="public" endPc="268442040" name="buildGraph" parent="GraphView" startPc="268442036">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445539" name="&lt;init&gt;" parent="GraphView" startPc="268445477">
+        <functionEntry accessMode="protected" endPc="268445589" name="&lt;init&gt;" parent="GraphView" startPc="268445527">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442164" name="initialize" parent="BluetoothFetcher" startPc="268441991">
+        <functionEntry accessMode="public" endPc="268442214" name="initialize" parent="BluetoothFetcher" startPc="268442041">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442251" name="fetchInfo" parent="BluetoothFetcher" startPc="268442165">
+        <functionEntry accessMode="public" endPc="268442301" name="fetchInfo" parent="BluetoothFetcher" startPc="268442215">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445438" name="&lt;init&gt;" parent="BluetoothFetcher" startPc="268445438">
+        <functionEntry accessMode="protected" endPc="268445488" name="&lt;init&gt;" parent="BluetoothFetcher" startPc="268445488">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445356" name="&lt;init&gt;" parent="Drawables" startPc="268445356">
+        <functionEntry accessMode="protected" endPc="268445406" name="&lt;init&gt;" parent="Drawables" startPc="268445406">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445377" name="&lt;init&gt;" parent="Fonts" startPc="268445377">
+        <functionEntry accessMode="protected" endPc="268445427" name="&lt;init&gt;" parent="Fonts" startPc="268445427">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445379" name="&lt;init&gt;" parent="JsonData" startPc="268445379">
+        <functionEntry accessMode="protected" endPc="268445429" name="&lt;init&gt;" parent="JsonData" startPc="268445429">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268442587" name="Settings" parent="Layouts" startPc="268442252">
+        <functionEntry accessMode="public" endPc="268442637" name="Settings" parent="Layouts" startPc="268442302">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443079" name="Information" parent="Layouts" startPc="268442588">
+        <functionEntry accessMode="public" endPc="268443129" name="Information" parent="Layouts" startPc="268442638">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443447" name="MainLayout" parent="Layouts" startPc="268443080">
+        <functionEntry accessMode="public" endPc="268443497" name="MainLayout" parent="Layouts" startPc="268443130">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443783" name="PairingScreen" parent="Layouts" startPc="268443448">
+        <functionEntry accessMode="public" endPc="268443833" name="PairingScreen" parent="Layouts" startPc="268443498">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444119" name="Graph" parent="Layouts" startPc="268443784">
+        <functionEntry accessMode="public" endPc="268444169" name="Graph" parent="Layouts" startPc="268443834">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444455" name="InputStrip" parent="Layouts" startPc="268444120">
+        <functionEntry accessMode="public" endPc="268444505" name="InputStrip" parent="Layouts" startPc="268444170">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268444791" name="TestBlood" parent="Layouts" startPc="268444456">
+        <functionEntry accessMode="public" endPc="268444841" name="TestBlood" parent="Layouts" startPc="268444506">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445127" name="ConnectDevice" parent="Layouts" startPc="268444792">
+        <functionEntry accessMode="public" endPc="268445177" name="ConnectDevice" parent="Layouts" startPc="268444842">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445378" name="&lt;init&gt;" parent="Layouts" startPc="268445378">
+        <functionEntry accessMode="protected" endPc="268445428" name="&lt;init&gt;" parent="Layouts" startPc="268445428">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268445262" name="initialize" parent="MainMenu" startPc="268445128">
+        <functionEntry accessMode="public" endPc="268445312" name="initialize" parent="MainMenu" startPc="268445178">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445376" name="&lt;init&gt;" parent="MainMenu" startPc="268445358">
+        <functionEntry accessMode="protected" endPc="268445426" name="&lt;init&gt;" parent="MainMenu" startPc="268445408">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445357" name="&lt;init&gt;" parent="Menus" startPc="268445357">
+        <functionEntry accessMode="protected" endPc="268445407" name="&lt;init&gt;" parent="Menus" startPc="268445407">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445380" name="&lt;init&gt;" parent="Strings" startPc="268445380">
+        <functionEntry accessMode="protected" endPc="268445430" name="&lt;init&gt;" parent="Strings" startPc="268445430">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268445355" name="&lt;init&gt;" parent="Rez" startPc="268445332">
+        <functionEntry accessMode="protected" endPc="268445405" name="&lt;init&gt;" parent="Rez" startPc="268445382">
             <documentation/>
         </functionEntry>
     </functions>

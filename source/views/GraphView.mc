@@ -23,15 +23,18 @@ class GraphView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Graph(dc));
-        setRecentReadings();
         currGraphValues = getTenMostRecentReadings();
+
+        // TODO: move to be called with user input
+        setRecentReadings();
+        setLowValue(70);
+        setHighValue(150);
     }
 
     function onUpdate(dc){ 
         View.onUpdate(dc);
         design.menuDots(dc, 2);
-        // design.graph(dc, [100, 80, 150, 200, 180]);
-        design.graph(dc,currGraphValues);
+        design.graph(dc,currGraphValues, getLowValue(), getHighValue());
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text; 
@@ -81,16 +84,16 @@ class GraphView extends WatchUi.View {
         Storage.setValue("9", 65);
     }
 
-    function setLowValue() as Void {
-        Storage.setValue("low", 70);
+    function setLowValue(lowIn) as Void { // TODO: Probably will make sense to move this to settings view
+        Storage.setValue("low", lowIn);
     }
 
     function getLowValue() as Lang.Number {
         return Storage.getValue("low");
     }
 
-    function setHighValue() as Void {
-        Storage.setValue("high", 150);
+    function setHighValue(highIn) as Void { // TODO: Probably will make sense to move this to settings view
+        Storage.setValue("high", highIn);
     }
 
     function getHighValue() as Lang.Number {
