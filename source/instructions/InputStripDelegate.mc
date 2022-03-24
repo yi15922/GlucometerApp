@@ -8,7 +8,7 @@ class InputStripDelegate extends WatchUi.BehaviorDelegate{
     }
 
     function onSelect() as Boolean {
-        WatchUi.switchToView(new TestBloodView(), new TestBloodDelegate(), WatchUi.SLIDE_UP);
+        WatchUi.switchToView(new ConnectDeviceView(), new ConnectDeviceDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 

@@ -10,7 +10,6 @@ class GlucometerAppApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state as Dictionary?) as Void {
-        var bleFetcher = new BluetoothFetcher(); 
     }
 
     // onStop() is called when your application is exiting
@@ -19,7 +18,7 @@ class GlucometerAppApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new ConnectDeviceView(), new ConnectDeviceDelegate() ] as Array<Views or InputDelegates>;
+        return [ new InputStripView(), new InputStripDelegate() ] as Array<Views or InputDelegates>;
     }
 
 }

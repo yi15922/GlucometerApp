@@ -21,8 +21,6 @@ class ConnectDeviceView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.ConnectDevice(dc));
-        var myTimer = new Timer.Timer(); 
-        myTimer.start(method(:timerCallback), 1000, true); 
     }
 
     function onUpdate(dc){ 

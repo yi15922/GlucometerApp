@@ -21,6 +21,8 @@ class InputStripView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.InputStrip(dc));
+        var myTimer = new Timer.Timer(); 
+        myTimer.start(method(:timerCallback), 1000, true); 
     }
 
     function onUpdate(dc){ 
@@ -47,7 +49,7 @@ class InputStripView extends WatchUi.View {
             ]
         );
 
-        var available = "Input Strip"; 
+        var available = "Input Strip\nTap The Screen To Continue"; 
 
         bleResultsText.setText(available); 
         timeText.setText(timeString); 
