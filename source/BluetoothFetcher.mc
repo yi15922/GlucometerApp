@@ -51,6 +51,12 @@ class BluetoothFetcher extends Ble.BleDelegate {
         glucoseValueCallback = glucoseValueCallbackMethod; 
     }
 
+    function updateView(connectionCallbackMethod, glucoseValueCallbackMethod) {
+        System.println(connectionCallbackMethod);
+        connectionCallback = connectionCallbackMethod; 
+        glucoseValueCallback = glucoseValueCallbackMethod; 
+    }
+
     // Confirms the registration of a BLE profile. 
     function onProfileRegister(uuid, status) {
 		debug("registered: " + uuid + " " + status);
@@ -88,7 +94,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onScanStateChange(scanState, status) {
 		debug("scanstate: " + scanState + " " + status);
-		if (scanState == Ble.SCAN_STATE_SCANNING) {
+		if (scanState == Ble.SCAN_STATE_SCANNING && connectionCallback != null) {
             connectionCallback.invoke(FETCHER_STATE_SEARCHING); 
 			scanning = true;
 		} else {
@@ -147,7 +153,9 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
         var callbackString = handleBLEValue(BG);  
-		glucoseValueCallback.invoke(callbackString); 
+        if(glucoseValueCallback != null){
+		    glucoseValueCallback.invoke(callbackString); 
+        }
 	}
 
     /* 
@@ -159,7 +167,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onConnectedStateChanged(device, state) {
 		debug("connected: " + device.getName() + " " + state);
-		if (state == Ble.CONNECTION_STATE_CONNECTED) {
+		if (state == Ble.CONNECTION_STATE_CONNECTED && connectionCallback != null) {
 			self.device = device;
             setGlucoseNotifications(1); 
             connectionState = FETCHER_STATE_CONNECTED; 
@@ -258,7 +266,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
         } else if (glucoseConcentration == 65535) {
             outputString = "Blood detected! \nPlease wait..."; 
         } else { 
-            outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
+            outputString = Lang.format("$1$", [glucoseConcentration]); 
             connectionState = FETCHER_STATE_FINISHED; 
             close(); 
         }

@@ -1,11 +1,16 @@
 import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
+using Toybox.BluetoothLowEnergy as Ble; 
 
 class GlucometerAppApp extends Application.AppBase {
 
+    var bleFetcher = null; 
+
     function initialize() {
-        AppBase.initialize();
+        AppBase.initialize(); 
+        bleFetcher = new BluetoothFetcher(null, null); 
+        Ble.setDelegate(bleFetcher); 
     }
 
     // onStart() is called on application start up
@@ -18,7 +23,7 @@ class GlucometerAppApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new InputStripView(), new InputStripDelegate() ] as Array<Views or InputDelegates>;
+        return [ new InputStripView(), new InputStripDelegate(bleFetcher) ] as Array<Views or InputDelegates>;
     }
 
 }

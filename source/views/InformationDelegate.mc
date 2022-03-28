@@ -3,8 +3,12 @@ import Toybox.System;
 import Toybox.WatchUi; 
 
 class InformationDelegate extends WatchUi.BehaviorDelegate{ 
-    function initialize() { 
+
+    var bleFetcher = null; 
+
+    function initialize(bleFetch) { 
         BehaviorDelegate.initialize();
+        bleFetcher = bleFetch;
     }
 
     function onSelect() as Boolean {
