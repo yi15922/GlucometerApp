@@ -18,7 +18,6 @@ class InformationDelegate extends WatchUi.BehaviorDelegate{
 
     function onSwipe(swipeEvent) {
         var direction = swipeEvent.getDirection();
-        System.println(direction);
         if(direction == 0){
             WatchUi.pushView(new GraphView(), new GraphDelegate(), WatchUi.SLIDE_UP);
         }

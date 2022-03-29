@@ -52,7 +52,6 @@ class BluetoothFetcher extends Ble.BleDelegate {
     }
 
     function updateView(connectionCallbackMethod, glucoseValueCallbackMethod) {
-        System.println(connectionCallbackMethod);
         connectionCallback = connectionCallbackMethod; 
         glucoseValueCallback = glucoseValueCallbackMethod; 
     }
