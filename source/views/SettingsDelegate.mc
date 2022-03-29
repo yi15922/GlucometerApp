@@ -15,8 +15,13 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate{
     function onSwipe(swipeEvent) {
         var direction = swipeEvent.getDirection();
         if(direction == 2){
-            WatchUi.popView(WatchUi.SLIDE_LEFT);
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
         }
+        return true;
+    }
+
+    function onBack() as Boolean {
+        WatchUi.popView(WatchUi.SLIDE_DOWN);
         return true;
     }
 }

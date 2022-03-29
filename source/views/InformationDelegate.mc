@@ -12,7 +12,7 @@ class InformationDelegate extends WatchUi.BehaviorDelegate{
     }
 
     function onSelect() as Boolean {
-        WatchUi.pushView(new GraphView(), new GraphDelegate(), WatchUi.SLIDE_RIGHT);
+        WatchUi.pushView(new GraphView(), new GraphDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
 
@@ -20,7 +20,7 @@ class InformationDelegate extends WatchUi.BehaviorDelegate{
         var direction = swipeEvent.getDirection();
         System.println(direction);
         if(direction == 0){
-            WatchUi.pushView(new GraphView(), new GraphDelegate(), WatchUi.SLIDE_RIGHT);
+            WatchUi.pushView(new GraphView(), new GraphDelegate(), WatchUi.SLIDE_UP);
         }
         return true;
     }
