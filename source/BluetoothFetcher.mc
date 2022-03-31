@@ -27,6 +27,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     var profileRegistered = false; 
     var connectionCallback; 
     var glucoseValueCallback;
+    var initialized = false;
     
 
     const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
@@ -52,6 +53,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     }
 
     function updateView(connectionCallbackMethod, glucoseValueCallbackMethod) {
+        initialized = true;
         connectionCallback = connectionCallbackMethod; 
         glucoseValueCallback = glucoseValueCallbackMethod; 
     }
@@ -93,7 +95,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onScanStateChange(scanState, status) {
 		debug("scanstate: " + scanState + " " + status);
-		if (scanState == Ble.SCAN_STATE_SCANNING && connectionCallback != null) {
+		if (scanState == Ble.SCAN_STATE_SCANNING && initialized) {
             connectionCallback.invoke(FETCHER_STATE_SEARCHING); 
 			scanning = true;
 		} else {
@@ -152,7 +154,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
         var callbackString = handleBLEValue(BG);  
-        if(glucoseValueCallback != null || callbackString.equals("Blood detected! \nPlease wait...")){
+        if(initialized){
 		    glucoseValueCallback.invoke(callbackString); 
         }
 	}
@@ -166,7 +168,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onConnectedStateChanged(device, state) {
 		debug("connected: " + device.getName() + " " + state);
-		if (state == Ble.CONNECTION_STATE_CONNECTED && connectionCallback != null) {
+		if (state == Ble.CONNECTION_STATE_CONNECTED && initialized) {
 			self.device = device;
             setGlucoseNotifications(1); 
             connectionState = FETCHER_STATE_CONNECTED; 
