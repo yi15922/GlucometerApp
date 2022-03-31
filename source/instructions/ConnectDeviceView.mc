@@ -54,9 +54,9 @@ class ConnectDeviceView extends WatchUi.View {
         var available = "Connect Device"; 
 
         bleResultsText.setText(bleConnectionState); 
-        timeText.setText(timeString); 
+        timeText.setText(timeString);
 
-        if(bleConnectionState == "Awaiting blood"){
+        if(bleConnectionState.equals("Awaiting blood")){
             moveToNextView();
         }
 
