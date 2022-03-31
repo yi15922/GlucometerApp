@@ -56,7 +56,7 @@ class ConnectDeviceView extends WatchUi.View {
         bleResultsText.setText(bleConnectionState); 
         timeText.setText(timeString);
 
-        if(bleConnectionState.equals("Awaiting blood")){
+        if(bleConnectionState.equals("Glucometer connected!")){
             moveToNextView();
         }
 
