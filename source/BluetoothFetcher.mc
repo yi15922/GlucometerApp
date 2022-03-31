@@ -28,6 +28,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     var connectionCallback; 
     var glucoseValueCallback;
     var initialized = false;
+    var bg_val = 0;
     
 
     const FETCHER_STATE_SEARCHING = "Searching for glucometers..."; 
@@ -153,11 +154,16 @@ class BluetoothFetcher extends Ble.BleDelegate {
     function onCharacteristicChanged(ch, value) {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
+        bg_val = BG;
         var callbackString = handleBLEValue(BG);  
         if(initialized){
 		    glucoseValueCallback.invoke(callbackString); 
         }
 	}
+
+    function getBgVal(){
+        return bg_val;
+    }
 
     /* 
         If a device is connected successfully, this function

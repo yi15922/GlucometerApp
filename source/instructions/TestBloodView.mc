@@ -57,7 +57,7 @@ class TestBloodView extends WatchUi.View {
 
         bleResultsText.setText(bleConnectionState); 
         timeText.setText(timeString); 
-        if(bleConnectionState.equals("Blood detected! \nPlease wait...")){
+        if(bleFetcher.getBgVal() != 0){
             moveToNextView();
         }
     }
