@@ -152,7 +152,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
         var callbackString = handleBLEValue(BG);  
-        if(glucoseValueCallback != null){
+        if(glucoseValueCallback != null || callbackString.equals("Blood detected! \nPlease wait...")){
 		    glucoseValueCallback.invoke(callbackString); 
         }
 	}
