@@ -57,15 +57,11 @@ class GraphView extends WatchUi.View {
             startIdx = arrSize-5;
             endIdx = arrSize;
         }
-        System.println("startIdx:");
-        System.println(startIdx);
-        System.println("endIdx:");
-        System.println(endIdx);
-        try {
-            design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
-        } catch (e) { 
-            System.println(e.getErrorMessage());
-        }
+        // try {
+        design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
+        // } catch (e) { 
+        //     System.println(e.getErrorMessage());
+        // }
         System.println("made graph");
         // var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text;

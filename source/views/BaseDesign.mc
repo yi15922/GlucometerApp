@@ -64,24 +64,40 @@ class BaseDesign {
         var offset = (VENU2_CENTER*2-200)/(measurements.size()+1);
         System.println("offset:");
         System.println(offset);
+        System.println(offset as Number);
         var currX = 100 + offset;
+        System.println("currX:");
+        System.println(currX);
+        System.println(currX as Number);
+        
         dc.setColor(white, Graphics.COLOR_BLACK);
         var prevX = 0;
         var prevY = 0;
+        System.println("measurements:");
+        System.println(measurements);
+        System.println(measurements[0] as Number);
         for(var i = 0; i<measurements.size(); i++){
-            var currY = VENU2_CENTER*2-80-measurements[i];
+
+            var currY = VENU2_CENTER*2-80-measurements[i].toNumber();
+            System.println("currY:");
+            System.println(currY);
+            System.println(currY as Number);
             dc.fillCircle(currX, currY, 3);
+            System.println("filled circle");
             if(i > 0){
                 dc.drawLine(prevX,prevY,currX,currY);
             }
+            System.println("drew line");
             if(i % 2 == 0){
                 dc.drawText(currX-10, VENU2_CENTER*2-80, Graphics.FONT_XTINY, times[i], Graphics.TEXT_JUSTIFY_CENTER);
             } else {
                 dc.drawText(currX-10, VENU2_CENTER*2-50, Graphics.FONT_XTINY, times[i], Graphics.TEXT_JUSTIFY_CENTER);
             }
+            System.println("drew text");
             prevX = currX;
             prevY = currY;
             currX += offset;
+            System.println("updated values");
         }
         System.println("drew graph points");
     }
