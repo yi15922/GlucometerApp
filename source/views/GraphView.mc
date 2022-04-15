@@ -39,26 +39,36 @@ class GraphView extends WatchUi.View {
     }
 
     function onUpdate(dc){ 
-        Storage.clearValues();
         View.onUpdate(dc);
         design.menuDots(dc, 2);
         
-        var pos = 24;
         var startIdx = 0;
         var endIdx = 0;
-        while(pos >= 0 && Storage.getValue("meas")[pos] == null){
-            pos--;
+        var arrSize = Storage.getValue("meas").size();
+        if(arrSize < 5){
+            endIdx = arrSize;
+        } else {
+            startIdx = arrSize-5;
+            endIdx = arrSize;
         }
-        if(pos < 4 && pos > 0){
-            endIdx = pos+1;
-            design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
-        } else if(pos <= 0){
-            design.graph(dc, [], []);
-        } else{
-            startIdx = pos-4;
-            endIdx = pos+1;
-            design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
-        }
+        design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
+        
+        // var pos = 24;
+        // var startIdx = 0;
+        // var endIdx = 0;
+        // while(pos >= 0 && Storage.getValue("meas")[pos] == null){
+        //     pos--;
+        // }
+        // if(pos < 4 && pos > 0){
+        //     endIdx = pos+1;
+        //     design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
+        // } else if(pos <= 0){
+        //     design.graph(dc, [], []);
+        // } else{
+        //     startIdx = pos-4;
+        //     endIdx = pos+1;
+        //     design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
+        // }
 
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text;

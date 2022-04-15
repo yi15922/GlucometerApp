@@ -80,20 +80,37 @@ class InformationView extends WatchUi.View {
     }
 
     function addNewValue(value) {
-        var arrTimes = new[25];
+        // Storage.clearValues();
+        var arrTimes = new[1];
         var prevStoredTimes = Storage.getValue("times");
         if(prevStoredTimes == null){
             Storage.setValue("times", arrTimes);
         } else {
             arrTimes = prevStoredTimes;
+            if(prevStoredTimes.size() != 25){
+                arrTimes = new[prevStoredTimes.size()+1];
+            } else {
+                arrTimes = new[prevStoredTimes.size()];
+            }
+            for(var i=0; i<prevStoredTimes.size(); i++){
+                arrTimes[i] = prevStoredTimes[i];
+            }
         }
 
-        var arrMeas = new[25];
+        var arrMeas = new[1];
         var prevStoredMeas = Storage.getValue("meas");
         if(prevStoredMeas == null){
             Storage.setValue("meas", arrMeas);
         } else {
             arrMeas = prevStoredMeas;
+            if(prevStoredMeas.size() != 25){
+                arrMeas = new[prevStoredMeas.size()+1];
+            } else {
+                arrMeas = new[prevStoredMeas.size()];
+            }
+            for(var i=0; i<prevStoredMeas.size(); i++){
+                arrMeas[i] = prevStoredMeas[i];
+            }
         }
 
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -114,20 +131,16 @@ class InformationView extends WatchUi.View {
             ]
         );
 
-        var pos = 0;
-        while(pos < 25 && arrTimes[pos] != null){
-            pos = pos + 1;
-        }
-
-        if(pos > 24){
+        if(arrTimes.size() > 25){
             shiftArray(arrTimes);
             shiftArray(arrMeas);
-            pos = 24;
         }
-        arrTimes[pos] = timeString;
+        arrTimes[arrTimes.size()-1] = timeString;
+        System.println(arrTimes);
         Storage.setValue("times", arrTimes);
 
-        arrMeas[pos] = value;
+        arrMeas[arrMeas.size()-1] = value;
+        System.println(arrMeas);
         Storage.setValue("meas", arrMeas);
 
         System.println(Storage.getValue("times"));
