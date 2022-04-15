@@ -1,5 +1,5 @@
 <layout id="PairingScreen"> 
     <label id="TimeDisplay" x="center" y="30" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="PairingResult" x="center" y="center" font = "Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="PairingResult" x="center" y="70" font = "Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="GlucoseValue" text="@Strings.waitingGlucose" x="center" y="center" font="Graphics.FONT_MEDIUM" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
-
