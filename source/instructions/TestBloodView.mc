@@ -48,9 +48,10 @@ class TestBloodView extends WatchUi.View {
             [
                 today.hour,
                 today.min,
-                
             ]
         );
+
+        
 
         var available = "Awaiting Blood"; 
 
