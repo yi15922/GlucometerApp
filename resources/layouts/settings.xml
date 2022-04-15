@@ -1,5 +1,8 @@
-<layout id="Settings"> 
-    <label id="TimeDisplay" x="center" y="30" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-    <label id="PairingResult" x="center" y="center" font = "Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+<layout id="Settings">
+    <label id="HighLabel" x="100" y="150" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="LowLabel" x="100" y="240" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="HighValue" x="center" y="150" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="LowValue" x="center" y="240" font="Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="SettingsLabel" x="center" y="30" font = "Graphics.FONT_XTINY" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
 

@@ -44,12 +44,10 @@ class TestBloodView extends WatchUi.View {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); 
 
         var timeString = Lang.format(
-            "$1$:$2$:$3$",
+            "$1$:$2$",
             [
                 today.hour,
                 today.min,
-                today.sec,
-                
             ]
         );
 
