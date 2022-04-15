@@ -10,6 +10,8 @@ import Toybox.BluetoothLowEnergy;
 class InputStripView extends WatchUi.View { 
     
     var flip = true;
+    var myTimer = new Timer.Timer(); 
+
 
     function initialize() { 
         View.initialize();
@@ -21,7 +23,6 @@ class InputStripView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.InputStrip(dc));
-        var myTimer = new Timer.Timer(); 
         myTimer.start(method(:timerCallback), 1000, true); 
     }
 
@@ -54,5 +55,5 @@ class InputStripView extends WatchUi.View {
         timeText.setText(timeString); 
 
     }
-
 }
+
