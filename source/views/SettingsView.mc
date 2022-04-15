@@ -6,6 +6,7 @@ import Toybox.Timer;
 import Toybox.Time; 
 import Toybox.Time.Gregorian;
 import Toybox.BluetoothLowEnergy; 
+import Toybox.Application.Storage;
 
 class SettingsView extends WatchUi.View { 
     
@@ -21,31 +22,47 @@ class SettingsView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Settings(dc));
+        // TODO: Add buttons
     }
 
     function onUpdate(dc){ 
         View.onUpdate(dc);
         design.menuDots(dc, 3);
+        var lowVal = Storage.getValue("low");
+        var highVal = Storage.getValue("high");
 
-        var bleResultsText = View.findDrawableById("PairingResult") as Text;
-        var timeText = View.findDrawableById("TimeDisplay") as Text; 
-        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); 
+        var settingsText = View.findDrawableById("SettingsLabel") as Text;
+        settingsText.setText("Settings");
+        var highText = View.findDrawableById("HighLabel") as Text;
+        highText.setText("Set high value:");
+        var lowText = View.findDrawableById("LowLabel") as Text;
+        lowText.setText("Set low value:");
+        var highValueText = View.findDrawableById("HighValue") as Text;
+        highValueText.setText(highVal.toString());
+        var lowValueText = View.findDrawableById("LowValue") as Text;
+        lowValueText.setText(lowVal.toString());
+    }
 
-        var timeString = Lang.format(
-            "$1$:$2$:$3$",
-            [
-                today.hour,
-                today.min,
-                today.sec,
-                
-            ]
-        );
+    function decreaseLow(){
+        var lowVal = Storage.getValue("low")-10;
+        Storage.setValue("low", lowVal-10);
+        var lowValueText = View.findDrawableById("LowValue") as Text;
+        lowValueText.setText(lowVal.toString());
+    }
 
-        var available = "Settings"; 
+    function increaseLow(){
+        var lowVal = Storage.getValue("low");
+        Storage.setValue("low", lowVal+10);
+    }
 
-        bleResultsText.setText(available); 
-        timeText.setText(timeString); 
+    function decreaseHigh(){
+        var highVal = Storage.getValue("high");
+        Storage.setValue("high", highVal-10);
+    }
 
+    function increaseHigh(){
+        var highVal = Storage.getValue("high");
+        Storage.setValue("high", highVal+10);
     }
 
 }
