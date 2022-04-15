@@ -47,8 +47,8 @@ class InformationView extends WatchUi.View {
                 today.month,
                 today.day,
                 today.hour,
-                today.min,
-                today.sec,
+                design.formatTime(today.min),
+                design.formatTime(today.sec),
             ]
         );
 

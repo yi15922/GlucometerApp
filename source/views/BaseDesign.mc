@@ -50,4 +50,13 @@ class BaseDesign {
             currX += offset;
         }
     }
+
+    function formatTime(value){
+        if(value < 10){
+            return Lang.format("0$1$", [value]);
+        }
+        else{
+            return value;
+        }
+    }
 }

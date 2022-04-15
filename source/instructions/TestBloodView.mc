@@ -53,6 +53,8 @@ class TestBloodView extends WatchUi.View {
             ]
         );
 
+        
+
         var available = "Awaiting Blood"; 
 
         bleResultsText.setText(bleConnectionState); 
