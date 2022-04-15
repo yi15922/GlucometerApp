@@ -96,7 +96,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onScanStateChange(scanState, status) {
 		debug("scanstate: " + scanState + " " + status);
-		if (scanState == Ble.SCAN_STATE_SCANNING) {
+		if (scanState == Ble.SCAN_STATE_SCANNING && initialized) {
             connectionCallback.invoke(FETCHER_STATE_SEARCHING); 
 			scanning = true;
 		} else {
@@ -154,9 +154,16 @@ class BluetoothFetcher extends Ble.BleDelegate {
     function onCharacteristicChanged(ch, value) {
 		debug("char read " + ch.getUuid() + " value: " + value);
         var BG = value.decodeNumber(NUMBER_FORMAT_UINT16, {:offset => 0, :endianness => Lang.ENDIAN_LITTLE});
+        bg_val = BG;
         var callbackString = handleBLEValue(BG);  
-		glucoseValueCallback.invoke(callbackString); 
+        if(initialized){
+		    glucoseValueCallback.invoke(callbackString); 
+        }
 	}
+
+    function getBgVal(){
+        return bg_val;
+    }
 
     /* 
         If a device is connected successfully, this function
@@ -167,7 +174,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
     */
     function onConnectedStateChanged(device, state) {
 		debug("connected: " + device.getName() + " " + state);
-		if (state == Ble.CONNECTION_STATE_CONNECTED) {
+		if (state == Ble.CONNECTION_STATE_CONNECTED && initialized) {
 			self.device = device;
             setGlucoseNotifications(1); 
             connectionState = FETCHER_STATE_CONNECTED; 
@@ -266,7 +273,7 @@ class BluetoothFetcher extends Ble.BleDelegate {
         } else if (glucoseConcentration == 65535) {
             outputString = "Blood detected! \nPlease wait..."; 
         } else { 
-            outputString = Lang.format("BG: $1$mg/dL", [glucoseConcentration]); 
+            outputString = Lang.format("$1$", [glucoseConcentration]); 
             connectionState = FETCHER_STATE_FINISHED; 
             close(); 
         }

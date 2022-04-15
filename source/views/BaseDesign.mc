@@ -38,7 +38,6 @@ class BaseDesign {
         dc.drawLine(VENU2_CENTER+20, VENU2_CENTER+150, VENU2_CENTER, VENU2_CENTER+150);
     }
 
-<<<<<<< HEAD
     function graph(dc as Dc, measurements, times) as Void {
         var lowVal = Storage.getValue("low");
         var highVal = Storage.getValue("high");
@@ -58,20 +57,6 @@ class BaseDesign {
         }
         dc.drawText(90, 115, Graphics.FONT_XTINY, "mg/dL", Graphics.TEXT_JUSTIFY_CENTER);
         var offset = (VENU2_CENTER*2-200)/(measurements.size());
-=======
-    function graph(dc as Dc, bsVals, lowVal, highVal) as Void {
-
-        // Draw plot and labels
-        dc.setPenWidth(2);
-        dc.drawLine(100, VENU2_CENTER*2-80, 100, 120);
-        dc.drawLine(100, VENU2_CENTER*2-80, VENU2_CENTER*2-100, VENU2_CENTER*2-80);
-        dc.drawText(95, 115, Graphics.FONT_XTINY, "mg/dL", Graphics.TEXT_JUSTIFY_CENTER);
-
-        // Draw high and low regions
-
-        // Draw glucose reading values
-        var offset = (VENU2_CENTER*2-200)/(bsVals.size()+2);
->>>>>>> 4ff46cc87497493bd21c2bd0ff7cf37e392b8c6d
         var currX = 100 + offset;
         dc.setColor(white, Graphics.COLOR_BLACK);
         var prevX = 0;

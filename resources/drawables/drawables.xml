@@ -1,10 +1,6 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
-<<<<<<< HEAD
     <bitmap id="Bluetooth" filename="bluetooth.png" />
     <bitmap id="TestStrip" filename="test_strip.png" />
     <bitmap id="Blood" filename="blood.png" />
-=======
-    <bitmap id="button" filename="button.png" />
->>>>>>> fe457f3b518256e1bb866f3d39da446cbfd65c65
 </drawables>
