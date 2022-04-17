@@ -14,9 +14,7 @@ class InformationView extends WatchUi.View {
     var bleFetcher = null; 
     var bgDisplay = "---"; 
     var bleConnectionState = "Awaiting Blood";
-    // var myTimer = new Timer.Timer(); 
 
-    
     function initialize(bleFetch) {
         View.initialize();
         bleFetcher = bleFetch;
@@ -29,8 +27,7 @@ class InformationView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Information(dc));
-        // myTimer.start(method(:timerCallback), 1000, true);
-        //addNewValue(130); //TODO: delete when we're actually using glucometer
+        addNewValue(130); //TODO: delete when we're actually using glucometer
     }
 
     function onUpdate(dc as Dc) as Void {
@@ -154,8 +151,4 @@ class InformationView extends WatchUi.View {
         }
         arr[arr.size()-1] = null;
     }
-
-    // function onHide() as Void { 
-    //     myTimer.stop(); 
-    // }
 }

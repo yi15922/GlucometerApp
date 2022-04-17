@@ -88,8 +88,4 @@ class TestBloodView extends WatchUi.View {
         self.requestUpdate(); 
     }
 
-    function onHide() as Void { 
-        
-    }
-
 }

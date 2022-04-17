@@ -1,5 +1,5 @@
 import Toybox.Lang; 
-import Toybox.System; 
+import Toybox.System;
 import Toybox.WatchUi; 
 import Toybox.Graphics;
 import Toybox.Timer; 
@@ -22,14 +22,6 @@ class SettingsView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Settings(dc));
-        // TODO: Add buttons
-    }
-
-    function onUpdate(dc){ 
-        View.onUpdate(dc);
-        design.menuDots(dc, 3);
-        var lowVal = Storage.getValue("low");
-        var highVal = Storage.getValue("high");
 
         var settingsText = View.findDrawableById("SettingsLabel") as Text;
         settingsText.setText("Settings");
@@ -37,32 +29,29 @@ class SettingsView extends WatchUi.View {
         highText.setText("Set high value:");
         var lowText = View.findDrawableById("LowLabel") as Text;
         lowText.setText("Set low value:");
+
+    }
+
+    function onUpdate(dc){ 
+        View.onUpdate(dc);
+        design.menuDots(dc, 3);
+
+        var lowVal = Storage.getValue("low");
+        var highVal = Storage.getValue("high");
+
         var highValueText = View.findDrawableById("HighValue") as Text;
         highValueText.setText(highVal.toString());
         var lowValueText = View.findDrawableById("LowValue") as Text;
         lowValueText.setText(lowVal.toString());
-    }
 
-    function decreaseLow(){
-        var lowVal = Storage.getValue("low")-10;
-        Storage.setValue("low", lowVal-10);
-        var lowValueText = View.findDrawableById("LowValue") as Text;
-        lowValueText.setText(lowVal.toString());
-    }
+        dc.setColor(Graphics.COLOR_LT_GRAY,Graphics.COLOR_DK_GRAY);
 
-    function increaseLow(){
-        var lowVal = Storage.getValue("low");
-        Storage.setValue("low", lowVal+10);
-    }
+        dc.fillPolygon([[250,160],[300,160],[275,115]]); // high value up
+        dc.fillPolygon([[250,170],[300,170],[275,215]]); // high value down
 
-    function decreaseHigh(){
-        var highVal = Storage.getValue("high");
-        Storage.setValue("high", highVal-10);
-    }
+        dc.fillPolygon([[250,280],[300,280],[275,235]]); // low value up
+        dc.fillPolygon([[250,290],[300,290],[275,335]]); // low value down
 
-    function increaseHigh(){
-        var highVal = Storage.getValue("high");
-        Storage.setValue("high", highVal+10);
     }
 
 }

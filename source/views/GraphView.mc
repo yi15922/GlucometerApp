@@ -2,13 +2,12 @@ import Toybox.Lang;
 import Toybox.System; 
 import Toybox.WatchUi; 
 import Toybox.Graphics;
-// import Toybox.Timer; 
 import Toybox.Time; 
 import Toybox.Time.Gregorian;
 import Toybox.BluetoothLowEnergy; 
 import Toybox.Application.Storage;
 
-class GraphView extends WatchUi.View { 
+class GraphView extends WatchUi.View {
     
     var design = new BaseDesign();
     var currStartIdx = 20;
@@ -33,10 +32,6 @@ class GraphView extends WatchUi.View {
         lowVal = Storage.getValue("low");
         highVal = Storage.getValue("high");
     }
-
-    // function timerCallback() { 
-    //     self.requestUpdate(); 
-    // }
 
     function onLayout(dc){
         setLayout(Rez.Layouts.Graph(dc));
