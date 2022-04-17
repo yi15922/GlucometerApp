@@ -41,7 +41,6 @@ class HighSettingsDelegate extends WatchUi.BehaviorDelegate{
         var area1 = (0.5*(10*((center-30)-y) + (edge-10)*(y-(center-30)) + x*((center-30)-(center-30)))).abs();
         var area2 = (0.5*(x*((center-30)-(center-150)) + (edge-10)*((center-150)-y) + center*(y-(center-30)))).abs();
         var area3 = (0.5*(10*(y-(center-150)) + x*((center-150)-(center-30)) + center*((center-30)-y))).abs();
-        System.println(area1+area2+area3);
         if(area1+area2+area3 == area){
             // up pressed
             increaseValue();

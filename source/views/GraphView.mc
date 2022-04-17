@@ -63,7 +63,7 @@ class GraphView extends WatchUi.View {
                 today.month,
                 today.day,
                 today.hour,
-                today.min,
+                (today.min).format("%02d"),
             ]
         );
         timeText.setText(timeString);

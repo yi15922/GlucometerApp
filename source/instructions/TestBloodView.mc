@@ -47,8 +47,7 @@ class TestBloodView extends WatchUi.View {
             "$1$:$2$",
             [
                 today.hour,
-                today.min,
-                
+                (today.min).format("%02d"),
             ]
         );
 

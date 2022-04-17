@@ -27,7 +27,7 @@ class InformationView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Information(dc));
-        addNewValue(130); //TODO: delete when we're actually using glucometer
+        addNewValue(105); //TODO: delete when we're actually using glucometer
     }
 
     function onUpdate(dc as Dc) as Void {
@@ -48,7 +48,7 @@ class InformationView extends WatchUi.View {
                 today.month,
                 today.day,
                 today.hour,
-                today.min,
+                (today.min).format("%02d"),
             ]
         );
         timeText.setText(timeString);
@@ -123,7 +123,7 @@ class InformationView extends WatchUi.View {
             "$1$:$2$",
             [
                 today.hour,
-                today.min,
+                (today.min).format("%02d"),
                 // amPM,
             ]
         );

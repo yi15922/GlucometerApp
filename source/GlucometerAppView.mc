@@ -39,12 +39,10 @@ class GlucometerAppView extends WatchUi.View {
         setBloodSugar(getBloodSugar() + 1);
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var timeString = Lang.format(
-            "$1$:$2$:$3$",
+            "$1$:$2$",
             [
                 today.hour,
-                today.min,
-                today.sec
-                
+                (today.min).format("%02d"),
             ]
         );
         var timeText = View.findDrawableById("TimeDisplay") as Text;
