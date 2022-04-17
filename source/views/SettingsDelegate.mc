@@ -3,8 +3,12 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Application.Storage;
 
-class SettingsDelegate extends WatchUi.BehaviorDelegate{ 
-    function initialize() { 
+class SettingsDelegate extends WatchUi.BehaviorDelegate{
+
+    var view = null;
+
+    function initialize(newView) { 
+        view = newView;
         BehaviorDelegate.initialize();
     }
 
@@ -80,6 +84,7 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate{
     function decreaseLow(){
         var lowVal = Storage.getValue("low")-10;
         Storage.setValue("low", lowVal);
+        view.requestUpdate();
         // var lowValueText = View.findDrawableById("LowValue") as Text;
         // lowValueText.setText(lowVal.toString());
     }
@@ -87,6 +92,7 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate{
     function increaseLow(){
         var lowVal = Storage.getValue("low")+10;
         Storage.setValue("low", lowVal);
+        view.requestUpdate();
         // var lowValueText = View.findDrawableById("LowValue") as Text;
         // lowValueText.setText(lowVal.toString());
     }
@@ -94,6 +100,7 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate{
     function decreaseHigh(){
         var highVal = Storage.getValue("high")-10;
         Storage.setValue("high", highVal);
+        view.requestUpdate();
         // var highValueText = View.findDrawableById("HighValue") as Text;
         // highValueText.setText(highVal.toString());
     }
@@ -101,6 +108,7 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate{
     function increaseHigh(){
         var highVal = Storage.getValue("high")+10;
         Storage.setValue("high", highVal);
+        view.requestUpdate();
         // var highValueText = View.findDrawableById("HighValue") as Text;
         // highValueText.setText(highVal.toString());
     }

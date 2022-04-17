@@ -2,7 +2,8 @@ import Toybox.Lang;
 import Toybox.System; 
 import Toybox.WatchUi; 
 
-class GraphDelegate extends WatchUi.BehaviorDelegate{ 
+class GraphDelegate extends WatchUi.BehaviorDelegate{
+
     function initialize() { 
         BehaviorDelegate.initialize();
     }
@@ -15,7 +16,8 @@ class GraphDelegate extends WatchUi.BehaviorDelegate{
     function onSwipe(swipeEvent) {
         var direction = swipeEvent.getDirection();
         if(direction == 0){
-            WatchUi.pushView(new SettingsView(), new SettingsDelegate(), WatchUi.SLIDE_UP);
+            var newView = new SettingsView();
+            WatchUi.pushView(newView, new SettingsDelegate(newView), WatchUi.SLIDE_UP);
         }
         else if(direction == 2){
             WatchUi.popView(WatchUi.SLIDE_DOWN);
