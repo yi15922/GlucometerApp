@@ -7,10 +7,10 @@ class GraphDelegate extends WatchUi.BehaviorDelegate{
         BehaviorDelegate.initialize();
     }
 
-    function onSelect() as Boolean {
-        WatchUi.pushView(new SettingsView(), new SettingsDelegate(), WatchUi.SLIDE_UP);
-        return true;
-    }
+    // function onSelect() as Boolean {
+    //     WatchUi.pushView(new SettingsView(), new SettingsDelegate(), WatchUi.SLIDE_UP);
+    //     return true;
+    // }
 
     function onSwipe(swipeEvent) {
         var direction = swipeEvent.getDirection();

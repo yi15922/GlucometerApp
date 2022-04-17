@@ -1,16 +1,17 @@
 import Toybox.Lang; 
 import Toybox.System; 
-import Toybox.WatchUi; 
+import Toybox.WatchUi;
+import Toybox.Application.Storage;
 
 class SettingsDelegate extends WatchUi.BehaviorDelegate{ 
     function initialize() { 
         BehaviorDelegate.initialize();
     }
 
-    function onSelect() as Boolean {
-        //WatchUi.pushView(new InformationView(), new InformationDelegate(), WatchUi.SLIDE_UP);
-        return true;
-    }
+    // function onSelect() as Boolean {
+    //     //WatchUi.pushView(new InformationView(), new InformationDelegate(), WatchUi.SLIDE_UP);
+    //     return true;
+    // }
 
     function onSwipe(swipeEvent) {
         var direction = swipeEvent.getDirection();
@@ -79,28 +80,28 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate{
     function decreaseLow(){
         var lowVal = Storage.getValue("low")-10;
         Storage.setValue("low", lowVal);
-        var lowValueText = View.findDrawableById("LowValue") as Text;
-        lowValueText.setText(lowVal.toString());
+        // var lowValueText = View.findDrawableById("LowValue") as Text;
+        // lowValueText.setText(lowVal.toString());
     }
 
     function increaseLow(){
         var lowVal = Storage.getValue("low")+10;
         Storage.setValue("low", lowVal);
-        var lowValueText = View.findDrawableById("LowValue") as Text;
-        lowValueText.setText(lowVal.toString());
+        // var lowValueText = View.findDrawableById("LowValue") as Text;
+        // lowValueText.setText(lowVal.toString());
     }
 
     function decreaseHigh(){
         var highVal = Storage.getValue("high")-10;
         Storage.setValue("high", highVal);
-        var highValueText = View.findDrawableById("HighValue") as Text;
-        highValueText.setText(highVal.toString());
+        // var highValueText = View.findDrawableById("HighValue") as Text;
+        // highValueText.setText(highVal.toString());
     }
 
     function increaseHigh(){
         var highVal = Storage.getValue("high")+10;
         Storage.setValue("high", highVal);
-        var highValueText = View.findDrawableById("HighValue") as Text;
-        highValueText.setText(highVal.toString());
+        // var highValueText = View.findDrawableById("HighValue") as Text;
+        // highValueText.setText(highVal.toString());
     }
 }
