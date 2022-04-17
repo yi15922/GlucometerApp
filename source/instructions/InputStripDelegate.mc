@@ -20,8 +20,8 @@ class InputStripDelegate extends WatchUi.BehaviorDelegate{
     function  onSwipe(swipeEvent) {
         var direction = swipeEvent.getDirection();
         if(direction == 0){
-            var newView = new SettingsView();
-            WatchUi.pushView(newView, new SettingsDelegate(newView), WatchUi.SLIDE_UP);
+            var newView = new HighSettingsView();
+            WatchUi.pushView(newView, new HighSettingsDelegate(newView), WatchUi.SLIDE_UP);
         }
         return true;
     }
