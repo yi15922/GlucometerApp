@@ -15,16 +15,12 @@ class GraphView extends WatchUi.View {
     function initialize() { 
         View.initialize();
         var lowVal = Storage.getValue("low");
-        System.println("lowVal:");
-        System.println(lowVal);
         if(lowVal == null){
             Storage.setValue("low",70);
             lowVal = 70;
         }
 
         var highVal = Storage.getValue("high");
-        System.println("highVal:");
-        System.println(highVal);
         if(highVal == null){
             Storage.setValue("high",180);
             highVal = 180;
@@ -44,21 +40,13 @@ class GraphView extends WatchUi.View {
         var startIdx = 0;
         var endIdx = 0;
         var arrSize = Storage.getValue("meas").size();
-        System.println("arrSize:");
-        System.println(arrSize);
         if(arrSize < 5){
             endIdx = arrSize;
         } else {
             startIdx = arrSize-5;
             endIdx = arrSize;
         }
-        // try {
         design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
-        // } catch (e) { 
-        //     System.println(e.getErrorMessage());
-        // }
-        System.println("made graph");
-        // var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var timeText = View.findDrawableById("TimeDisplay") as Text;
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM); 
 
@@ -72,19 +60,12 @@ class GraphView extends WatchUi.View {
                 today.min,
             ]
         );
-        System.println("time string:");
-        System.println(timeString);
-
-        // var available = ""; 
-
-        // bleResultsText.setText(available); 
         timeText.setText(timeString);
+
+        dc.setColor(Graphics.COLOR_LT_GRAY,Graphics.COLOR_DK_GRAY);
+
+        dc.fillPolygon([[90,90],[140,65],[140,115]]); // left
+        dc.fillPolygon([[325,90],[275,65],[275,115]]); // right
     }
-
-    function buildGraph(dc){
-
-    }
-
-
 
 }
