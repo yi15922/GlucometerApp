@@ -1,6 +1,7 @@
 import Toybox.Lang; 
 import Toybox.System; 
-import Toybox.WatchUi; 
+import Toybox.WatchUi;
+import Toybox.Application.Storage;
 
 class GraphDelegate extends WatchUi.BehaviorDelegate{
 
@@ -57,11 +58,26 @@ class GraphDelegate extends WatchUi.BehaviorDelegate{
     }
 
     function shiftLeft() {
-        System.println("shift left");
+        var idx = Storage.getValue("idx");
+        if(idx >= 4){
+            idx = idx - 4;
+            Storage.setValue("idx",idx);
+        } else if (idx > 0) {
+            Storage.setValue("idx",0);
+        }
     }
 
     function shiftRight() {
-        System.println("shift right");
+        var idx = Storage.getValue("idx");
+        var arrSize = Storage.getValue("meas").size();
+        if(arrSize > idx + 4){
+            idx = idx + 4;
+            Storage.setValue("idx",idx);
+        } else if (arrSize >= 5) {
+            Storage.setValue("idx",arrSize-5);
+        } else {
+            Storage.setValue("idx", 0);
+        }
     }
 
 }

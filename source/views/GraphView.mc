@@ -25,8 +25,12 @@ class GraphView extends WatchUi.View {
             Storage.setValue("high",180);
             highVal = 180;
         }
-        lowVal = Storage.getValue("low");
-        highVal = Storage.getValue("high");
+
+        var idx = Storage.getValue("idx");
+        if(idx == null){
+            Storage.setValue("idx",0);
+            idx = 0;
+        }
     }
 
     function onLayout(dc){
@@ -37,14 +41,16 @@ class GraphView extends WatchUi.View {
         View.onUpdate(dc);
         design.menuDots(dc, 2);
         
-        var startIdx = 0;
-        var endIdx = 0;
+        var startIdx = Storage.getValue("idx");
+        var endIdx = startIdx;
         var arrSize = Storage.getValue("meas").size();
         if(arrSize < 5){
             endIdx = arrSize;
-        } else {
+        } else if (startIdx > arrSize - 5) {
             startIdx = arrSize-5;
             endIdx = arrSize;
+        } else {
+            endIdx = startIdx + 5;
         }
         design.graph(dc, Storage.getValue("meas").slice(startIdx, endIdx), Storage.getValue("times").slice(startIdx, endIdx));
         var timeText = View.findDrawableById("TimeDisplay") as Text;
