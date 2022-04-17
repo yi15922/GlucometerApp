@@ -78,7 +78,6 @@ class InformationView extends WatchUi.View {
     }
 
     function addNewValue(value) {
-        // Storage.clearValues();
         var arrTimes = new[1];
         var prevStoredTimes = Storage.getValue("times");
         if(prevStoredTimes == null){
@@ -112,43 +111,40 @@ class InformationView extends WatchUi.View {
         }
 
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var hour = today.hour % 12;
-        var amPM = "am";
-        if(today.hour > hour){
-            amPM = "pm";
-        }
-        if(hour == 0){
-            hour = 12;
-        }
+        // var hour = today.hour % 12;
+        // var amPM = "am";
+        // if(today.hour > hour){
+        //     amPM = "pm";
+        // }
+        // if(hour == 0){
+        //     hour = 12;
+        // }
         var timeString = Lang.format(
-            "$1$:$2$ $3$",
+            "$1$:$2$",
             [
-                hour,
+                today.hour,
                 today.min,
-                amPM,
+                // amPM,
             ]
         );
 
-        if(arrTimes.size() > 25){
-            shiftArray(arrTimes);
-            shiftArray(arrMeas);
+        if(arrTimes.size() >= 25){
+            arrTimes = shiftArray(arrTimes);
+            arrMeas = shiftArray(arrMeas);
         }
         arrTimes[arrTimes.size()-1] = timeString;
-        System.println(arrTimes);
         Storage.setValue("times", arrTimes);
 
         arrMeas[arrMeas.size()-1] = value;
-        System.println(arrMeas);
         Storage.setValue("meas", arrMeas);
-
-        System.println(Storage.getValue("times"));
-        System.println(Storage.getValue("meas"));
     }
 
-    function shiftArray(arr) {
-        for (var i = 0; i < arr.size()-1; i++) {
-            arr[i] = arr[i+1];
+    function shiftArray(arr) as Array {
+        var newArr = new[arr.size()];
+        for (var i = 1; i < arr.size(); i++) {
+            newArr[i-1] = arr[i];
         }
-        arr[arr.size()-1] = null;
+        // arr[arr.size()-1] = null;
+        return newArr;
     }
 }
