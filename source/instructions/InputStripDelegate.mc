@@ -17,4 +17,12 @@ class InputStripDelegate extends WatchUi.BehaviorDelegate{
         return true;
     }
 
+    function  onSwipe(swipeEvent) {
+        var direction = swipeEvent.getDirection();
+        if(direction == 0){
+            WatchUi.pushView(new SettingsView(), new SettingsDelegate(), WatchUi.SLIDE_UP);
+        }
+        return true;
+    }
+
 }
