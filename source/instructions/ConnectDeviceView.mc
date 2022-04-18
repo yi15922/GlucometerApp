@@ -54,9 +54,7 @@ class ConnectDeviceView extends WatchUi.View {
         bleResultsText.setText(bleConnectionState); 
         timeText.setText(timeString);
 
-        if(bleConnectionState.equals("Glucometer connected!")){
-            moveToNextView();
-        }
+        
 
     }
 
@@ -83,7 +81,10 @@ class ConnectDeviceView extends WatchUi.View {
          the UI. 
     */
     function updateGlucoseValue(value) { 
-        bgDisplay = value; 
+        bgDisplay = "---"; 
+        if (value.equals("Awaiting blood")){ 
+            moveToNextView();
+        }
         self.requestUpdate(); 
     }
 

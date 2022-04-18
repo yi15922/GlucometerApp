@@ -55,9 +55,7 @@ class TestBloodView extends WatchUi.View {
 
         bleResultsText.setText(bleConnectionState); 
         timeText.setText(timeString); 
-        if(bleFetcher.getBgVal() != 0){
-            moveToNextView();
-        }
+        
     }
 
     function moveToNextView() as Boolean {
@@ -83,7 +81,11 @@ class TestBloodView extends WatchUi.View {
          the UI. 
     */
     function updateGlucoseValue(value) { 
-        bgDisplay = value; 
+        bgDisplay = "---"; 
+        if(value.equals("Blood detected! \nPlease wait...")){
+            bleConnectionState = value;
+            moveToNextView();
+        } 
         self.requestUpdate(); 
     }
 

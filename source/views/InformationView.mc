@@ -14,6 +14,7 @@ class InformationView extends WatchUi.View {
     var bleFetcher = null; 
     var bgDisplay = "---"; 
     var bleConnectionState = "Awaiting Blood";
+    var myDc = null;
 
     function initialize(bleFetch) {
         View.initialize();
@@ -26,8 +27,9 @@ class InformationView extends WatchUi.View {
     }
 
     function onLayout(dc){ 
+        myDc = dc; 
         setLayout(Rez.Layouts.Information(dc));
-        updateGlucoseValue(80); //TODO: delete when we're actually using glucometer
+        // updateGlucoseValue(80); //TODO: delete when we're actually using glucometer
     }
 
     function onUpdate(dc as Dc) as Void {
@@ -52,19 +54,8 @@ class InformationView extends WatchUi.View {
         );
         timeText.setText(timeString);
 
-        var meas = Storage.getValue("meas");
-        var currVal = bgDisplay;
-        if (bgDisplay == "---") { 
-            currVal = 0;
-        }
-        if(meas != null && meas.size() > 1){
-            if(meas[meas.size()-2] > currVal){
-                design.downArrow(dc);
-            } else if(meas[meas.size()-2] < currVal){
-                design.upArrow(dc);
-            }
-        }
-        self.requestUpdate();
+        
+        // self.requestUpdate();
     }
 
     /* 
@@ -86,7 +77,13 @@ class InformationView extends WatchUi.View {
     */
     function updateGlucoseValue(value) { 
         bgDisplay = value;
-        addNewValue(value);
+        try {     
+            if (value.toNumber() != null){ 
+                addNewValue(value.toNumber());
+            }
+        } catch (e) { 
+            System.println(e.getErrorMessage()); 
+        }
     }
 
     /*
@@ -144,6 +141,14 @@ class InformationView extends WatchUi.View {
 
         arrMeas[arrMeas.size()-1] = value;
         Storage.setValue("meas", arrMeas);
+
+        if(arrMeas.size() > 1){
+            if(arrMeas[arrMeas.size()-2] > arrMeas[arrMeas.size()-1]){
+                design.downArrow(myDc);
+            } else if(arrMeas[arrMeas.size()-2] < arrMeas[arrMeas.size()-1]){
+                design.upArrow(myDc);
+            }
+        }
     }
 
     /*
