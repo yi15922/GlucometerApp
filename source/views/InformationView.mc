@@ -27,7 +27,7 @@ class InformationView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Information(dc));
-        updateGlucoseValue(80); //TODO: delete when we're actually using glucometer
+        // updateGlucoseValue(80); //TODO: delete when we're actually using glucometer
     }
 
     function onUpdate(dc as Dc) as Void {
