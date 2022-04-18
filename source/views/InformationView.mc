@@ -53,10 +53,14 @@ class InformationView extends WatchUi.View {
         timeText.setText(timeString);
 
         var meas = Storage.getValue("meas");
-        if(bgDisplay != "---" && meas != null && meas.size() > 1){
-            if(meas[meas.size()-2] > bgDisplay){
+        var currVal = bgDisplay;
+        if (bgDisplay == "---") { 
+            currVal = 0;
+        }
+        if(meas != null && meas.size() > 1){
+            if(meas[meas.size()-2] > currVal){
                 design.downArrow(dc);
-            } else if(meas[meas.size()-2] < bgDisplay){
+            } else if(meas[meas.size()-2] < currVal){
                 design.upArrow(dc);
             }
         }
