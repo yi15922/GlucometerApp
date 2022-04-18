@@ -85,6 +85,10 @@ class InformationView extends WatchUi.View {
         addNewValue(value);
     }
 
+    /*
+         Function used to update the persistent memory to contain the new
+         measured value and time.
+    */
     function addNewValue(value) {
         var arrTimes = new[1];
         var prevStoredTimes = Storage.getValue("times");
@@ -138,6 +142,11 @@ class InformationView extends WatchUi.View {
         Storage.setValue("meas", arrMeas);
     }
 
+    /*
+         When the persistent memory arrays reach a size of 25, this function
+         is called to shift all of the values left one (removing the first value)
+         and leave the final position in the array empty for a new value.
+    */
     function shiftArray(arr) as Array {
         var newArr = new[arr.size()];
         for (var i = 1; i < arr.size(); i++) {
