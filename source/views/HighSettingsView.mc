@@ -44,7 +44,7 @@ class HighSettingsView extends WatchUi.View {
         var valueText = View.findDrawableById("Value") as Text;
         valueText.setText(val.toString());
 
-        dc.setColor(Graphics.COLOR_LT_GRAY,Graphics.COLOR_DK_GRAY);
+        dc.setColor(Graphics.COLOR_DK_GREEN,Graphics.COLOR_BLACK);
 
         dc.fillPolygon([[10,center-30],[edge-10,center-30],[center,center-150]]); // up
         dc.fillPolygon([[10,center+30],[edge-10,center+30],[center,center+150]]); // down
