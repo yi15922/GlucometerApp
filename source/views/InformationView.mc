@@ -27,17 +27,16 @@ class InformationView extends WatchUi.View {
 
     function onLayout(dc){ 
         setLayout(Rez.Layouts.Information(dc));
-        addNewValue(105); //TODO: delete when we're actually using glucometer
+        updateGlucoseValue(80); //TODO: delete when we're actually using glucometer
     }
 
     function onUpdate(dc as Dc) as Void {
         View.onUpdate(dc);
         design.menuDots(dc, 1);
-        design.upArrow(dc);
         
         var bleResultsText = View.findDrawableById("PairingResult") as Text;
         var available = "110";
-        bleResultsText.setText(bgDisplay);
+        bleResultsText.setText(bgDisplay.toString());
 
         var today = Gregorian.info(Time.now(), Time.FORMAT_LONG); 
         var timeText = View.findDrawableById("TimeDisplay") as Text;
@@ -52,6 +51,16 @@ class InformationView extends WatchUi.View {
             ]
         );
         timeText.setText(timeString);
+
+        var meas = Storage.getValue("meas");
+        if(bgDisplay != "---" && meas != null && meas.size() > 1){
+            if(meas[meas.size()-2] > bgDisplay){
+                design.downArrow(dc);
+            } else if(meas[meas.size()-2] < bgDisplay){
+                design.upArrow(dc);
+            }
+        }
+        self.requestUpdate();
     }
 
     /* 
@@ -74,7 +83,6 @@ class InformationView extends WatchUi.View {
     function updateGlucoseValue(value) { 
         bgDisplay = value;
         addNewValue(value);
-        self.requestUpdate();
     }
 
     function addNewValue(value) {
@@ -111,20 +119,11 @@ class InformationView extends WatchUi.View {
         }
 
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        // var hour = today.hour % 12;
-        // var amPM = "am";
-        // if(today.hour > hour){
-        //     amPM = "pm";
-        // }
-        // if(hour == 0){
-        //     hour = 12;
-        // }
         var timeString = Lang.format(
             "$1$:$2$",
             [
                 today.hour,
                 (today.min).format("%02d"),
-                // amPM,
             ]
         );
 
@@ -144,7 +143,6 @@ class InformationView extends WatchUi.View {
         for (var i = 1; i < arr.size(); i++) {
             newArr[i-1] = arr[i];
         }
-        // arr[arr.size()-1] = null;
         return newArr;
     }
 }
